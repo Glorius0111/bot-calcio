@@ -102,6 +102,9 @@ border-radius:20px;padding:7px 14px;cursor:pointer;font-size:14px}
 .verd{font-size:12px;font-weight:700;padding:2px 10px;border-radius:12px;
 background:#3a3f4b;display:inline-block;margin:4px 0}
 .verd.ok{background:#1f7a3d}.verd.mid{background:#8a6d1c}
+.verd.pre{background:#2456a6}.verd.fin{background:#7a2020}
+.verd.live{background:#1f7a3d;animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.55}}
 .mrow{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:13px}
 .mrow .lab{width:44px;color:#aab;flex:none}
 .bar{flex:1;height:10px;border-radius:6px;background:#262b36;overflow:hidden}
@@ -253,11 +256,11 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
         ora = f"{_giorno_label(r.get('data', ''))} {_esc(r.get('ora', ''))}".strip()
         st = r.get("stato", "prossima")
         if st == "live":
-            badge = "<span class='verd ok'>IN CORSO</span>"
+            badge = "<span class='verd live'>IN CORSO</span>"
         elif st == "finita":
-            badge = f"<span class='verd'>FINITA {_esc(r.get('risultato', ''))}</span>"
+            badge = f"<span class='verd fin'>FINITA {_esc(r.get('risultato', ''))}</span>"
         else:
-            badge = "<span class='verd'>DA GIOCARE</span>"
+            badge = "<span class='verd pre'>DA GIOCARE</span>"
         det = "<br>".join(_esc(x) for x in r.get("testo", "").splitlines()[2:])
         p.append(
             f"<div class='card' data-lega='{_esc(r.get('lega', ''))}' "

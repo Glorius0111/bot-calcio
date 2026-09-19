@@ -75,8 +75,9 @@ def stato_match(data_iso: str, ora: str, adesso=None) -> str:
 
 def scarica_risultati(league_key: str, display: str,
                       dal: date, al: date) -> list[dict]:
-    """Partite GIOCATE con punteggio da soccerstats results.asp."""
-    html = _fetch(f"https://www.soccerstats.com/results.asp?league={league_key}")
+    """Partite GIOCATE con punteggio da soccerstats results.asp (cache 30 min)."""
+    html = _fetch(f"https://www.soccerstats.com/results.asp?league={league_key}",
+                  ttl=1800)
     out = []
     pat = re.compile(
         r"<font[^>]*>(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (\d{1,2} [A-Z][a-z]{2})</font>"
@@ -176,12 +177,12 @@ PRI = {"angoli": {"casa_fatti_casa": 5.3, "casa_subiti_casa": 4.6,
                  "commessi_ospite": 12.0, "subiti_ospite": 12.0}}
 
 
-def _fetch(url: str) -> str:
+def _fetch(url: str, ttl: int = CACHE_TTL) -> str:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     safe = re.sub(r"[^a-z0-9]+", "_", url.lower()).strip("_")[-60:]
     f = CACHE_DIR / (safe + ".html")
     import time as _t
-    if f.exists() and _t.time() - f.stat().st_mtime < CACHE_TTL:
+    if f.exists() and _t.time() - f.stat().st_mtime < ttl:
         return f.read_text(encoding="utf-8", errors="replace")
     time.sleep(2)
     out = subprocess.run(
