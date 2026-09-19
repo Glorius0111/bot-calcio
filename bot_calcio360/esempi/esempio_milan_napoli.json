@@ -1,0 +1,37 @@
+{
+  "casa": "Milan",
+  "trasferta": "Napoli",
+  "partite_casa": 9,
+  "partite_trasferta": 9,
+  "soglia_minima_partite": 6,
+  "soglia_angoli": 8.5,
+  "soglia_tiri": 4.5,
+  "soglia_cartellini": 3.5,
+  "tasso_cartellini": 0.14,
+  "severita_arbitro": 1.1,
+  "angoli": {
+    "casa_fatti_casa": 6.2,
+    "casa_subiti_casa": 3.8,
+    "ospite_fatti_fuori": 5.5,
+    "ospite_subiti_fuori": 4.4
+  },
+  "tiri_in_porta": {
+    "casa_fatti_casa": 5.8,
+    "casa_subiti_casa": 3.2,
+    "ospite_fatti_fuori": 5.1,
+    "ospite_subiti_fuori": 3.9
+  },
+  "falli": {
+    "commessi_casa": 11.5,
+    "subiti_casa": 12.8,
+    "commessi_ospite": 12.2,
+    "subiti_ospite": 11.9
+  },
+  "marcatori": [
+    {"nome": "Leao", "squadra": "Milan", "xg_per90": 0.48, "minuti_previsti": 85, "rigorista": false},
+    {"nome": "Pulisic", "squadra": "Milan", "xg_per90": 0.42, "minuti_previsti": 80, "rigorista": true},
+    {"nome": "Osimhen", "squadra": "Napoli", "xg_per90": 0.65, "minuti_previsti": 90, "rigorista": false},
+    {"nome": "Kvaratskhelia", "squadra": "Napoli", "xg_per90": 0.38, "minuti_previsti": 85, "rigorista": false},
+    {"nome": "Politano", "squadra": "Napoli", "xg_per90": 0.30, "minuti_previsti": 75, "rigorista": true}
+  ]
+}

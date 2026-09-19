@@ -1,0 +1,355 @@
+{
+ "giornata": "Serie A 2026/27 - 5a giornata (20/09/2026)",
+ "partite": [
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Bologna",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Torino",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": ""
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Fiorentina",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Napoli",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": ""
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Frosinone",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Como",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": ""
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Juventus",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Atalanta",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": "18:00"
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Milan",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Lecce",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": "20:45"
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Monza",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Sassuolo",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": ""
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Parma",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Genoa",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": "15:00"
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Roma",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Inter",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": ""
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Udinese",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Cagliari",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": ""
+  },
+  {
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "casa": "Venezia",
+   "falli": {
+    "commessi_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_casa": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "marcatori": [],
+   "nota_fonti": "5a giornata 2026/27: 4 partite giocate (< 6). Medie di lega provvisorie, NESSUN pronostico.",
+   "partite_casa": 4,
+   "partite_trasferta": 4,
+   "severita_arbitro": 1.0,
+   "soglia_angoli": 8.5,
+   "soglia_cartellini": 3.5,
+   "soglia_minima_partite": 6,
+   "soglia_tiri": 4.5,
+   "tasso_cartellini": 0.14,
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "trasferta": "Lazio",
+   "dati_provvisori": true,
+   "data": "2026-09-20",
+   "ora": ""
+  }
+ ]
+}

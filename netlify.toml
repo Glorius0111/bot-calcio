@@ -1,0 +1,9 @@
+# Netlify: pubblica solo la pagina del bot (file singolo, zero build).
+[build]
+  publish = "bot_calcio360/reports_auto"
+  command = "echo 'sito statico gia pronto'"
+
+[[redirects]]
+  from = "/"
+  to = "/_report.html"
+  status = 200

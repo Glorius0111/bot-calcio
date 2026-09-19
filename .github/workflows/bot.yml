@@ -1,0 +1,32 @@
+name: Aggiorna Bot Calcio 360
+
+# Gira da solo 2 volte al giorno, rigenera la pagina e Netlify la pubblica.
+on:
+  schedule:
+    - cron: "0 7 * * *"
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: bot_calcio360/.cache
+          key: botcache-${{ hashFiles('bot_calcio360/esempi/*.json') }}
+          restore-keys: botcache-
+      - name: Lancia il bot
+        run: |
+          cd bot_calcio360
+          python3 batch_main.py --auto --out reports_auto
+      - name: Pubblica pagina aggiornata
+        run: |
+          git config user.name "bot-calcio"
+          git config user.email "bot-calcio@local"
+          git add -f bot_calcio360/reports_auto/_report.html
+          git diff --cached --quiet || (git commit -m "auto: report $(date -u +%Y-%m-%d-%H%M)" && git push)

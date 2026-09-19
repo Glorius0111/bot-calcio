@@ -1,0 +1,355 @@
+{
+ "giornata": "La Liga 2026/27 - J7 (18-20/09/2026)",
+ "partite": [
+  {
+   "casa": "Espanyol",
+   "trasferta": "Elche",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-18",
+   "ora": "21:00"
+  },
+  {
+   "casa": "Osasuna",
+   "trasferta": "Rayo Vallecano",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "14:00"
+  },
+  {
+   "casa": "Athletic Club",
+   "trasferta": "Alavés",
+   "partite_casa": 5,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "16:15"
+  },
+  {
+   "casa": "Celta Vigo",
+   "trasferta": "Racing Santander",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "18:30"
+  },
+  {
+   "casa": "Sevilla",
+   "trasferta": "Barcelona",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "21:00"
+  },
+  {
+   "casa": "Getafe",
+   "trasferta": "Malaga",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-20",
+   "ora": "14:00"
+  },
+  {
+   "casa": "Atletico Madrid",
+   "trasferta": "Real Madrid",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-20",
+   "ora": "16:15"
+  },
+  {
+   "casa": "Deportivo La Coruna",
+   "trasferta": "Real Betis",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-20",
+   "ora": "18:30"
+  },
+  {
+   "casa": "Villarreal",
+   "trasferta": "Levante",
+   "partite_casa": 6,
+   "partite_trasferta": 5,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-20",
+   "ora": "18:30"
+  },
+  {
+   "casa": "Valencia",
+   "trasferta": "Real Sociedad",
+   "partite_casa": 6,
+   "partite_trasferta": 6,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-20",
+   "ora": ""
+  }
+ ]
+}

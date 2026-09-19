@@ -1,0 +1,320 @@
+{
+ "giornata": "Bundesliga 2026/27 - 4. Spieltag (18-20/09/2026)",
+ "partite": [
+  {
+   "casa": "Bayern",
+   "trasferta": "Union Berlin",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-18",
+   "ora": "20:30"
+  },
+  {
+   "casa": "Stuttgart",
+   "trasferta": "Dortmund",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "18:30"
+  },
+  {
+   "casa": "Leverkusen",
+   "trasferta": "RB Leipzig",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-20",
+   "ora": "15:30"
+  },
+  {
+   "casa": "Eintracht Frankfurt",
+   "trasferta": "Freiburg",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "15:30"
+  },
+  {
+   "casa": "M'gladbach",
+   "trasferta": "Mainz",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "15:30"
+  },
+  {
+   "casa": "HSV",
+   "trasferta": "Koln",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "15:30"
+  },
+  {
+   "casa": "Werder Bremen",
+   "trasferta": "Augsburg",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "15:30"
+  },
+  {
+   "casa": "Schalke",
+   "trasferta": "Elversberg",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-19",
+   "ora": "15:30"
+  },
+  {
+   "casa": "Paderborn",
+   "trasferta": "Hoffenheim",
+   "partite_casa": 3,
+   "partite_trasferta": 3,
+   "soglia_minima_partite": 6,
+   "soglia_angoli": 8.5,
+   "soglia_tiri": 4.5,
+   "soglia_cartellini": 3.5,
+   "tasso_cartellini": 0.14,
+   "severita_arbitro": 1.0,
+   "marcatori": [],
+   "nota_fonti": "Weekend 19-20/09/2026: medie di lega provvisorie, dati squadra non disponibili. NESSUN pronostico.",
+   "dati_provvisori": true,
+   "angoli": {
+    "casa_fatti_casa": 5.3,
+    "casa_subiti_casa": 4.6,
+    "ospite_fatti_fuori": 4.8,
+    "ospite_subiti_fuori": 5.0
+   },
+   "tiri_in_porta": {
+    "casa_fatti_casa": 4.6,
+    "casa_subiti_casa": 4.0,
+    "ospite_fatti_fuori": 4.2,
+    "ospite_subiti_fuori": 4.4
+   },
+   "falli": {
+    "commessi_casa": 12.0,
+    "subiti_casa": 12.0,
+    "commessi_ospite": 12.0,
+    "subiti_ospite": 12.0
+   },
+   "data": "2026-09-20",
+   "ora": "17:30"
+  }
+ ]
+}

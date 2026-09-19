@@ -1,0 +1,5 @@
+.env
+bot_calcio360/.cache/
+bot_calcio360/reports/
+bot_calcio360/reports_*/*
+!bot_calcio360/reports_auto/_report.html
