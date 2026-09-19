@@ -48,6 +48,31 @@ def _blocco_risultati(risultati_giocati: list[dict]) -> list[str]:
     return p
 
 
+def _blocco_live(risultati: list[dict]) -> list[str]:
+    """IN CAMPO ORA: partite iniziate da meno di 2 ore.
+
+    ONESTA': senza feed live a pagamento il punteggio in diretta non c'e';
+    si mostrano i valori pre-partita con l'avviso chiaro.
+    """
+    live = [r for r in risultati if r.get("stato") == "live"]
+    if not live:
+        return []
+    p = ["<h2>In campo ora (valori pre-partita: il live vero richiede feed a pagamento)</h2>"
+         "<div class='grid'>"]
+    for r in live:
+        p.append(
+            f"<div class='card'><div class='top'>"
+            f"<span class='ora'>LIVE {_esc(r.get('ora', ''))}</span>"
+            f"<span class='lega'>{_esc(r.get('lega', ''))}</span></div>"
+            f"<div class='match'>{_esc(r['partita'])}</div>"
+            f"<span class='verd mid'>IN CORSO</span>"
+            f"<div class='sub2' style='font-size:12px;color:#aab'>Punteggio live non "
+            f"disponibile gratis — sotto i valori pre-partita.</div>"
+            f"{_dettaglio(r, None)}</div>")
+    p.append("</div>")
+    return p
+
+
 def _giorno_label(d: str) -> str:
     nomi = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
     try:
@@ -189,6 +214,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
 
     p = [f"<!DOCTYPE html><html lang='it'><head><meta charset='utf-8'>"
          f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
+         f"<meta http-equiv='refresh' content='120'>"
          f"<title>{_esc(titolo)}</title><style>{CSS}</style></head><body>",
          f"<div class='topbar'><div><h1>{_esc(titolo)}</h1>",
          f"<p class='sub'>Aggiornato: {_esc(datetime.now().strftime('%d/%m/%Y %H:%M'))} "
@@ -206,7 +232,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
          "Sotto IDEA trovi le <b>altre linee che valgono</b>, in ordine di bonta'. "
          "<b>PROVVISORIO</b> = dati veri ma campione sotto 6 partite: guardare, non giocare.<br>"
          "Premi <b>AGGIORNA DATI</b> in alto per riscaricare tutto da solo.</div>",
-         ] + _blocco_risultati(risultati_giocati or []) + [
+         ] + _blocco_risultati(risultati_giocati or []) + _blocco_live(risultati) + [
          "<div class='filtri'><button class='on' onclick=\"f('TUTTE')\">Tutte</button>"]
     NOMI_BREVI = {"Serie A": "Serie A", "Premier League 2026/27": "Premier",
                   "La Liga 2026/27": "Liga", "Bundesliga 2026/27": "Bundes",

@@ -52,6 +52,23 @@ GIORNO_BREVE = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4,
                 "Sat": 5, "Sun": 6}
 
 
+def stato_match(data_iso: str, ora: str, adesso=None) -> str:
+    """'live' se in campo ora (kickoff passato da <120 min), 'prossima' o 'finita'."""
+    from datetime import datetime as _dt
+    try:
+        h, mi = (ora or "99:99").split(":")
+        kick = _dt.fromisoformat(f"{data_iso}T{h}:{mi}:00")
+    except ValueError:
+        return "prossima"
+    now = adesso
+    mins = (now - kick).total_seconds() / 60 if now else 9999
+    if 0 <= mins <= 120:
+        return "live"
+    if mins > 120:
+        return "finita"
+    return "prossima"
+
+
 def scarica_risultati(league_key: str, display: str,
                       dal: date, al: date) -> list[dict]:
     """Partite GIOCATE con punteggio da soccerstats results.asp."""
@@ -240,12 +257,15 @@ class AutoFixtureProvider(BaseProvider):
                 print(f"[CAL] {display}: errore ({e}), salto")
                 continue
             n = 0
+            from datetime import datetime as _dt
+            adesso = _dt.now()
             for f in base:
                 mturno = re.search(r"(\d+)", f.get("turno", ""))
                 gioc = max(0, int(mturno.group(1)) - 1) if mturno else 4
                 partite.append({
                     "casa": f["casa"], "trasferta": f["trasferta"],
                     "lega": f.get("lega", display), "data": f["data"], "ora": f["ora"],
+                    "stato": stato_match(f["data"], f["ora"], adesso),
                     "turno": f.get("turno", ""),
                     "partite_casa": gioc, "partite_trasferta": gioc,
                     "soglia_minima_partite": 6,
