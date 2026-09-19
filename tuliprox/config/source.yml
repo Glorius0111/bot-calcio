@@ -1,0 +1,30 @@
+# source.yml — USA SOLO FONTI LEGALI (tuoi contenuti, provider con licenza, FTA con diritti)
+# 1. Se la fonte richiede headers/DRM usa MediaFlow interno e incolla qui l'URL generato
+#    Esempio formato: http://mediaflow:8888/proxy/m3u?api_password=XXX&d=BASE64(url_legale)
+# 2. I clienti vedono solo il tuo dominio stream.*, mai la fonte originale
+# 3. Per test iniziale puoi usare un flusso pubblico di prova, poi sostituirlo
+
+inputs:
+  - name: radio_italia
+    type: m3u
+    # Lista radio italiane FTA (Rai, RTL, Virgin, etc.)
+    url: https://github.com/Tundrak/IPTV-Italia/releases/download/v03-2024/ipradioita.v12-2023.m3u
+    enabled: true
+    cache_duration: 1d   # non martellare il provider, evita ban
+    persist: playlist_{}.m3u
+    headers:
+      User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Tuliprox/3.0"
+    options:
+      resolve_delay: 2
+      probe_delay: 2
+
+sources:
+  - inputs:
+      - radio_italia
+    targets:
+      - name: clienti
+        enabled: true
+        output:
+          - type: xtream   # compatibile TiviMate, IPTV Smarters, XC API
+          - type: m3u
+        filter: 'Group ~ ".*"'   # tutto; restringi es: 'Group == "ITALIA"'

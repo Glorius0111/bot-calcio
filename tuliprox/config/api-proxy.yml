@@ -1,0 +1,26 @@
+# api-proxy.yml — Server pubblici + utenti clienti isolati
+# I clienti vedono SOLO stream.tuodominio.com, mai IP, mai provider, mai panel.
+
+auth_error_status: 403
+
+server:
+  - name: default
+    protocol: https
+    host: stream.107-173-7-206.sslip.io
+    port: 443
+    timezone: Europe/Rome
+    message: Welcome
+
+user:
+  - target: clienti
+    credentials:
+      # Esempio cliente 1 — crea uno per ogni cliente finale, con scadenza
+      - username: cliente01
+        password: T2RRSyVSx2kJ2oQNAChDjQ
+        proxy: reverse            # reverse = controllo connessioni + IP nascosto provider
+        server: default
+        max_connections: 1
+        status: Active
+        # exp_date: 1780000000   # unix timestamp scadenza, scommenta per attivare
+        ui_enabled: false         # il cliente NON entra nel pannello
+        # ESEMPIO trial 7 giorni via plan: vedi docs plans

@@ -52,7 +52,8 @@ def riga(r: dict) -> str:
     return base + (f" | gol: {top}" if top else "")
 
 
-def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports") -> list[dict]:
+def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
+                  risultati_giocati: list[dict] = None) -> list[dict]:
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     risultati = []
@@ -130,5 +131,5 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports") -> list[
     righe.append("PROVVISORIO = dati reali ma campione < 6: nessun pronostico. "
                  "ALTA/BUONA/MEDIA = giudizi operativi.")
     (out / "_classifica.txt").write_text("\n".join(righe), encoding="utf-8")
-    genera_html(risultati, out)
+    genera_html(risultati, out, risultati_giocati=risultati_giocati or [])
     return risultati

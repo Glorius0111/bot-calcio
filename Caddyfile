@@ -1,0 +1,59 @@
+{
+	email {$ACME_EMAIL}
+	admin off
+}
+
+# Snippet sicurezza riusabile
+(security) {
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-Frame-Options "DENY"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		-Server
+	}
+	encode zstd gzip
+}
+
+# --- STREAM clienti finali: https://stream.tuodominio.com ---
+{$STREAM_DOMAIN} {
+	import security
+	log {
+		output stdout
+		format json
+	}
+
+	# Headers reali verso Tuliprox (fondamentale per max_connections + ban)
+	reverse_proxy tuliprox:8901 {
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+		header_up X-Forwarded-For {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+		# Streaming: niente buffering, flush immediato
+		flush_interval -1
+	}
+}
+
+# --- PANNELLO admin: https://panel.tuodominio.com ---
+# Doppia protezione: HTTPS + BasicAuth Caddy + login Tuliprox
+# Solo tu accedi qui. I clienti NON ricevono mai questo URL.
+{$PANEL_DOMAIN} {
+	import security
+	log {
+		output stdout
+		format json
+	}
+
+	basic_auth {
+		{$PANEL_USER} {$PANEL_HASH}
+	}
+
+	reverse_proxy tuliprox:8901 {
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+		header_up X-Forwarded-For {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+		flush_interval -1
+	}
+}

@@ -23,6 +23,31 @@ def _col(p) -> str:
     return "background:#3a3f4b"
 
 
+def _blocco_risultati(risultati_giocati: list[dict]) -> list[str]:
+    """Sezione RISULTATI: partite già finite con punteggio (niente analisi)."""
+    if not risultati_giocati:
+        return []
+    gruppi: dict[str, list] = {}
+    for r in risultati_giocati:
+        try:
+            y, m, g = r.get("data", "").split("-")
+            gruppi.setdefault(f"{g}/{m}", []).append(r)
+        except ValueError:
+            pass
+    p = ["<h2>Risultati già giocati</h2><div class='grid'>"]
+    for giorno, lst in sorted(gruppi.items()):
+        cards = "".join(
+            f"<div class='card'><div class='top'><span class='ora'>{_esc(giorno)}</span>"
+            f"<span class='lega'>{_esc(x.get('lega', ''))}</span></div>"
+            f"<div class='match'>{_esc(x.get('casa', ''))} "
+            f"{_esc(x.get('risultato', '-'))} {_esc(x.get('trasferta', ''))}</div>"
+            f"<span class='verd'>FINALE</span></div>"
+            for x in lst)
+        p.append(cards)
+    p.append("</div>")
+    return p
+
+
 def _giorno_label(d: str) -> str:
     nomi = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
     try:
@@ -78,7 +103,7 @@ table{font-size:13px}th,td{padding:5px 6px}}
 JS = """
 function f(leg){document.querySelectorAll('.filtri button').forEach(b=>b.classList.remove('on'));
 event.target.classList.add('on');
-document.querySelectorAll('.card').forEach(c=>{
+document.querySelectorAll('#prossime .card').forEach(c=>{
 c.style.display=(leg==='TUTTE'||c.dataset.lega===leg||c.dataset.giorno===leg)?'':'none';});}
 """
 
@@ -145,7 +170,8 @@ def _dettaglio(r: dict, barra) -> str:
 
 
 def genera_html(risultati: list[dict], out_dir: str | Path,
-                titolo: str = "Bot Calcio 360° — weekend") -> Path:
+                titolo: str = "Bot Calcio 360° — weekend",
+                risultati_giocati: list[dict] = None) -> Path:
     out = Path(out_dir)
     ordina = sorted(risultati,
                     key=lambda r: (r.get("data", ""), r.get("ora", "") or "99"))
@@ -179,6 +205,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
          "Sotto IDEA trovi le <b>altre linee che valgono</b>, in ordine di bonta'. "
          "<b>PROVVISORIO</b> = dati veri ma campione sotto 6 partite: guardare, non giocare.<br>"
          "Premi <b>AGGIORNA DATI</b> in alto per riscaricare tutto da solo.</div>",
+         ] + _blocco_risultati(risultati_giocati or []) + [
          "<div class='filtri'><button class='on' onclick=\"f('TUTTE')\">Tutte</button>"]
     NOMI_BREVI = {"Serie A": "Serie A", "Premier League 2026/27": "Premier",
                   "La Liga 2026/27": "Liga", "Bundesliga 2026/27": "Bundes",
@@ -190,7 +217,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
                  f"onclick=\"f(this.getAttribute('data-f'))\">{_esc(breve)}</button>")
     for g in giorni:
         p.append(f"<button onclick=\"f('{_esc(_giorno_label(g))}')\">{_esc(_giorno_label(g))}</button>")
-    p.append("</div><div class='grid'>")
+    p.append("</div><div class='grid' id='prossime'>")
 
     for r in ordina:
         v = r.get("giudizio", "")

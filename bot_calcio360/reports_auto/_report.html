@@ -40,9 +40,14 @@ padding:12px 22px;font-size:16px;cursor:pointer}
 table{font-size:13px}th,td{padding:5px 6px}}
 </style></head><body>
 <div class='topbar'><div><h1>Bot Calcio 360° — weekend</h1>
-<p class='sub'>Aggiornato: 19/09/2026 16:07 · 61 partite · dati reali 2026/27</p></div>
+<p class='sub'>Aggiornato: 19/09/2026 16:20 · 61 partite · dati reali 2026/27</p></div>
 <div><button class='agg' onclick="fetch('/aggiorna',{method:'POST'}).then(r=>{if(!r.ok)throw 0;location.reload()}).catch(()=>alert('Aggiornamento automatico attivo solo in locale. Su Netlify: ricarica il sito dopo ogni nuovo deploy.'))">AGGIORNA DATI</button></div></div>
 <div class='legenda'><b>Come si legge:</b> le barre sono le probabilità (verde = alte, gialle = zona quota giocabile ~1.40-1.85). <b>IDEA</b> = la linea piu' vicina al 65%: non e' a caso e non e' la piu' alta — sopra il 78% i book pagano spiccioli, sotto il 55% e' rischioso. Sotto IDEA trovi le <b>altre linee che valgono</b>, in ordine di bonta'. <b>PROVVISORIO</b> = dati veri ma campione sotto 6 partite: guardare, non giocare.<br>Premi <b>AGGIORNA DATI</b> in alto per riscaricare tutto da solo.</div>
+<h2>Risultati già giocati</h2><div class='grid'>
+<div class='card'><div class='top'><span class='ora'>17/09</span><span class='lega'>La Liga 2026/27</span></div><div class='match'>Malaga 1:3 Villarreal</div><span class='verd'>FINALE</span></div>
+<div class='card'><div class='top'><span class='ora'>18/09</span><span class='lega'>Serie A</span></div><div class='match'>Monza 2:1 Sassuolo</div><span class='verd'>FINALE</span></div><div class='card'><div class='top'><span class='ora'>18/09</span><span class='lega'>Premier League 2026/27</span></div><div class='match'>Brentford 3:0 Chelsea</div><span class='verd'>FINALE</span></div><div class='card'><div class='top'><span class='ora'>18/09</span><span class='lega'>La Liga 2026/27</span></div><div class='match'>Espanyol 1:3 Elche</div><span class='verd'>FINALE</span></div><div class='card'><div class='top'><span class='ora'>18/09</span><span class='lega'>Bundesliga 2026/27</span></div><div class='match'>Bayern Munich 7:0 Union Berlin</div><span class='verd'>FINALE</span></div><div class='card'><div class='top'><span class='ora'>18/09</span><span class='lega'>Ligue 1 2026/27</span></div><div class='match'>Monaco 2:1 Lens</div><span class='verd'>FINALE</span></div><div class='card'><div class='top'><span class='ora'>18/09</span><span class='lega'>Eredivisie 2026/27</span></div><div class='match'>FC Groningen 3:0 PEC Zwolle</div><span class='verd'>FINALE</span></div>
+<div class='card'><div class='top'><span class='ora'>19/09</span><span class='lega'>Premier League 2026/27</span></div><div class='match'>Tottenham 2:3 Aston Villa</div><span class='verd'>FINALE</span></div><div class='card'><div class='top'><span class='ora'>19/09</span><span class='lega'>La Liga 2026/27</span></div><div class='match'>Osasuna 1:1 Rayo Vallecano</div><span class='verd'>FINALE</span></div>
+</div>
 <div class='filtri'><button class='on' onclick="f('TUTTE')">Tutte</button>
 <button data-f='Bundesliga 2026/27' onclick="f(this.getAttribute('data-f'))">Bundes</button>
 <button data-f='Eredivisie 2026/27' onclick="f(this.getAttribute('data-f'))">Olanda</button>
@@ -53,7 +58,7 @@ table{font-size:13px}th,td{padding:5px 6px}}
 <button data-f='Serie A' onclick="f(this.getAttribute('data-f'))">Serie A</button>
 <button onclick="f('Sab 19/09')">Sab 19/09</button>
 <button onclick="f('Dom 20/09')">Dom 20/09</button>
-</div><div class='grid'>
+</div><div class='grid' id='prossime'>
 <div class='card' data-lega='Premier League 2026/27' data-giorno='Sab 19/09'><div class='top'><span class='ora'>Sab 19/09 13:30</span><span class='lega'>Premier League 2026/27</span></div><div class='match'>Tottenham vs Aston Villa</div><span class='verd '>Dati Provvisori</span><div class='mrow'><span class='lab'>Ang</span><div class='bar'><i style='background:#8a6d1c;width:69.5%'></i></div><span class='val'>70%</span></div><div class='mrow'><span class='lab'>Tiri</span><div class='bar'><i style='background:#3a3f4b;width:4.0%'></i></div><span class='val'>4%</span></div><div class='mrow'><span class='lab'>Cart</span><div class='bar'><i style='background:#3a3f4b;width:32.4%'></i></div><span class='val'>32%</span></div><div class='mrow'><span class='lab'>O2.5</span><div class='bar'><i style='background:#3a3f4b;width:10.5%'></i></div><span class='val'>10%</span></div><div class='mrow'><span class='lab'>GG</span><div class='bar'><i style='background:#3a3f4b;width:0.7%'></i></div><span class='val'>1%</span></div>
 <div class='idea'>La giocata piu' sensata: <b>Gol O0.5 (68%)</b></div>
 <div class='chips'><span class='chip'>Ang O8.5 (70%)</span><span class='chip'>Ang O9.5 (57%)</span><span class='chip'>Off O3.5 (57%)</span></div>
@@ -334,6 +339,6 @@ table{font-size:13px}th,td{padding:5px 6px}}
 </div><script>
 function f(leg){document.querySelectorAll('.filtri button').forEach(b=>b.classList.remove('on'));
 event.target.classList.add('on');
-document.querySelectorAll('.card').forEach(c=>{
+document.querySelectorAll('#prossime .card').forEach(c=>{
 c.style.display=(leg==='TUTTE'||c.dataset.lega===leg||c.dataset.giorno===leg)?'':'none';});}
 </script></body></html>

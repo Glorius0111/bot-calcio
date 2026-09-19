@@ -67,11 +67,17 @@ def main():
             print("Crea .env con: API_FOOTBALL_KEY=tua_key")
         return
 
+    giocati: list = []
     if args.auto:
         from bot.providers.fixtures_auto import AutoFixtureProvider
         prov = AutoFixtureProvider(giorni=args.giorni, indietro=args.indietro)
         print("[AUTO] scarico calendari top-5 2026/27 ...")
         partite = prov.get_partite()
+        try:
+            giocati = prov.get_risultati()
+        except Exception as e:  # noqa: BLE001
+            print(f"[RIS] salto risultati ({e})")
+            giocati = []
         for p in partite:
             p["soglia_tiri"] = args.soglia_tiri
             p["soglia_angoli"] = args.soglia_angoli
@@ -140,7 +146,7 @@ def main():
         partite = prov.get_partite()
 
     print(f"Partite da analizzare: {len(partite)}")
-    ris = elabora_tutte(partite, out_dir=args.out)
+    ris = elabora_tutte(partite, out_dir=args.out, risultati_giocati=giocati)
     print(f"\nReport salvati in {args.out}/ + _classifica.txt\n")
     from bot.batch import quando
     giorno_corr = None

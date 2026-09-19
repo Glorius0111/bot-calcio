@@ -48,6 +48,39 @@ MESE_BREVE = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
               "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
 
 
+GIORNO_BREVE = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4,
+                "Sat": 5, "Sun": 6}
+
+
+def scarica_risultati(league_key: str, display: str,
+                      dal: date, al: date) -> list[dict]:
+    """Partite GIOCATE con punteggio da soccerstats results.asp."""
+    html = _fetch(f"https://www.soccerstats.com/results.asp?league={league_key}")
+    out = []
+    pat = re.compile(
+        r"<font[^>]*>(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (\d{1,2} [A-Z][a-z]{2})</font>"
+        r"</td><td[^>]*>([^<>]+?)&nbsp;</td><td[^>]*>.*?<b>(\d+:\d+)</b>",
+        re.S)
+    for m in pat.finditer(html):
+        try:
+            gg, mon = m.group(2).split(" ")
+            d = date(2026 if MESE_BREVE[mon] >= 8 else 2027,
+                     MESE_BREVE[mon], int(gg))
+        except (ValueError, KeyError):
+            continue
+        if not (dal <= d <= al):
+            continue
+        # ospite: cella successiva
+        seg = html[m.end():m.end() + 300]
+        mo = re.search(r"</td><td[^>]*>&nbsp;([^<>]+?)</td>", seg)
+        if not mo:
+            continue
+        out.append({"data": d.isoformat(), "ora": "",
+                    "casa": m.group(3).strip(), "trasferta": mo.group(1).strip(),
+                    "risultato": m.group(4), "lega": display})
+    return out
+
+
 def scarica_prossime_soccerstats(league_key: str, display: str,
                                  dal: date, al: date) -> list[dict]:
     """Prossime partite da soccerstats latest.asp (righe col punteggio '-')."""
@@ -230,3 +263,23 @@ class AutoFixtureProvider(BaseProvider):
                 n += 1
             print(f"[CAL] {display}: {n} partite dal {dal} al {al}")
         return partite
+
+    def get_risultati(self) -> list[dict]:
+        """Partite GIOCATE con punteggio (ultimi 2 giorni + oggi)."""
+        from .soccerstats import _lega_key
+        dal = self.oggi - timedelta(days=2)
+        out = []
+        for key in self.leghe:
+            _, display = LEAGUES[key]
+            sskey = {"italy": "italy", "england": "england", "spain": "spain",
+                     "germany": "germany", "france": "france",
+                     "portugal": "portugal", "netherlands": "netherlands"}.get(key, "")
+            if not sskey:
+                continue
+            try:
+                out += scarica_risultati(sskey, display, dal, self.oggi)
+            except Exception as e:
+                print(f"[RIS] {display}: errore ({e})")
+        out.sort(key=lambda x: x["data"])
+        print(f"[RIS] {len(out)} risultati dal {dal} al {self.oggi}")
+        return out

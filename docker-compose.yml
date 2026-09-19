@@ -1,0 +1,80 @@
+services:
+  caddy:
+    image: caddy:2.9-alpine
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp" # HTTP/3
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    env_file:
+      - .env
+    networks:
+      - iptv-net
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  tuliprox:
+    image: ghcr.io/euzu/tuliprox-alpine:latest
+    container_name: tuliprox
+    restart: unless-stopped
+    working_dir: /app
+    # NON esporre porte all'esterno: accessibile solo via Caddy
+    expose:
+      - "8901"
+    volumes:
+      - ./tuliprox/config:/app/config
+      - ./tuliprox/data:/app/data
+      - ./tuliprox/backup:/app/backup
+      - ./tuliprox/cache:/app/cache
+    env_file:
+      - .env
+    environment:
+      - TZ=Europe/Rome
+    networks:
+      - iptv-net
+    healthcheck:
+      test: ["CMD", "/app/tuliprox", "-p", "/app/config", "--healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+  mediaflow:
+    image: mhdzumair/mediaflow-proxy:latest
+    container_name: mediaflow
+    restart: unless-stopped
+    # NON esposto: solo Tuliprox lo contatta via http://mediaflow:8888
+    expose:
+      - "8888"
+    env_file:
+      - .env
+    environment:
+      - PORT=8888
+      - DISABLE_DOCS=true
+      - DISABLE_HOME_PAGE=true
+      - DISABLE_SPEEDTEST=true
+      - FORWARDED_ALLOW_IPS=127.0.0.1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+    networks:
+      - iptv-net
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import socket;socket.create_connection(('127.0.0.1',8888),timeout=5).close()\""]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+networks:
+  iptv-net:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:

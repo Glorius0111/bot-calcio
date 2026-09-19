@@ -1,0 +1,37 @@
+# Tuliprox config base sicura
+# Docs: https://github.com/euzu/tuliprox
+
+storage_dir: ./data
+backup_dir: ./data/backup
+user_config_dir: ./data/user
+mapping_path: mapping.yml
+template_path: template.yml
+
+update_on_boot: false
+config_hot_reload: true
+user_access_control: true   # OBBLIGATORIO per far rispettare exp_date, status, max_connections
+process_parallel: false
+
+api:
+  host: 0.0.0.0
+  port: 8901
+  web_root: ./web
+
+web_ui:
+  enabled: true
+  user_ui_enabled: false
+  auth:
+    enabled: false   # pannello protetto da BasicAuth Caddy; abilita auth JWT da Web UI se vuoi il 2° livello
+    issuer: tuliprox
+    secret: 22cbb7729527a26e575afed88d27b678bb253bc9d56d24b82736de71415a555a
+    token_ttl_mins: 60
+    userfile: user.txt
+
+log:
+  log_level: info
+  sanitize_sensitive_info: true
+
+schedules:
+  # aggiorna playlist 1 volta al giorno alle 05:00 (cron a 7 campi: sec min ora ...)
+  - schedule: "0 0 5 * * * *"
+    type: PlaylistUpdate
