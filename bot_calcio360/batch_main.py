@@ -73,11 +73,6 @@ def main():
         prov = AutoFixtureProvider(giorni=args.giorni, indietro=args.indietro)
         print("[AUTO] scarico calendari top-5 2026/27 ...")
         partite = prov.get_partite()
-        try:
-            giocati = prov.get_risultati()
-        except Exception as e:  # noqa: BLE001
-            print(f"[RIS] salto risultati ({e})")
-            giocati = []
         for p in partite:
             p["soglia_tiri"] = args.soglia_tiri
             p["soglia_angoli"] = args.soglia_angoli

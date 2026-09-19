@@ -195,8 +195,9 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
          f"· {len(risultati)} partite · dati reali 2026/27</p></div>",
          f"<div><button class='agg' onclick=\"fetch('/aggiorna',{{method:'POST'}})"
          f".then(r=>{{if(!r.ok)throw 0;location.reload()}})"
-         f".catch(()=>alert('Aggiornamento automatico attivo solo in locale. "
-         f"Su Netlify: ricarica il sito dopo ogni nuovo deploy.'))\">"
+         f".catch(()=>alert('Qui su Netlify il bottone non puo aggiornare da solo: "
+         f"la pagina si aggiorna con un nuovo deploy (trascina di nuovo la cartella) "
+         f"oppure con Azioni GitHub dal telefono. In locale col server invece funziona.'))\">"
          f"AGGIORNA DATI</button></div></div>",
          "<div class='legenda'><b>Come si legge:</b> le barre sono le probabilità "
          "(verde = alte, gialle = zona quota giocabile ~1.40-1.85). "
