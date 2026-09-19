@@ -76,21 +76,27 @@ def _giorno_label(d: str) -> str:
         return d or "?"
 
 CSS = """
-*{box-sizing:border-box}body{font-family:system-ui,-apple-system,Arial,sans-serif;
-max-width:1200px;margin:0 auto;padding:16px;background:#0f1115;color:#e8eaf0}
-h1{font-size:24px;margin:4px 0}h2{font-size:17px;margin:26px 0 10px;color:#9fd0ff}
-.sub{color:#aab}.legenda{background:#1a1e27;padding:12px 16px;border-radius:12px;
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+max-width:1200px;margin:0 auto;padding:16px;color:#eef1f6;
+background:radial-gradient(1200px 400px at 20% -5%,#1c2b4a 0%,#0f1115 55%) fixed,#0f1115}
+h1{font-size:26px;margin:4px 0;letter-spacing:.3px}
+h1 .gold{color:#e8c96a}
+h2{font-size:16px;margin:28px 0 10px;color:#e8c96a;text-transform:uppercase;letter-spacing:1px}
+.sub{color:#9aa3b5}.legenda{background:linear-gradient(180deg,#1b2130,#161b26);
+border:1px solid #2c3446;padding:12px 16px;border-radius:14px;
 font-size:14px;line-height:1.7}
 .filtri{margin:14px 0;display:flex;gap:8px;flex-wrap:wrap}
-.filtri button{background:#222836;color:#e8eaf0;border:1px solid #39415a;
+.filtri button{background:#1a2030;color:#e8eaf0;border:1px solid #39415a;
 border-radius:20px;padding:7px 14px;cursor:pointer;font-size:14px}
-.filtri button.on{background:#2456a6;border-color:#2456a6}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:12px}
-.card{background:#171b23;border:1px solid #2a2f3a;border-radius:14px;padding:14px}
+.filtri button.on{background:#e8c96a;border-color:#e8c96a;color:#1a1a1a;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.card{background:linear-gradient(180deg,#1c2230,#141922);
+border:1px solid #2e3648;border-radius:16px;padding:16px;
+box-shadow:0 6px 18px rgba(0,0,0,.35)}
 .card .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.ora{font-size:13px;color:#9fd0ff;font-weight:700;white-space:nowrap}
-.lega{font-size:12px;color:#aab;white-space:nowrap}
-.match{font-size:18px;font-weight:700;margin:8px 0 2px}
+.ora{font-size:13px;color:#e8c96a;font-weight:700;white-space:nowrap}
+.lega{font-size:11px;color:#9aa3b5;text-transform:uppercase;letter-spacing:.6px;white-space:nowrap}
+.match{font-size:19px;font-weight:800;margin:8px 0 4px}
 .verd{font-size:12px;font-weight:700;padding:2px 10px;border-radius:12px;
 background:#3a3f4b;display:inline-block;margin:4px 0}
 .verd.ok{background:#1f7a3d}.verd.mid{background:#8a6d1c}
@@ -99,23 +105,27 @@ background:#3a3f4b;display:inline-block;margin:4px 0}
 @keyframes pulse{50%{opacity:.55}}
 .vtext{font-size:13px;font-weight:700}
 .vtext.ok{color:#7ddf9a}.vtext.mid{color:#e8c96a}.vtext.no{color:#aab}
-.mrow{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:13px}
-.mrow .lab{width:44px;color:#aab;flex:none}
-.bar{flex:1;height:10px;border-radius:6px;background:#262b36;overflow:hidden}
-.bar i{display:block;height:100%;border-radius:6px}
-.mrow .val{width:44px;text-align:right;font-weight:700}
-.idea{margin-top:8px;font-size:14px;background:#1d2f4d;border-radius:8px;
-padding:7px 10px}.idea b{color:#9fd0ff}
+.mrow{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:13px}
+.mrow .lab{width:44px;color:#9aa3b5;flex:none;font-weight:600}
+.bar{flex:1;height:12px;border-radius:7px;background:#232936;overflow:hidden;
+box-shadow:inset 0 1px 3px rgba(0,0,0,.5)}
+.bar i{display:block;height:100%;border-radius:7px;
+background:linear-gradient(90deg,#e8c96a,#f4df9a)}
+.mrow .val{width:46px;text-align:right;font-weight:800}
+.idea{margin-top:10px;font-size:14px;background:linear-gradient(180deg,#2a2413,#201b0e);
+border:1px solid #6b5a26;border-radius:10px;
+padding:8px 12px}.idea b{color:#e8c96a}
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
-.chip{font-size:12px;background:#1d2f4d;border:1px solid #35507e;border-radius:12px;
-padding:2px 10px}
-.blocco{background:#141821;border-radius:10px;padding:10px 12px;margin:8px 0}
+.chip{font-size:12px;background:#232a3a;border:1px solid #46536e;border-radius:12px;
+padding:3px 11px;color:#d5dbe8}
+.blocco{background:#12161f;border:1px solid #262d3d;border-radius:12px;padding:12px 14px;margin:8px 0}
 .blocco h4{margin:0 0 6px;font-size:14px;color:#fff}
-.blocco .sub2{font-size:12px;color:#aab;margin-bottom:4px}
+.blocco .sub2{font-size:12px;color:#9aa3b5;margin-bottom:4px}
 .gol{font-size:13px;color:#c8ccd6;margin-top:6px}
-details{margin-top:8px}summary{cursor:pointer;color:#9fd0ff;font-size:13px}
-.agg{background:#1f7a3d;color:#fff;font-weight:700;border:none;border-radius:10px;
-padding:12px 22px;font-size:16px;cursor:pointer}
+.gol b{color:#e8c96a}
+details{margin-top:8px}summary{cursor:pointer;color:#e8c96a;font-size:13px;font-weight:600}
+.agg{background:linear-gradient(180deg,#27a04c,#1c7a3a);color:#fff;font-weight:800;border:none;border-radius:12px;
+padding:12px 24px;font-size:16px;cursor:pointer;box-shadow:0 4px 14px rgba(31,122,61,.4)}
 .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 @media (max-width:560px){body{padding:10px}h1{font-size:19px}.card{padding:12px}
 .mrow{font-size:12px}.filtri button{padding:9px 16px;font-size:15px}
@@ -206,14 +216,14 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
         except (TypeError, ValueError):
             v = 0
         return (f"<div class='mrow'><span class='lab'>{label}</span>"
-                f"<div class='bar'><i style='{_col(v)};width:{max(0, min(100, v))}%'></i></div>"
+                f"<div class='bar'><i style='width:{max(0, min(100, v))}%'></i></div>"
                 f"<span class='val'>{v:.0f}%</span></div>")
 
     p = [f"<!DOCTYPE html><html lang='it'><head><meta charset='utf-8'>"
          f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
          f"<meta http-equiv='refresh' content='120'>"
          f"<title>{_esc(titolo)}</title><style>{CSS}</style></head><body>",
-         f"<div class='topbar'><div><h1>{_esc(titolo)}</h1>",
+         f"<div class='topbar'><div><h1>Bot Calcio <span class='gold'>360°</span> — weekend</h1>",
          f"<p class='sub'>Aggiornato: {_esc(datetime.now().strftime('%d/%m/%Y %H:%M'))} "
          f"· {len(risultati)} partite · dati reali 2026/27</p></div>",
          f"<div><button class='agg' onclick=\"fetch('/aggiorna',{{method:'POST'}})"
