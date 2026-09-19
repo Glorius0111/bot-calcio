@@ -12,15 +12,7 @@ def _esc(x) -> str:
 
 
 def _col(p) -> str:
-    try:
-        p = float(p)
-    except (TypeError, ValueError):
-        return "background:#3a3f4b"
-    if p >= 70:
-        return "background:#1f7a3d"
-    if p >= 55:
-        return "background:#8a6d1c"
-    return "background:#3a3f4b"
+    return "background:#3f6fd1"
 
 
 def _blocco_risultati(risultati_giocati: list[dict]) -> list[str]:
@@ -105,6 +97,8 @@ background:#3a3f4b;display:inline-block;margin:4px 0}
 .verd.pre{background:#2456a6}.verd.fin{background:#7a2020}
 .verd.live{background:#1f7a3d;animation:pulse 1.6s infinite}
 @keyframes pulse{50%{opacity:.55}}
+.vtext{font-size:13px;font-weight:700}
+.vtext.ok{color:#7ddf9a}.vtext.mid{color:#e8c96a}.vtext.no{color:#aab}
 .mrow{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:13px}
 .mrow .lab{width:44px;color:#aab;flex:none}
 .bar{flex:1;height:10px;border-radius:6px;background:#262b36;overflow:hidden}
@@ -228,8 +222,8 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
          f"la pagina si aggiorna con un nuovo deploy (trascina di nuovo la cartella) "
          f"oppure con Azioni GitHub dal telefono. In locale col server invece funziona.'))\">"
          f"AGGIORNA DATI</button></div></div>",
-         "<div class='legenda'><b>Come si legge:</b> le barre sono le probabilità "
-         "(verde = alte, gialle = zona quota giocabile ~1.40-1.85). "
+         "<div class='legenda'><b>Come si legge:</b> le barre blu sono le probabilità, "
+         "il numero a destra dice tutto. "
          "<b>IDEA</b> = la linea piu' vicina al 65%: non e' a caso e non e' la piu' alta — "
          "sopra il 78% i book pagano spiccioli, sotto il 55% e' rischioso. "
          "Sotto IDEA trovi le <b>altre linee che valgono</b>, in ordine di bonta'. "
@@ -251,7 +245,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
 
     for r in ordina:
         v = r.get("giudizio", "")
-        vcls = "ok" if v.startswith(("Alta", "Buona")) else ("mid" if "Media" in v else "")
+        vt = "ok" if v.startswith(("Alta", "Buona")) else ("mid" if "Media" in v else "no")
         vbreve = v.split(" — ")[0]
         ora = f"{_giorno_label(r.get('data', ''))} {_esc(r.get('ora', ''))}".strip()
         st = r.get("stato", "prossima")
@@ -269,7 +263,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
             f"<span class='lega'>{_esc(r.get('lega', ''))}</span></div>"
             f"<div class='match'>{_esc(r['partita'])}</div>"
             f"{badge} "
-            f"<span class='verd {vcls}'>{_esc(vbreve)}</span>"
+            f"<span class='vtext {vt}'>{_esc(vbreve)}</span>"
             f"{barra('Ang', r['over_angoli'])}{barra('Tiri', r['over_tiri'])}"
             f"{barra('Cart', r['over_cartellini'])}{barra('O2.5', r.get('gol_o25', 0))}"
             f"{barra('GG', r.get('gol_gg', 0))}")
