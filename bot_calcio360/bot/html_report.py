@@ -109,8 +109,12 @@ background:#3a3f4b;display:inline-block;margin:4px 0}
 .mrow .lab{width:44px;color:#9aa3b5;flex:none;font-weight:600}
 .bar{flex:1;height:12px;border-radius:7px;background:#232936;overflow:hidden;
 box-shadow:inset 0 1px 3px rgba(0,0,0,.5)}
-.bar i{display:block;height:100%;border-radius:7px;
-background:linear-gradient(90deg,#e8c96a,#f4df9a)}
+.bar i{display:block;height:100%;border-radius:7px}
+.bar.b-ang i{background:linear-gradient(90deg,#0284c7,#38bdf8)}
+.bar.b-tiri i{background:linear-gradient(90deg,#059669,#34d399)}
+.bar.b-cart i{background:linear-gradient(90deg,#b45309,#fbbf24)}
+.bar.b-o25 i{background:linear-gradient(90deg,#7c3aed,#a78bfa)}
+.bar.b-gg i{background:linear-gradient(90deg,#e11d48,#fb7185)}
 .mrow .val{width:46px;text-align:right;font-weight:800}
 .idea{margin-top:10px;font-size:14px;background:linear-gradient(180deg,#2a2413,#201b0e);
 border:1px solid #6b5a26;border-radius:10px;
@@ -210,13 +214,16 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
     leghe = sorted({r.get("lega", "Varie") or "Varie" for r in risultati})
     giorni = sorted({r.get("data", "") for r in risultati})
 
+    _cls = {"Ang": "b-ang", "Tiri": "b-tiri", "Cart": "b-cart",
+            "O2.5": "b-o25", "GG": "b-gg"}
     def barra(label: str, val) -> str:
         try:
             v = float(val)
         except (TypeError, ValueError):
             v = 0
         return (f"<div class='mrow'><span class='lab'>{label}</span>"
-                f"<div class='bar'><i style='width:{max(0, min(100, v))}%'></i></div>"
+                f"<div class='bar {_cls.get(label, '')}'>"
+                f"<i style='width:{max(0, min(100, v))}%'></i></div>"
                 f"<span class='val'>{v:.0f}%</span></div>")
 
     p = [f"<!DOCTYPE html><html lang='it'><head><meta charset='utf-8'>"
@@ -232,7 +239,8 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
          f"la pagina si aggiorna con un nuovo deploy (trascina di nuovo la cartella) "
          f"oppure con Azioni GitHub dal telefono. In locale col server invece funziona.'))\">"
          f"AGGIORNA DATI</button></div></div>",
-         "<div class='legenda'><b>Come si legge:</b> le barre blu sono le probabilità, "
+         "<div class='legenda'><b>Come si legge:</b> ogni mercato ha il suo colore "
+         "(azzurro=angoli, verde=tiri, giallo=cartellini, viola=gol, rosa=GG), "
          "il numero a destra dice tutto. "
          "<b>IDEA</b> = la linea piu' vicina al 65%: non e' a caso e non e' la piu' alta — "
          "sopra il 78% i book pagano spiccioli, sotto il 55% e' rischioso. "
