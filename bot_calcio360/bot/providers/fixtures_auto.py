@@ -26,7 +26,11 @@ LEAGUES = {
     "france": ("ligue-1-2026-27", "Ligue 1 2026/27"),
     "portugal": (None, "Liga Portugal 2026/27"),
     "netherlands": (None, "Eredivisie 2026/27"),
+    "champions": ("champions-league-2026-27", "Champions League 2026/27"),
+    "europa": ("europa-league-2026-27", "Europa League 2026/27"),
 }
+
+COPPE = {"champions", "europa"}
 
 NOMI_PT_NL = {
     "FC Porto": "Porto", "SL Benfica": "Benfica", "Sporting CP": "Sporting",
@@ -232,7 +236,7 @@ class AutoFixtureProvider(BaseProvider):
     def __init__(self, leghe: list[str] = None, giorni: int = 3,
                  indietro: int = 1, oggi: date = None):
         self.leghe = leghe or ["italy", "england", "spain", "germany", "france",
-                               "portugal", "netherlands"]
+                               "portugal", "netherlands", "champions", "europa"]
         self.giorni = giorni
         self.indietro = indietro
         self.oggi = oggi or date.today()
@@ -241,6 +245,25 @@ class AutoFixtureProvider(BaseProvider):
         partite = []
         dal = self.oggi - timedelta(days=self.indietro)
         al = self.oggi + timedelta(days=self.giorni)
+        try:
+            tabellini = self.get_risultati()
+        except Exception:
+            tabellini = []
+
+        def _norm2(s: str) -> str:
+            return re.sub(r"[^a-z]", "", (s or "").lower())
+
+        def cerca_risultato(casa: str, trasf: str, data_iso: str):
+            nc, nt = _norm2(casa), _norm2(trasf)
+            for r in tabellini:
+                if (_norm2(r["casa"]) in (nc, nt) and _norm2(r["trasferta"]) in (nt, nc)
+                        and abs((date.fromisoformat(r["data"])
+                                 - date.fromisoformat(data_iso)).days) <= 1):
+                    if _norm2(r["casa"]) == nc:
+                        return r["risultato"]
+                    a, b = r["risultato"].split(":")
+                    return f"{b}:{a}"
+            return ""
         for key in self.leghe:
             slug, display = LEAGUES[key]
             try:
@@ -259,13 +282,16 @@ class AutoFixtureProvider(BaseProvider):
             n = 0
             from datetime import datetime as _dt
             adesso = _dt.now()
+            is_coppa = key in COPPE
             for f in base:
                 mturno = re.search(r"(\d+)", f.get("turno", ""))
-                gioc = max(0, int(mturno.group(1)) - 1) if mturno else 4
+                gioc = 1 if is_coppa else (max(0, int(mturno.group(1)) - 1) if mturno else 4)
+                ris = cerca_risultato(f["casa"], f["trasferta"], f["data"])
+                stato = "finita" if ris else stato_match(f["data"], f["ora"], adesso)
                 partite.append({
                     "casa": f["casa"], "trasferta": f["trasferta"],
                     "lega": f.get("lega", display), "data": f["data"], "ora": f["ora"],
-                    "stato": stato_match(f["data"], f["ora"], adesso),
+                    "stato": stato, "risultato": ris,
                     "turno": f.get("turno", ""),
                     "partite_casa": gioc, "partite_trasferta": gioc,
                     "soglia_minima_partite": 6,

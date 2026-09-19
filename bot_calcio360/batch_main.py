@@ -83,10 +83,10 @@ def main():
         for lega, plist in gruppi.items():
             _, rep = arricchisci(plist, _lega_key(lega))
             print(f"[SOCCERSTATS] {lega}: angoli reali {rep['ok']}/{rep['totali']}")
-        from bot.providers.statmuse import enrich_full
+        from bot.providers.statmuse import enrich_full, hint_for_lega
         rep2 = {"tiri_reali": 0, "falli_reali": 0, "xg_reali": 0, "totali": 0}
         for lega, plist in gruppi.items():
-            r = enrich_full(plist, _lega_key(lega))
+            r = enrich_full(plist, _lega_key(lega), hint_for_lega(lega))
             for k in rep2:
                 rep2[k] += r.get(k, 0)
         print(f"[STATMUSE] tiri reali {rep2['tiri_reali']}/{rep2['totali']}, "
@@ -112,12 +112,13 @@ def main():
                 _, rep = arricchisci(plist, lega)
                 print(f"[SOCCERSTATS] {lega}: angoli reali {rep['ok']}/{rep['totali']}")
             if args.enrich == "full":
-                from bot.providers.statmuse import enrich_full
+                from bot.providers.statmuse import enrich_full, hint_for_lega
                 from bot.providers.soccerstats import _lega_key
                 rep2 = {"tiri_reali": 0, "falli_reali": 0, "xg_reali": 0,
                         "totali": 0}
                 for lega, plist in gruppi.items():
-                    r = enrich_full(plist, _lega_key(lega))
+                    r = enrich_full(plist, _lega_key(lega),
+                                    hint_for_lega(lega))
                     for k in rep2:
                         rep2[k] += r.get(k, 0)
                 print(f"[STATMUSE] tiri reali {rep2['tiri_reali']}/{rep2['totali']}, "

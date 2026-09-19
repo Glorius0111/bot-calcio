@@ -67,6 +67,7 @@ LEAGUE_HINT = {
     "england": "premier league", "italy": "serie a", "spain": "laliga",
     "germany": "bundesliga", "france": "ligue 1",
     "portugal": "primeira liga", "netherlands": "eredivisie",
+    "champions": "champions league", "europa": "europa league",
 }
 
 
@@ -100,12 +101,23 @@ def ask(slug: str, league_hint: str = None) -> tuple[float | None, str]:
         return None, raw
 
 
+def hint_for_lega(lega_display: str) -> str:
+    """Hint di competizione dal nome visualizzato (evita lega sbagliata)."""
+    low = (lega_display or "").lower()
+    if "champions" in low:
+        return "champions league"
+    if "europa" in low:
+        return "europa league"
+    from .soccerstats import _lega_key
+    return LEAGUE_HINT.get(_lega_key(lega_display), "")
+
+
 def team_enrich(squadra: str, venue: str, giocate: int,
-                lega_key: str = None) -> dict:
+                lega_key: str = None, hint: str = None) -> dict:
     """venue: 'home' o 'away'. Ritorna dict con valori reali o None."""
     ven_q = "at-home" if venue == "home" else "away"
     ven_d = "at-home" if venue == "home" else "on-the-road"
-    hint = LEAGUE_HINT.get(lega_key or "")
+    hint = hint or LEAGUE_HINT.get(lega_key or "")
     t = slug_team(squadra)
     out: dict = {"squadra": squadra}
 
@@ -115,7 +127,8 @@ def team_enrich(squadra: str, venue: str, giocate: int,
 
     out["sot_for"] = q(f"{{t}}-shots-on-target-per-game-{ven_q}-this-season")
     out["sot_against"] = None
-    v, _ = ask(f"how-many-shots-on-target-have-{t}-conceded-{ven_d}-this-season")
+    v, _ = ask(f"how-many-shots-on-target-have-{t}-conceded-{ven_d}-this-season",
+               league_hint=hint)
     if v is not None and giocate > 0:
         out["sot_against"] = round(v / giocate, 2)
     out["fouls_for"] = q(f"{{t}}-fouls-per-game-{ven_q}-this-season")
@@ -129,12 +142,12 @@ def team_enrich(squadra: str, venue: str, giocate: int,
     return out
 
 
-def player_enrich(nome: str, lega_key: str = None) -> dict:
+def player_enrich(nome: str, lega_key: str = None, hint: str = None) -> dict:
     """xG per 90 + rigori reali del giocatore."""
     if not nome or len(nome.strip()) < 3 or nome.strip().lower() in ("n/a", "unknown"):
         return {"xg_per90": None, "penalties": None}
     p = slug_player(nome)
-    hint = LEAGUE_HINT.get(lega_key or "")
+    hint = hint or LEAGUE_HINT.get(lega_key or "")
     xg, _ = ask(f"{p}-expected-goals-per-90-this-season", league_hint=hint)
     pen, _ = ask(f"{p}-penalties-scored-this-season", league_hint=hint)
     return {"xg_per90": xg, "penalties": pen}
@@ -144,7 +157,8 @@ def _num(v, default: float) -> float:
     return v if isinstance(v, (int, float)) else default
 
 
-def enrich_full(partite: list[dict], lega_key: str = None) -> dict:
+def enrich_full(partite: list[dict], lega_key: str = None,
+                hint: str = None) -> dict:
     """Riempie tiri/falli/cartellini/marcatori con valori REALI 2026/27.
 
     Ritorna {'tiri_reali': n, 'falli_reali': n, 'xg_reali': n, 'totali': n}.
@@ -155,8 +169,8 @@ def enrich_full(partite: list[dict], lega_key: str = None) -> dict:
     for m in partite:
         gh = _num(m.get("partite_casa", 0), 0)
         ga = _num(m.get("partite_trasferta", 0), 0)
-        h = team_enrich(m["casa"], "home", int(gh), lega_key)
-        a = team_enrich(m["trasferta"], "away", int(ga), lega_key)
+        h = team_enrich(m["casa"], "home", int(gh), lega_key, hint)
+        a = team_enrich(m["trasferta"], "away", int(ga), lega_key, hint)
 
         t_ok = (h["sot_for"] is not None and a["sot_for"] is not None
                 and h["sot_against"] is not None and a["sot_against"] is not None)
@@ -206,7 +220,7 @@ def enrich_full(partite: list[dict], lega_key: str = None) -> dict:
                                "ospite": round(a["xg"], 2)}
 
         for g in m.get("marcatori", []):
-            pe = player_enrich(g["nome"], lega_key)
+            pe = player_enrich(g["nome"], lega_key, hint)
             if pe["xg_per90"] is not None:
                 g["xg_per90"] = pe["xg_per90"]
                 g["_xgr"] = True

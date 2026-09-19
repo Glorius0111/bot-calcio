@@ -232,7 +232,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
          "Sotto IDEA trovi le <b>altre linee che valgono</b>, in ordine di bonta'. "
          "<b>PROVVISORIO</b> = dati veri ma campione sotto 6 partite: guardare, non giocare.<br>"
          "Premi <b>AGGIORNA DATI</b> in alto per riscaricare tutto da solo.</div>",
-         ] + _blocco_risultati(risultati_giocati or []) + _blocco_live(risultati) + [
+         ] + _blocco_risultati(risultati_giocati or []) + [
          "<div class='filtri'><button class='on' onclick=\"f('TUTTE')\">Tutte</button>"]
     NOMI_BREVI = {"Serie A": "Serie A", "Premier League 2026/27": "Premier",
                   "La Liga 2026/27": "Liga", "Bundesliga 2026/27": "Bundes",
@@ -251,6 +251,13 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
         vcls = "ok" if v.startswith(("Alta", "Buona")) else ("mid" if "Media" in v else "")
         vbreve = v.split(" — ")[0]
         ora = f"{_giorno_label(r.get('data', ''))} {_esc(r.get('ora', ''))}".strip()
+        st = r.get("stato", "prossima")
+        if st == "live":
+            badge = "<span class='verd ok'>IN CORSO</span>"
+        elif st == "finita":
+            badge = f"<span class='verd'>FINITA {_esc(r.get('risultato', ''))}</span>"
+        else:
+            badge = "<span class='verd'>DA GIOCARE</span>"
         det = "<br>".join(_esc(x) for x in r.get("testo", "").splitlines()[2:])
         p.append(
             f"<div class='card' data-lega='{_esc(r.get('lega', ''))}' "
@@ -258,6 +265,7 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
             f"<div class='top'><span class='ora'>{_esc(ora)}</span>"
             f"<span class='lega'>{_esc(r.get('lega', ''))}</span></div>"
             f"<div class='match'>{_esc(r['partita'])}</div>"
+            f"{badge} "
             f"<span class='verd {vcls}'>{_esc(vbreve)}</span>"
             f"{barra('Ang', r['over_angoli'])}{barra('Tiri', r['over_tiri'])}"
             f"{barra('Cart', r['over_cartellini'])}{barra('O2.5', r.get('gol_o25', 0))}"

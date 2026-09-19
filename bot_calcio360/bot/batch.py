@@ -38,10 +38,24 @@ def quando(r: dict) -> str:
     return base + (f" {r['ora']}" if r.get("ora") else "")
 
 
+def etichetta_stato(r: dict) -> str:
+    s = r.get("stato", "prossima")
+    if s == "live":
+        return "IN CORSO"
+    if s == "finita":
+        return f"FINITA {r.get('risultato', '')}".strip()
+    return "DA GIOCARE"
+
+
 def riga(r: dict) -> str:
     top = r.get("top_marcatore", "")
+    tag = ""
+    if r.get("stato") == "live":
+        tag = "[IN CORSO] "
+    elif r.get("stato") == "finita" and r.get("risultato"):
+        tag = f"[FINITA {r['risultato']}] "
     base = (f"{quando(r):<12}"
-            f"{r['partita']:<30} "
+            f"{tag}{r['partita']:<30} "
             f"Ang {r['over_angoli']:>5}% | "
             f"Tiri {r['over_tiri']:>5}% | "
             f"Cart {r['over_cartellini']:>5}% | "
@@ -58,6 +72,13 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
     out.mkdir(parents=True, exist_ok=True)
     risultati = []
     for m in partite:
+        if not m.get("stato"):
+            try:
+                from .providers.fixtures_auto import stato_match
+                from datetime import datetime as _dt
+                m["stato"] = stato_match(m.get("data", ""), m.get("ora", ""), _dt.now())
+            except Exception:
+                m["stato"] = "prossima"
         rep = genera_report(m)
         fname = f"{slug(rep.partita)}.txt"
         (out / fname).write_text(rep.testo, encoding="utf-8")
@@ -73,6 +94,7 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
             "data": m.get("data", ""),
             "ora": m.get("ora", ""),
             "stato": m.get("stato", "prossima"),
+            "risultato": m.get("risultato", ""),
             "giudizio": rep.giudizio,
             "top_marcatore": top_m,
             "over_angoli": rep.angoli.prob_perc,
