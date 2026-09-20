@@ -190,7 +190,12 @@ def _dettaglio(r: dict, barra) -> str:
              f"<div class='sub2'>Over 1,5: {d.get('o15', 0):.0f}% · Over 2,5: {d.get('o25', 0):.0f}% · "
              f"Over 3,5: {d.get('o35', 0):.0f}% · Entrambe segnano: {d.get('gg', 0):.0f}%</div>"
              f"<div class='sub2'>Esito 1X2: 1 al {d.get('uno', 0):.0f}% · "
-             f"X al {d.get('ics', 0):.0f}% · 2 al {d.get('due', 0):.0f}%</div>" +
+             f"X al {d.get('ics', 0):.0f}% · 2 al {d.get('due', 0):.0f}%</div>"
+             f"<div class='sub2'>Doppie chance: 1X {d.get('dc1x', 0):.0f}% · "
+             f"12 {d.get('dc12', 0):.0f}% · X2 {d.get('dcx2', 0):.0f}%</div>"
+             f"<div class='sub2'>Casa segna: Over 0,5 {d.get('ch_o05', 0):.0f}% · "
+             f"Over 1,5 {d.get('ch_o15', 0):.0f}% · Ospite segna: Over 0,5 "
+             f"{d.get('ao_o05', 0):.0f}% · Over 1,5 {d.get('ao_o15', 0):.0f}%</div>" +
              (f"<div class='sub2'>xG squadre: casa {d['xgs'].get('casa')} / "
               f"ospite {d['xgs'].get('ospite')}</div>" if d.get("xgs") else "") +
              "</div>")
@@ -199,9 +204,9 @@ def _dettaglio(r: dict, barra) -> str:
     if marc:
         righe = "".join(
             f"<div class='sub2'>• {_esc(n)} ({_esc(s)}): segna nel {p:.0f}% dei casi"
-            + (" — tira i rigori" if rig else "") + "</div>"
-            for n, s, p, rig in marc)
-        b.append(f"<div class='blocco'><h4>Marcatori</h4>{righe}</div>")
+            f" — quota circa {q}" + (" — tira i rigori" if rig else "") + "</div>"
+            for n, s, p, rig, q in marc)
+        b.append(f"<div class='blocco'><h4>Marcatori (quota = quanto pagherebbe)</h4>{righe}</div>")
     return "".join(b)
 
 
@@ -228,7 +233,6 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
 
     p = [f"<!DOCTYPE html><html lang='it'><head><meta charset='utf-8'>"
          f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
-         f"<meta http-equiv='refresh' content='120'>"
          f"<title>{_esc(titolo)}</title><style>{CSS}</style></head><body>",
          f"<div class='topbar'><div><h1>Bot Calcio <span class='gold'>360°</span> — weekend</h1>",
          f"<p class='sub'>Aggiornato: {_esc(datetime.now().strftime('%d/%m/%Y %H:%M'))} "

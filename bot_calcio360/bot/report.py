@@ -37,6 +37,13 @@ class ReportFinale:
     uno: float = 0.0
     ics: float = 0.0
     due: float = 0.0
+    dc1x: float = 0.0
+    dc12: float = 0.0
+    dcx2: float = 0.0
+    casa_o05: float = 0.0
+    casa_o15: float = 0.0
+    osp_o05: float = 0.0
+    osp_o15: float = 0.0
     ang_casa: float = 0.0
     ang_osp: float = 0.0
     tiri_casa: float = 0.0
@@ -161,6 +168,14 @@ def genera_report(match: dict) -> ReportFinale:
             else:
                 p2 += p
     p1, px, p2 = p1 * 100, px * 100, p2 * 100
+    # Doppie chance + gol squadra Over 0.5/1.5 (stessa Poisson)
+    dc_1x = p1 + px
+    dc_12 = p1 + p2
+    dc_x2 = px + p2
+    ch_o05 = (1 - math.exp(-max(0.01, st_g.atteso_casa))) * 100
+    ch_o15 = prob_over(st_g.atteso_casa, 1.5) * 100
+    ao_o05 = (1 - math.exp(-max(0.01, st_g.atteso_ospite))) * 100
+    ao_o15 = prob_over(st_g.atteso_ospite, 1.5) * 100
 
     # Scale di linee + linea quotabile (zona 55-78%: quota giocabile)
     sc_a = scala_over(st_a.totale, [8.5, 9.5, 10.5, 11.5, 12.5, 13.5])
@@ -268,6 +283,9 @@ def genera_report(match: dict) -> ReportFinale:
                  f"({st_g.atteso_casa:.1f} casa + {st_g.atteso_ospite:.1f} ospite).")
     righe.append(f"  Over 2,5: {p_25:.0f}% su 100. Entrambe segnano: {p_gg:.0f}% su 100.")
     righe.append(f"  Esito 1X2: 1 al {p1:.0f}% · X al {px:.0f}% · 2 al {p2:.0f}%.")
+    righe.append(f"  Doppie chance: 1X al {dc_1x:.0f}% · 12 al {dc_12:.0f}% · X2 al {dc_x2:.0f}%.")
+    righe.append(f"  Casa segna: Over 0,5 al {ch_o05:.0f}% · Over 1,5 al {ch_o15:.0f}%. "
+                 f"Ospite segna: Over 0,5 al {ao_o05:.0f}% · Over 1,5 al {ao_o15:.0f}%.")
     _xg = match.get("xg_squadre")
     if _xg:
         righe.append(f"  Gol attesi dai dati (xG): casa {_xg.get('casa')} / ospite {_xg.get('ospite')}.")
@@ -279,11 +297,12 @@ def genera_report(match: dict) -> ReportFinale:
         if altre:
             righe.append("Altre linee che valgono: " + " | ".join(altre))
         righe.append("")
-    righe.append("MARCATORI — chi segna più spesso:")
+    righe.append("MARCATORI — chi segna più spesso (quota = quanto pagherebbe il book):")
     if marc:
         for m in marc[:6]:
+            q = 1 / m.prob_gol if m.prob_gol > 0 else 0
             rig = (f"  {m.nome} ({m.squadra}): segna nel {m.prob_gol * 100:.0f}% dei casi "
-                   f"(xG {m.xg_per90})")
+                   f"— quota marcatore circa {q:.2f} (xG {m.xg_per90})")
             if m.rigorista:
                 rig += " — tira i rigori"
             righe.append(rig)
@@ -301,6 +320,9 @@ def genera_report(match: dict) -> ReportFinale:
         gol_o25=round(p_25, 1), gol_o35=round(p_35, 1),
         gol_gg=round(p_gg, 1),
         uno=round(p1, 1), ics=round(px, 1), due=round(p2, 1),
+        dc1x=round(dc_1x, 1), dc12=round(dc_12, 1), dcx2=round(dc_x2, 1),
+        casa_o05=round(ch_o05, 1), casa_o15=round(ch_o15, 1),
+        osp_o05=round(ao_o05, 1), osp_o15=round(ao_o15, 1),
         gol_casa=round(st_g.atteso_casa, 2), gol_osp=round(st_g.atteso_ospite, 2),
         ang_casa=round(st_a.atteso_casa, 2), ang_osp=round(st_a.atteso_ospite, 2),
         tiri_casa=round(st_t.atteso_casa, 2), tiri_osp=round(st_t.atteso_ospite, 2),

@@ -87,7 +87,8 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
         if rep.marcatori:
             m0 = rep.marcatori[0]
             rig = "[RIG] " if m0.rigorista else ""
-            top_m = f"{rig}{m0.nome} {m0.prob_gol * 100:.0f}%"
+            q0 = 1 / m0.prob_gol if m0.prob_gol > 0 else 0
+            top_m = f"{rig}{m0.nome} {m0.prob_gol * 100:.0f}% (q{q0:.2f})"
         risultati.append({
             "partita": rep.partita,
             "lega": m.get("lega", ""),
@@ -117,6 +118,9 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
                 "o15": rep.gol_o15, "o25": rep.gol_o25,
                 "o35": rep.gol_o35, "gg": rep.gol_gg,
                 "uno": rep.uno, "ics": rep.ics, "due": rep.due,
+                "dc1x": rep.dc1x, "dc12": rep.dc12, "dcx2": rep.dcx2,
+                "ch_o05": rep.casa_o05, "ch_o15": rep.casa_o15,
+                "ao_o05": rep.osp_o05, "ao_o15": rep.osp_o15,
                 "poss": m.get("possesso"), "tt": m.get("tiri_totali"),
                 "xgs": m.get("xg_squadre"),
                 "scala_a": rep.scala_angoli, "scala_t": rep.scala_tiri,
@@ -124,7 +128,9 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
                 "off_tot": rep.off_tot, "off_o35": rep.off_o35,
                 "scala_o": rep.scala_off,
                 "marcatori": [(mm.nome, mm.squadra, round(mm.prob_gol * 100, 0),
-                               mm.rigorista) for mm in rep.marcatori[:6]],
+                               mm.rigorista,
+                               round(1 / mm.prob_gol, 2) if mm.prob_gol > 0 else 0)
+                              for mm in rep.marcatori[:6]],
                 "filtro": rep.filtro_msg,
                 "giocate": (m.get("partite_casa", 0), m.get("partite_trasferta", 0)),
             },
