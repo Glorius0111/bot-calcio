@@ -315,7 +315,9 @@ def genera_report(match: dict) -> ReportFinale:
             base = (f"  {r['nome']} ({r['squadra']}): {r['gialli']} gialli -> "
                     f"ammonito nel {r['prob']:.0f}% dei casi.")
             if r.get("plus") is not None:
-                base += (f" PLUS (ammonito oppure 2+ falli): {r['plus']:.0f}% su 100.")
+                base += f" PLUS (lui o il sostituto): {r['plus']:.0f}% su 100."
+            if r.get("quasi") is not None:
+                base += f" QUASI PLUS (ammonito o 2 falli lui/sub): {r['quasi']:.0f}% su 100."
             righe.append(base)
     testo = "\n".join(righe)
 

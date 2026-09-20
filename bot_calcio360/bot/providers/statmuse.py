@@ -238,6 +238,25 @@ def enrich_full(partite: list[dict], lega_key: str = None,
             if pe["penalties"] is not None and pe["penalties"] >= 1:
                 g["rigorista"] = True
 
+        # PLUS ammonito (lui o il sostituto) e QUASI PLUS (+ 2 falli lui/sub).
+        # Sostituto stimato onestamente dalle medie di squadra (non si sa chi entra).
+        _sq = {m["casa"]: h, m["trasferta"]: a}
+        for xr in m.get("rischio", []):
+            st = _sq.get(xr["squadra"], {})
+            import math as _m
+            p_a = xr["prob"] / 100.0
+            lam_p = max(0.0, xr.get("falli_pg") or 0.0)
+            p_f2 = 1 - _m.exp(-lam_p) * (1 + lam_p)
+            cards_sq = max(0.0, (st.get("yc") or 0) + (st.get("rc") or 0))
+            fouls_sq = max(0.0, st.get("fouls_for") or 0)
+            p_sub_amm = min(0.25, max(0.05, cards_sq / 14.0))
+            lam_s = fouls_sq / 14.0
+            p_sub_f2 = 1 - _m.exp(-lam_s) * (1 + lam_s)
+            xr["p_f2"] = round(p_f2 * 100, 1)
+            xr["plus"] = round((1 - (1 - p_a) * (1 - p_sub_amm)) * 100, 1)
+            p_f2_uno = 1 - (1 - p_f2) * (1 - p_sub_f2)
+            xr["quasi"] = round((1 - (1 - p_a) * (1 - p_f2_uno)) * 100, 1)
+
         reali = ["angoli", "gol", "giocate"]
         stime = []
         reali.append("tiri") if t_ok else stime.append("tiri")

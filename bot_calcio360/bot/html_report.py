@@ -65,6 +65,36 @@ def _blocco_live(risultati: list[dict]) -> list[str]:
     return p
 
 
+def _valore_block(r: dict, det: dict) -> str:
+    """Confronta col book: inserisci la quota e vedi il valore. 100% client-side."""
+    import re as _re
+    righe = []
+    mercati = [("Over 2.5", det.get("o25", 0)), ("GG", det.get("gg", 0)),
+               ("1", det.get("uno", 0)), ("X", det.get("ics", 0)),
+               ("2", det.get("due", 0))]
+    m = _re.search(r"\((\d+)%\)\s*$", r.get("idea", ""))
+    if m and r.get("idea"):
+        mercati.insert(0, (r["idea"].rsplit(" (", 1)[0], float(m.group(1))))
+    for label, p in mercati:
+        try:
+            p = float(p or 0)
+        except (TypeError, ValueError):
+            continue
+        if p <= 0:
+            continue
+        fair = round(100 / p, 2)
+        righe.append(
+            f"<div class='sub2'>{_esc(label)}: nostra {p:.0f}% (equa {fair}) · "
+            f"quota book: <input size='5' inputmode='decimal' placeholder='es. 2.10' "
+            f"style='background:#0f1115;color:#fff;border:1px solid #46536e;border-radius:6px;"
+            f"padding:2px 6px' oninput=\"edge(this,{p})\"> <b class='ev'></b></div>")
+    if not righe:
+        return ""
+    return ("<div class='blocco'><h4>Confronta col tuo book</h4>"
+            "<div class='sub2'>Scrivi la quota del book: se esce VALORE verde, "
+            "il book paga più del dovuto.</div>" + "".join(righe) + "</div>")
+
+
 def _giorno_label(d: str) -> str:
     nomi = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
     try:
@@ -141,6 +171,11 @@ function f(leg){document.querySelectorAll('.filtri button').forEach(b=>b.classLi
 event.target.classList.add('on');
 document.querySelectorAll('#prossime .card').forEach(c=>{
 c.style.display=(leg==='TUTTE'||c.dataset.lega===leg||c.dataset.giorno===leg)?'':'none';});}
+function edge(el,p){var q=parseFloat((el.value||'').replace(',','.'));
+var s=el.parentElement.querySelector('.ev');
+if(!q||q<=1){s.textContent='';return;}
+var v=(q*p/100-1)*100;var t=(v>=0?'+':'')+v.toFixed(0)+'%';
+s.textContent=t+(v>=5?' VALORE':'');s.style.color=v>=5?'#7ddf9a':(v>=0?'#e8c96a':'#f09292');}
 """
 
 
@@ -212,17 +247,16 @@ def _dettaglio(r: dict, barra) -> str:
         righe = ""
         for x in rk:
             n, s, g, p = x[0], x[1], x[2], x[3]
-            fpg = x[4] if len(x) > 4 else None
-            plu = x[6] if len(x) > 6 else None
+            plu = x[4] if len(x) > 4 else None
+            qua = x[5] if len(x) > 5 else None
             righe += (f"<div class='sub2'>• {_esc(n)} ({_esc(s)}): {g} gialli — "
                       f"ammonito nel {p:.0f}%")
-            if fpg is not None:
-                righe += f" · {fpg} falli/gara"
             if plu is not None:
-                righe += f" · <b>PLUS {plu:.0f}%</b>"
+                righe += f" · <b>PLUS {plu:.0f}%</b> (lui o sostituto)"
+            if qua is not None:
+                righe += f" · <b>QUASI PLUS {qua:.0f}%</b> (+2 falli)"
             righe += "</div>"
-        b.append(f"<div class='blocco'><h4>A rischio ammonizione (+ PLUS = "
-                 f"ammonito oppure 2+ falli)</h4>{righe}</div>")
+        b.append(f"<div class='blocco'><h4>A rischio ammonizione</h4>{righe}</div>")
     return "".join(b)
 
 
