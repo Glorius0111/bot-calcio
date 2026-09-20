@@ -297,17 +297,23 @@ def genera_report(match: dict) -> ReportFinale:
         if altre:
             righe.append("Altre linee che valgono: " + " | ".join(altre))
         righe.append("")
-    righe.append("MARCATORI — chi segna più spesso (quota = quanto pagherebbe il book):")
+    righe.append("MARCATORI — chi segna più spesso:")
     if marc:
         for m in marc[:6]:
-            q = 1 / m.prob_gol if m.prob_gol > 0 else 0
             rig = (f"  {m.nome} ({m.squadra}): segna nel {m.prob_gol * 100:.0f}% dei casi "
-                   f"— quota marcatore circa {q:.2f} (xG {m.xg_per90})")
+                   f"(xG {m.xg_per90})")
             if m.rigorista:
                 rig += " — tira i rigori"
             righe.append(rig)
     else:
         righe.append("  Nessun dato disponibile.")
+    rischio = match.get("rischio", [])
+    if rischio:
+        righe.append("")
+        righe.append("A RISCHIO AMMONIZIONE — i più fallosi:")
+        for r in rischio[:4]:
+            righe.append(f"  {r['nome']} ({r['squadra']}): {r['gialli']} gialli -> "
+                         f"ammonito nel {r['prob']:.0f}% dei casi.")
     testo = "\n".join(righe)
 
     return ReportFinale(

@@ -87,8 +87,11 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
         if rep.marcatori:
             m0 = rep.marcatori[0]
             rig = "[RIG] " if m0.rigorista else ""
-            q0 = 1 / m0.prob_gol if m0.prob_gol > 0 else 0
-            top_m = f"{rig}{m0.nome} {m0.prob_gol * 100:.0f}% (q{q0:.2f})"
+            top_m = f"{rig}{m0.nome} {m0.prob_gol * 100:.0f}%"
+        rk = m.get("rischio", [])
+        top_r = ""
+        if rk:
+            top_r = f"{rk[0]['nome']} {rk[0]['prob']:.0f}%"
         risultati.append({
             "partita": rep.partita,
             "lega": m.get("lega", ""),
@@ -98,6 +101,7 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
             "risultato": m.get("risultato", ""),
             "giudizio": rep.giudizio,
             "top_marcatore": top_m,
+            "rischio_top": top_r,
             "over_angoli": rep.angoli.prob_perc,
             "over_tiri": rep.tiri.prob_perc,
             "over_cartellini": rep.cartellini_prob,
@@ -131,6 +135,8 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
                                mm.rigorista,
                                round(1 / mm.prob_gol, 2) if mm.prob_gol > 0 else 0)
                               for mm in rep.marcatori[:6]],
+                "rischio": [(x["nome"], x["squadra"], x["gialli"], x["prob"])
+                            for x in (m.get("rischio", [])[:4])],
                 "filtro": rep.filtro_msg,
                 "giocate": (m.get("partite_casa", 0), m.get("partite_trasferta", 0)),
             },

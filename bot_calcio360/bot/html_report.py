@@ -204,9 +204,16 @@ def _dettaglio(r: dict, barra) -> str:
     if marc:
         righe = "".join(
             f"<div class='sub2'>• {_esc(n)} ({_esc(s)}): segna nel {p:.0f}% dei casi"
-            f" — quota circa {q}" + (" — tira i rigori" if rig else "") + "</div>"
+            + (" — tira i rigori" if rig else "") + "</div>"
             for n, s, p, rig, q in marc)
-        b.append(f"<div class='blocco'><h4>Marcatori (quota = quanto pagherebbe)</h4>{righe}</div>")
+        b.append(f"<div class='blocco'><h4>Marcatori</h4>{righe}</div>")
+    rk = d.get("rischio", [])
+    if rk:
+        righe = "".join(
+            f"<div class='sub2'>• {_esc(n)} ({_esc(s)}): {g} gialli — "
+            f"ammonito nel {p:.0f}% dei casi</div>"
+            for n, s, g, p in rk)
+        b.append(f"<div class='blocco'><h4>A rischio ammonizione</h4>{righe}</div>")
     return "".join(b)
 
 
@@ -297,6 +304,8 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
                 f"<span class='chip'>{_esc(g)}</span>" for g in gio) + "</div>")
         if r.get("top_marcatore"):
             p.append(f"<div class='gol'>Marcatore: {_esc(r['top_marcatore'])}</div>")
+        if r.get("rischio_top"):
+            p.append(f"<div class='gol'>A rischio giallo: <b>{_esc(r['rischio_top'])}</b></div>")
         p.append(f"<details><summary>Dettaglio completo</summary>{_dettaglio(r, barra)}</details></div>")
     p.append(f"</div><script>{JS}</script></body></html>")
     dest = out / "_report.html"

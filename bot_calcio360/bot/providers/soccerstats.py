@@ -222,6 +222,11 @@ def arricchisci(partite: list[dict], lega: str) -> tuple[list[dict], dict]:
         return partite, {"ok": 0, "totali": len(partite)}
     dati = scarica_lega(key)
     ok = 0
+    try:
+        from .disciplina import scarica_gialli, rischio_partita
+        gialli = scarica_gialli(key)
+    except Exception:
+        gialli = {}
     for m in partite:
         ch = _trova(dati["corners_home"], m["casa"])
         ca = _trova(dati["corners_away"], m["trasferta"])
@@ -237,6 +242,13 @@ def arricchisci(partite: list[dict], lega: str) -> tuple[list[dict], dict]:
             m["partite_casa"] = ph
         if pa is not None:
             m["partite_trasferta"] = pa
+        if gialli:
+            try:
+                m["rischio"] = rischio_partita(
+                    m["casa"], m["trasferta"], gialli,
+                    m.get("partite_casa", 0), m.get("partite_trasferta", 0))
+            except Exception:
+                m["rischio"] = []
         gh = _trova(dati["goals_home"], m["casa"])
         ga = _trova(dati["goals_away"], m["trasferta"])
         gol_ok = False
