@@ -153,6 +153,15 @@ def player_enrich(nome: str, lega_key: str = None, hint: str = None) -> dict:
     return {"xg_per90": xg, "penalties": pen}
 
 
+def player_fouls(nome: str, hint: str = None) -> float | None:
+    """Falli commessi a partita del giocatore (reale)."""
+    if not nome or len(nome.strip()) < 3:
+        return None
+    v, _ = ask(f"{slug_player(nome)}-fouls-per-game-this-season",
+               league_hint=hint)
+    return v
+
+
 def _num(v, default: float) -> float:
     return v if isinstance(v, (int, float)) else default
 

@@ -10,6 +10,7 @@ Uso:
   from bot.providers.soccerstats import arricchisci
   partite = arricchisci(partite, lega_soccerstats='england')
 """
+import math
 import re
 import time
 import urllib.request
@@ -249,6 +250,23 @@ def arricchisci(partite: list[dict], lega: str) -> tuple[list[dict], dict]:
                     m.get("partite_casa", 0), m.get("partite_trasferta", 0))
             except Exception:
                 m["rischio"] = []
+        # PLUS quasi-ammonito: ammonito OPPURE 2+ falli (reale StatMuse)
+        if m.get("rischio"):
+            try:
+                from .statmuse import player_fouls, hint_for_lega
+                _hint = hint_for_lega(m.get("lega", ""))
+                for xr in m["rischio"]:
+                    fv = player_fouls(xr["nome"], _hint)
+                    if fv is None:
+                        continue
+                    lam = max(0.0, fv)
+                    p_f2 = 1 - math.exp(-lam) * (1 + lam)
+                    p_a = xr["prob"] / 100.0
+                    xr["falli_pg"] = round(lam, 2)
+                    xr["p_f2"] = round(p_f2 * 100, 1)
+                    xr["plus"] = round((1 - (1 - p_a) * (1 - p_f2)) * 100, 1)
+            except Exception:
+                pass
         gh = _trova(dati["goals_home"], m["casa"])
         ga = _trova(dati["goals_away"], m["trasferta"])
         gol_ok = False

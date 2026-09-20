@@ -91,7 +91,10 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
         rk = m.get("rischio", [])
         top_r = ""
         if rk:
-            top_r = f"{rk[0]['nome']} {rk[0]['prob']:.0f}%"
+            x0 = rk[0]
+            top_r = f"{x0['nome']} {x0['prob']:.0f}%"
+            if x0.get("plus") is not None:
+                top_r += f" (PLUS {x0['plus']:.0f}%)"
         risultati.append({
             "partita": rep.partita,
             "lega": m.get("lega", ""),
@@ -135,7 +138,8 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
                                mm.rigorista,
                                round(1 / mm.prob_gol, 2) if mm.prob_gol > 0 else 0)
                               for mm in rep.marcatori[:6]],
-                "rischio": [(x["nome"], x["squadra"], x["gialli"], x["prob"])
+                "rischio": [(x["nome"], x["squadra"], x["gialli"], x["prob"],
+                             x.get("falli_pg"), x.get("p_f2"), x.get("plus"))
                             for x in (m.get("rischio", [])[:4])],
                 "filtro": rep.filtro_msg,
                 "giocate": (m.get("partite_casa", 0), m.get("partite_trasferta", 0)),

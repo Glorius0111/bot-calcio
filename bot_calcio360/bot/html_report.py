@@ -209,11 +209,20 @@ def _dettaglio(r: dict, barra) -> str:
         b.append(f"<div class='blocco'><h4>Marcatori</h4>{righe}</div>")
     rk = d.get("rischio", [])
     if rk:
-        righe = "".join(
-            f"<div class='sub2'>• {_esc(n)} ({_esc(s)}): {g} gialli — "
-            f"ammonito nel {p:.0f}% dei casi</div>"
-            for n, s, g, p in rk)
-        b.append(f"<div class='blocco'><h4>A rischio ammonizione</h4>{righe}</div>")
+        righe = ""
+        for x in rk:
+            n, s, g, p = x[0], x[1], x[2], x[3]
+            fpg = x[4] if len(x) > 4 else None
+            plu = x[6] if len(x) > 6 else None
+            righe += (f"<div class='sub2'>• {_esc(n)} ({_esc(s)}): {g} gialli — "
+                      f"ammonito nel {p:.0f}%")
+            if fpg is not None:
+                righe += f" · {fpg} falli/gara"
+            if plu is not None:
+                righe += f" · <b>PLUS {plu:.0f}%</b>"
+            righe += "</div>"
+        b.append(f"<div class='blocco'><h4>A rischio ammonizione (+ PLUS = "
+                 f"ammonito oppure 2+ falli)</h4>{righe}</div>")
     return "".join(b)
 
 

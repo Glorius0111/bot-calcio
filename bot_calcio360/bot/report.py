@@ -312,8 +312,11 @@ def genera_report(match: dict) -> ReportFinale:
         righe.append("")
         righe.append("A RISCHIO AMMONIZIONE — i più fallosi:")
         for r in rischio[:4]:
-            righe.append(f"  {r['nome']} ({r['squadra']}): {r['gialli']} gialli -> "
-                         f"ammonito nel {r['prob']:.0f}% dei casi.")
+            base = (f"  {r['nome']} ({r['squadra']}): {r['gialli']} gialli -> "
+                    f"ammonito nel {r['prob']:.0f}% dei casi.")
+            if r.get("plus") is not None:
+                base += (f" PLUS (ammonito oppure 2+ falli): {r['plus']:.0f}% su 100.")
+            righe.append(base)
     testo = "\n".join(righe)
 
     return ReportFinale(
