@@ -257,6 +257,7 @@ def _dettaglio(r: dict, barra) -> str:
                 righe += f" · <b>QUASI PLUS {qua:.0f}%</b> (+2 falli)"
             righe += "</div>"
         b.append(f"<div class='blocco'><h4>A rischio ammonizione</h4>{righe}</div>")
+    b.append(_valore_block(r, d))
     return "".join(b)
 
 
