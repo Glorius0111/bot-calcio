@@ -361,7 +361,10 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
         d = r.get("det", {})
         sched.append({"p": r["partita"], "a": d.get("scala_a", {}),
                       "t": d.get("scala_t", {}), "g": d.get("scala_g", {}),
-                      "f": d.get("scala_f", {}), "o": d.get("scala_o", {})})
+                      "f": d.get("scala_f", {}), "o": d.get("scala_o", {}),
+                      "ea": d.get("ang", 0), "et": d.get("tiri", 0),
+                      "eg": d.get("gol", 0), "ef": d.get("falli_tot", 0),
+                      "eo": d.get("off_tot", 0)})
     p.append(f"<h2>Chat schedina</h2>"
              f"<div class='blocco' style='max-width:640px'>"
              f"<div id='schbox' style='min-height:80px'></div>"
@@ -382,9 +385,10 @@ list.forEach(function(x){var b=document.createElement('button');b.textContent=x[
 b.onclick=x[1];w.appendChild(b);});}
 function fair(p){return 100/p;}
 function lineeUtili(){var out=[];SCHED.forEach(function(m){
-[['Ang',m.a],['Tiri',m.t],['Gol',m.g],['Falli',m.f],['Off',m.o]].forEach(function(kv){
-var n=kv[0],sc=kv[1]||{};Object.keys(sc).forEach(function(s){
-var p=sc[s];if(p>=sch.banda[0]&&p<=sch.banda[1])out.push({m:m.p,n:n,s:s,p:p,f:100/p});});});});
+[['Ang',m.a,m.ea],['Tiri',m.t,m.et],['Gol',m.g,m.eg],['Falli',m.f,m.ef],['Offside',m.o,m.eo]].forEach(function(kv){
+var n=kv[0],sc=kv[1]||{},ea=kv[2];Object.keys(sc).forEach(function(s){
+var p=sc[s];if(p>=sch.banda[0]&&p<=sch.banda[1])out.push({m:m.p,n:n,s:s,p:p,f:100/p,
+w:'attesi '+ea+' in questa partita. '});});});});
 return out;}
 function schStart(t){sch.tipo=t;sch.fase=1;
 schAdd(t==='s'?'Singole da raddoppio: quota vicina a 2.00. Quanto giochi in euro?':'Multipla: combino piu linee per una quota alta. Quanto giochi in euro?');
@@ -401,16 +405,21 @@ schBtns([['Prudente',function(){sch.banda=[62,78];schAdd('Prudente.','u');schPro
 function schProponi(){var pool=lineeUtili();
 if(!pool.length){schAdd('Con questi filtri non trovo linee: prova un altro rischio.');schRischio();return;}
 pool.sort(function(a,b){return Math.abs(a.p-65)-Math.abs(b.p-65);});
+pool=pool.concat(pool.splice(0,sch.idx%Math.max(1,pool.length)));sch.idx++;
 var slip=[],q=1;
 if(sch.tipo==='s'){
-var cand=pool.map(function(x){return {x:x,d:Math.abs(x.f-2.0)};}).sort(function(a,b){return a.d-b.d;});
+var cand=pool.filter(function(x){return x.f>=1.70&&x.f<=2.60;})
+.map(function(x){return {x:x,d:Math.abs(x.f-2.0)};}).sort(function(a,b){return a.d-b.d;});
+if(!cand.length){schAdd('Nessuna singola vicina al raddoppio con questo rischio: prova Audace o Multipla.');return;}
 slip=cand.slice(0,3).map(function(c){return c.x;});
 schAdd('Ecco 3 singole da raddoppio (quota vicina a 2.00):');
-slip.forEach(function(x,i){schAdd((i+1)+'. '+x.m+' — '+x.n+' Over '+x.s+' al '+x.p.toFixed(0)+'% (equa '+x.f.toFixed(2)+') → vincita con '+sch.stake+' euro: '+(sch.stake*x.f).toFixed(2)+' euro');});
+slip.forEach(function(x,i){schAdd((i+1)+'. '+x.m+' — '+x.n+' Over '+x.s+' al '+x.p.toFixed(0)+'% (equa '+x.f.toFixed(2)+'). Perché: '+x.w+' Vincita con '+sch.stake+' euro: '+(sch.stake*x.f).toFixed(2)+' euro');});
 }else{
-for(var i=0;i<pool.length&&slip.length<5&&q<12;i++){slip.push(pool[i]);q*=pool[i].f;}
+var poolm=pool.filter(function(x){return x.f>=1.25&&x.f<=2.20;});
+if(!poolm.length){schAdd('Nessuna linea utile per la multipla: prova un altro rischio.');return;}
+for(var i=0;i<poolm.length&&slip.length<5&&q<12;i++){slip.push(poolm[i]);q*=poolm[i].f;}
 schAdd('Multipla da '+slip.length+' eventi, quota totale circa '+q.toFixed(2)+':');
-slip.forEach(function(x,i){schAdd((i+1)+'. '+x.m+' — '+x.n+' Over '+x.s+' al '+x.p.toFixed(0)+'%');});
+slip.forEach(function(x,i){schAdd((i+1)+'. '+x.m+' — '+x.n+' Over '+x.s+' al '+x.p.toFixed(0)+'%. Perché: '+x.w);});
 schAdd('Vincita con '+sch.stake+' euro: '+(sch.stake*q).toFixed(2)+' euro');}
 schAdd('ATTENZIONE: dati ancora provvisori (campione sotto 6 partite). Gioca poco e responsabilmente.');
 schBtns([['Altra proposta',function(){schProponi();}],['Ricomincia',schInit]]);}
