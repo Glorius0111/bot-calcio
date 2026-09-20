@@ -55,6 +55,7 @@ class ReportFinale:
     scala_angoli: dict = field(default_factory=dict)
     scala_tiri: dict = field(default_factory=dict)
     scala_gol: dict = field(default_factory=dict)
+    scala_falli: dict = field(default_factory=dict)
     idea: str = ""
     giocabili: list = field(default_factory=list)
     marcatori: list = field(default_factory=list)
@@ -341,6 +342,7 @@ def genera_report(match: dict) -> ReportFinale:
         off_tot=round(off_tot, 2), off_o35=round(p_o35 or 0, 1),
         scala_off=sc_o or {},
         scala_angoli=sc_a, scala_tiri=sc_t, scala_gol=sc_g,
+        scala_falli=sc_f,
         idea=idea, giocabili=giocabili,
         marcatori=marc, giudizio=giudizio, testo=testo,
     )
