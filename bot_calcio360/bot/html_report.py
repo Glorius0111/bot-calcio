@@ -374,7 +374,6 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
 
 
 SCHED_JS = """
-var SCHED=[];
 var sch={fase:0,tipo:null,stake:10,banda:[55,78],lista:[],idx:0};
 function schAdd(testo,chi){var d=document.createElement('div');d.className='msg '+(chi?'u':'b');
 d.textContent=testo;var box=document.getElementById('schbox');box.appendChild(d);box.scrollTop=1e6;}
