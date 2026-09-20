@@ -204,7 +204,7 @@ def genera_report(match: dict) -> ReportFinale:
     # la migliore = la più vicina al 65% (sopra pagano poco, sotto è rischioso)
     tutte = []
     for nome, scala in (("Ang", sc_a), ("Tiri", sc_t), ("Gol", sc_g),
-                        ("Falli", sc_f), ("Off", sc_o or {})):
+                        ("Falli", sc_f), ("Offside", sc_o or {})):
         for s, p in scala.items():
             if 55.0 <= p <= 78.0:
                 tutte.append((nome, s, p))
