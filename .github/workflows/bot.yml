@@ -26,16 +26,15 @@ jobs:
         run: |
           cd bot_calcio360
           python3 batch_main.py --auto --out reports_auto
-      - name: Pubblica pagina aggiornata (ramo site, mai conflitti)
+      - name: Pubblica su Netlify via API (zero conflitti)
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          git config user.name "bot-calcio"
-          git config user.email "bot-calcio@local"
-          git add -f bot_calcio360/reports_auto/_report.html
-          git diff --cached --quiet && exit 0
-          git commit -m "auto: report $(date -u +%Y-%m-%d-%H%M)"
-          git fetch origin site || true
-          git merge origin/site --no-edit -m "merge site" || true
-          git checkout --ours -- bot_calcio360/reports_auto/_report.html || true
-          git add -f bot_calcio360/reports_auto/_report.html || true
-          git commit --no-edit --allow-empty || true
-          git push origin HEAD:site
+          cd bot_calcio360/reports_auto
+          zip -qr /tmp/site.zip _report.html
+          curl -s -H "Content-Type: application/zip" \
+               -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+               --data-binary @/tmp/site.zip \
+               "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/deploys" | head -c 300
+          echo
