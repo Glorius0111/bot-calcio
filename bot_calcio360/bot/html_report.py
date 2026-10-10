@@ -424,7 +424,10 @@ slip.forEach(function(x,i){schAdd((i+1)+'. '+x.m+' — '+motivo(x)+' Equa '+x.f.
 }else{
 var poolm=pool.filter(function(x){return x.f>=1.25&&x.f<=2.20;});
 if(!poolm.length){schAdd('Nessuna linea utile per la multipla qui.');return;}
-for(var i=0;i<poolm.length&&slip.length<5&&q<12;i++){slip.push(poolm[i]);q*=poolm[i].f;}
+var perM={};
+for(var i=0;i<poolm.length&&slip.length<5&&q<12;i++){
+var c=(perM[poolm[i].m]||0);if(c>=2)continue;perM[poolm[i].m]=c+1;
+slip.push(poolm[i]);q*=poolm[i].f;}
 var fmin=Math.min.apply(null,slip.map(function(x){return x.p;}));
 schAdd('MULTIPLA da '+slip.length+' eventi — quota totale circa '+q.toFixed(2)+' — fiducia '+(fmin>=65?'ALTA':(fmin>=58?'MEDIA':'BASSA'))+':');
 slip.forEach(function(x,i){schAdd((i+1)+'. '+x.m+' — '+motivo(x));});
