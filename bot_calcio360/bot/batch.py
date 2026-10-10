@@ -115,6 +115,7 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
             "gol_gg": rep.gol_gg,
             "idea": rep.idea,
             "giocabili": rep.giocabili,
+            "giocata": rep.giocata,
             "filtro_ok": rep.filtro_ok,
             "giocate": (m.get("partite_casa", 0), m.get("partite_trasferta", 0)),
             "fair": {

@@ -58,6 +58,10 @@ class ReportFinale:
     scala_falli: dict = field(default_factory=dict)
     idea: str = ""
     giocabili: list = field(default_factory=list)
+    giocata: str = ""
+    giocata_alt: str = ""
+    combo: str = ""
+    motivo: str = ""
     marcatori: list = field(default_factory=list)
     giudizio: str = ""
     testo: str = ""
@@ -81,6 +85,21 @@ def linea_quotabile(nome: str, scala: dict,
         return None
     s, p = min(cand, key=lambda x: (abs(x[1] - target), -x[0]))
     return (nome, s, p)
+
+
+def _motivo_tipster(match: dict, sem: str, scelta: str) -> str:
+    """Perché questa giocata, in parole semplici."""
+    ctx = match.get("contesto") or {}
+    pezzi = []
+    if sem == "CONSIGLIATA":
+        pezzi.append("il contesto premia la casa (forma/precedenti)")
+    elif sem == "EVITARE":
+        pezzi.append("il contesto invita alla prudenza (forma/precedenti contro)")
+    else:
+        pezzi.append("contesto equilibrato, decide il modello")
+    note = (ctx.get("note") or [])[:2]
+    pezzi.extend(note)
+    return " ".join(p.strip().rstrip(".") for p in [f"scelgo {scelta} perché"] + pezzi) + "."
 
 
 def giudizio_sintetico(filtro_ok: bool, prob_list: list[float],
@@ -212,6 +231,63 @@ def genera_report(match: dict) -> ReportFinale:
     giocabili = [f"{n} O{s} ({p:.0f}%)" for n, s, p in tutte]
     idea = giocabili[0] if giocabili else ""
 
+    # GIOCATA DEL TIPSTER: righe esplicite con motivazione.
+    # Regole dichiarate: base = vicinanza al 65%; bonus se allineata al contesto
+    # (CONSIGLIATA premia la casa: 1, 1X, DNB 1, gol casa; EVITARE premia
+    # l'ospite e la prudenza: 2, X2, DNB 2, Under, NG, X).
+    def _q(p):
+        return round(100 / p, 2) if p and p > 0 else 0
+
+    cand = []  # (etichetta, prob, lato)
+    for n, s, p in tutte:
+        cand.append((f"{n} Over {s}", p, "over"))
+    for lab, p, lato in (
+            ("1 (casa)", p1, "casa"), ("X (pareggio)", px, "x"),
+            ("2 (ospite)", p2, "ospite"),
+            ("Doppia 1X", dc_1x, "casa"), ("Doppia 12", dc_12, "neutra"),
+            ("Doppia X2", dc_x2, "ospite"),
+            ("DNB 1 (rimborso se X)", p1 / max(1, p1 + px) * 100 if (p1 + px) else 0, "casa"),
+            ("DNB 2 (rimborso se X)", p2 / max(1, p2 + px) * 100 if (p2 + px) else 0, "ospite"),
+            ("Under 2.5 gol", 100 - p_25, "under"),
+            ("Under 3.5 gol", 100 - p_35, "under"),
+            ("NG (una non segna)", 100 - p_gg, "under"),
+            (f"Casa Over 0.5", ch_o05, "casa"), (f"Casa Over 1.5", ch_o15, "casa"),
+            (f"Ospite Over 0.5", ao_o05, "ospite"), (f"Ospite Over 1.5", ao_o15, "ospite")):
+        if 45.0 <= p <= 82.0:
+            cand.append((lab, round(p, 1), lato))
+    sem = (match.get("contesto") or {}).get("semaforo", "NEUTRA")
+
+    def _score(item):
+        lab, p, lato = item
+        d = abs(p - 65.0)
+        if sem == "CONSIGLIATA" and lato == "casa":
+            d -= 6
+        if sem == "EVITARE" and lato in ("ospite", "under", "x"):
+            d -= 6
+        if sem == "EVITARE" and lato == "casa":
+            d += 8
+        return d
+
+    cand.sort(key=_score)
+    giocata, giocata_alt, combo = "", "", ""
+    motivo_g = ""
+    if cand:
+        lab, p, lato = cand[0]
+        giocata = f"{lab} ({p:.0f}%, equa {_q(p)})"
+        motivo_g = _motivo_tipster(match, sem, lab)
+        resto = [c for c in cand[1:] if c[0].split(" (")[0] != lab.split(" (")[0]]
+        if resto:
+            lab2, p2b, _ = resto[0]
+            giocata_alt = f"{lab2} ({p2b:.0f}%, equa {_q(p2b)})"
+        if len(cand) > 1:
+            # doppia: principale + migliore di altro mercato (stima indipendenza)
+            for lab3, p3b, _ in resto:
+                if lab3.split()[0] != lab.split()[0]:
+                    pc = round(p / 100 * p3b / 100 * 100, 1)
+                    if 40 <= pc <= 75:
+                        combo = (f"{lab} + {lab3} ({pc:.0f}%, equa {_q(pc)})")
+                        break
+
     # Marcatori
     marc = analizza_marcatori(match.get("marcatori", []))
 
@@ -298,6 +374,14 @@ def genera_report(match: dict) -> ReportFinale:
         if altre:
             righe.append("Altre linee che valgono: " + " | ".join(altre))
         righe.append("")
+    if giocata:
+        righe.append(f"GIOCATA DEL TIPSTER: {giocata}")
+        righe.append(f"Perché: {motivo_g}")
+        if giocata_alt:
+            righe.append(f"Alternativa: {giocata_alt}")
+        if combo:
+            righe.append(f"Doppia: {combo} (stima come se i due esiti fossero indipendenti)")
+        righe.append("")
     righe.append("MARCATORI — chi segna più spesso:")
     if marc:
         for m in marc[:6]:
@@ -351,5 +435,6 @@ def genera_report(match: dict) -> ReportFinale:
         scala_angoli=sc_a, scala_tiri=sc_t, scala_gol=sc_g,
         scala_falli=sc_f,
         idea=idea, giocabili=giocabili,
+        giocata=giocata, giocata_alt=giocata_alt, combo=combo, motivo=motivo_g,
         marcatori=marc, giudizio=giudizio, testo=testo,
     )

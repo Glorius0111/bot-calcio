@@ -350,6 +350,9 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
             f"{barra('GG', r.get('gol_gg', 0))}")
         if r.get("idea"):
             p.append(f"<div class='idea'>La giocata piu' sensata: <b>{_esc(r['idea'])}</b></div>")
+        if r.get("giocata"):
+            p.append(f"<div class='idea' style='border-color:#1f7a3d'>Tipster gioca: "
+                     f"<b>{_esc(r['giocata'])}</b></div>")
         gio = r.get("giocabili", [])[1:4]
         if gio:
             p.append("<div class='chips'>" + "".join(
