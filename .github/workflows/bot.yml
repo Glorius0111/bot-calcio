@@ -1,6 +1,10 @@
-name: Aggiorna Bot Calcio 360
+name: "BOT 360 v2 - aggiorna e pubblica"
 
 # Gira da solo 2 volte al giorno, rigenera la pagina e Netlify la pubblica.
+# Un solo giro alla volta (cancella quello precedente se parte un altro).
+concurrency:
+  group: bot-360-v2
+  cancel-in-progress: true
 on:
   schedule:
     - cron: "0 7 * * *"
