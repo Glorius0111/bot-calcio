@@ -66,6 +66,7 @@ ALIAS = {
     "toulousefc": "toulouse", "estactroyes": "troyes",
     "havreac": "lehavre", "lehavreac": "lehavre",
     "athleticclub": "athleticbilbao", "athletic": "athleticbilbao",
+    "sslazio": "lazio",
     "fcporto": "porto", "sportingcp": "sporting", "sportingbraga": "braga",
     "academicoviseu": "acviseu",
     "ajaxamsterdam": "ajax", "azalkmaar": "az", "fctwente": "twente",
@@ -227,6 +228,11 @@ def arricchisci(partite: list[dict], lega: str) -> tuple[list[dict], dict]:
         gialli = scarica_gialli(key)
     except Exception:
         gialli = {}
+    try:
+        from .contesto import scarica_contesto, contesto_partita
+        contesto_tab = scarica_contesto(key)
+    except Exception:
+        contesto_tab = {}
     for m in partite:
         ch = _trova(dati["corners_home"], m["casa"])
         ca = _trova(dati["corners_away"], m["trasferta"])
@@ -249,6 +255,13 @@ def arricchisci(partite: list[dict], lega: str) -> tuple[list[dict], dict]:
                     m.get("partite_casa", 0), m.get("partite_trasferta", 0))
             except Exception:
                 m["rischio"] = []
+        if contesto_tab:
+            try:
+                m["contesto"] = contesto_partita(
+                    m["casa"], m["trasferta"], contesto_tab)
+            except Exception:
+                m["contesto"] = {"semaforo": "NEUTRA", "note": [],
+                                 "forma_casa": "", "forma_osp": "", "h2h": "-"}
         # PLUS quasi-ammonito: ammonito OPPURE 2+ falli (reale StatMuse).
         # Il calcolo combinato col sostituto avviene in enrich_full (statmuse),
         # che ha anche falli/gialli di squadra. Qui salvo i falli/gara.

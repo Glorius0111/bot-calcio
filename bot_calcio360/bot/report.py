@@ -320,6 +320,13 @@ def genera_report(match: dict) -> ReportFinale:
             if r.get("quasi") is not None:
                 base += f" QUASI PLUS (ammonito o 2 falli lui/sub): {r['quasi']:.0f}% su 100."
             righe.append(base)
+    ctx = match.get("contesto")
+    if ctx:
+        righe.append("")
+        righe.append(f"OCCHIO DELL'ESPERTO — semaforo: {ctx.get('semaforo', 'NEUTRA')}")
+        for n in ctx.get("note", [])[:4]:
+            righe.append(f"  • {n}")
+        righe.append("  (Il semaforo non cambia le probabilità: dice solo se il contesto aiuta.)")
     testo = "\n".join(righe)
 
     return ReportFinale(

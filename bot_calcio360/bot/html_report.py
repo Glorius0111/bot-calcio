@@ -260,6 +260,11 @@ def _dettaglio(r: dict, barra) -> str:
                 righe += f" · <b>QUASI PLUS {qua:.0f}%</b> (+2 falli)"
             righe += "</div>"
         b.append(f"<div class='blocco'><h4>A rischio ammonizione</h4>{righe}</div>")
+    ctx = d.get("contesto")
+    if ctx:
+        note = "".join(f"<div class='sub2'>• {_esc(n)}</div>" for n in ctx.get("note", [])[:4])
+        b.append(f"<div class='blocco'><h4>Occhio dell'esperto — {_esc(ctx.get('semaforo', ''))}</h4>{note}"
+                 f"<div class='sub2'>Il semaforo non cambia le probabilità: dice solo se il contesto aiuta.</div></div>")
     b.append(_valore_block(r, d))
     return "".join(b)
 
@@ -353,6 +358,8 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
             p.append(f"<div class='gol'>Marcatore: {_esc(r['top_marcatore'])}</div>")
         if r.get("rischio_top"):
             p.append(f"<div class='gol'>A rischio giallo: <b>{_esc(r['rischio_top'])}</b></div>")
+        if r.get("semaforo"):
+            p.append(f"<div class='gol'>Esperto: <b>{_esc(r['semaforo'])}</b></div>")
         p.append(f"<details><summary>Dettaglio completo</summary>{_dettaglio(r, barra)}</details></div>")
     p.append(f"</div><script>{JS}</script>")
     import json as _json
@@ -366,7 +373,8 @@ def genera_html(risultati: list[dict], out_dir: str | Path,
                       "ea": d.get("ang", 0), "et": d.get("tiri", 0),
                       "eg": d.get("gol", 0), "ef": d.get("falli_tot", 0),
                       "eo": d.get("off_tot", 0),
-                      "ok": bool(r.get("filtro_ok")), "gc": min(gc[0], gc[1])})
+                      "ok": bool(r.get("filtro_ok")), "gc": min(gc[0], gc[1]),
+                      "sem": r.get("semaforo", "")})
     p.append(f"<h2>Chat schedina</h2>"
              f"<div class='blocco' style='max-width:640px'>"
              f"<div id='schbox' style='min-height:80px'></div>"
@@ -387,7 +395,7 @@ list.forEach(function(x){var b=document.createElement('button');b.textContent=x[
 b.onclick=x[1];w.appendChild(b);});}
 function fiducia(p,gc){if(p>=65&&gc>=6)return 'ALTA';if(p>=60&&gc>=5)return 'MEDIA';return 'BASSA';}
 function lineeUtili(){var out=[];SCHED.forEach(function(m){
-if(sch.soloOk&&!m.ok)return;
+if(sch.soloOk&&(!m.ok||m.sem==='EVITARE'))return;
 [['Ang',m.a,m.ea],['Tiri',m.t,m.et],['Gol',m.g,m.eg],['Falli',m.f,m.ef],['Offside',m.o,m.eo]].forEach(function(kv){
 var n=kv[0],sc=kv[1]||{},ea=kv[2];Object.keys(sc).forEach(function(s){
 var p=sc[s];if(p>=sch.banda[0]&&p<=sch.banda[1])out.push({m:m.p,n:n,s:s,p:p,f:100/p,ea:ea,gc:m.gc});});});});
