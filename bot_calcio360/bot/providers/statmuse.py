@@ -90,6 +90,8 @@ def ask(slug: str, league_hint: str = None) -> tuple[float | None, str]:
         return None, raw
     if "couldn't find" in raw.lower() or "instant answers to your" in raw.lower():
         return None, raw
+    if "don't have anything for this season" in raw.lower():
+        return None, raw  # solo dati vecchi: mai usarli per il 2026/27
     if league_hint and league_hint not in raw.lower():
         return None, raw  # squadra sbagliata (es. Inter Miami invece di Inter)
     m = re.search(r"(?:have|has|had|tallied) ([\d.]+) ", raw)
@@ -144,7 +146,8 @@ def team_enrich(squadra: str, venue: str, giocate: int,
 
 def player_enrich(nome: str, lega_key: str = None, hint: str = None) -> dict:
     """xG per 90 + rigori reali del giocatore."""
-    if not nome or len(nome.strip()) < 3 or nome.strip().lower() in ("n/a", "unknown"):
+    _pulito = (nome or "").replace(".", "").strip().lower()
+    if not nome or len(nome.strip()) < 3 or _pulito in ("na", "n/a", "unknown", "tbc"):
         return {"xg_per90": None, "penalties": None}
     p = slug_player(nome)
     hint = hint or LEAGUE_HINT.get(lega_key or "")

@@ -41,13 +41,17 @@ def analizza_marcatori(giocatori: list[dict]) -> list[Marcatore]:
     """giocatori: [{nome, squadra, xg_per90, minuti_previsti, rigorista}]. Ordinati per prob decrescente."""
     out: list[Marcatore] = []
     for g in giocatori:
+        nome = (g.get("nome", "") or "").strip()
+        if len(nome) < 3 or nome.replace(".", "").strip().lower() in (
+                "na", "n/a", "unknown", "tbc"):
+            continue  # righe spazzatura delle fonti (es. "N.A")
         xg_eff, p = prob_marcatura(
             float(g.get("xg_per90", 0.0)),
             int(g.get("minuti_previsti", 90)),
             bool(g.get("rigorista", False)),
         )
         out.append(Marcatore(
-            nome=g.get("nome", "?"),
+            nome=nome,
             squadra=g.get("squadra", "?"),
             xg_per90=float(g.get("xg_per90", 0.0)),
             minuti_previsti=int(g.get("minuti_previsti", 90)),
