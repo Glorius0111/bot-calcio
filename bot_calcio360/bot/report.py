@@ -269,12 +269,32 @@ def genera_report(match: dict) -> ReportFinale:
         return d
 
     cand.sort(key=_score)
+    if not cand:
+        # Fallback onesto: niente in zona 55-82, prendi la linea più vicina
+        # al 65% comunque e segnala prudenza esplicita.
+        tutte2 = []
+        for n, s, p in tutte:
+            tutte2.append((f"{n} Over {s}", p, "over"))
+        for lab, p, lato in (
+                ("1 (casa)", p1, "casa"), ("X (pareggio)", px, "x"),
+                ("2 (ospite)", p2, "ospite"),
+                ("Under 2.5 gol", 100 - p_25, "under")):
+            tutte2.append((lab, round(p, 1), lato))
+        tutte2.sort(key=lambda x: (abs(x[1] - 65.0), -x[1]))
+        if tutte2:
+            lab, p, lato = tutte2[0]
+            cand = [(lab, p, lato)]
+            motivo_extra = " (fuori zona ideale: massima prudenza)"
+        else:
+            motivo_extra = ""
+    else:
+        motivo_extra = ""
     giocata, giocata_alt, combo = "", "", ""
     motivo_g = ""
     if cand:
         lab, p, lato = cand[0]
         giocata = f"{lab} ({p:.0f}%, equa {_q(p)})"
-        motivo_g = _motivo_tipster(match, sem, lab)
+        motivo_g = _motivo_tipster(match, sem, lab) + motivo_extra
         resto = [c for c in cand[1:] if c[0].split(" (")[0] != lab.split(" (")[0]]
         if resto:
             lab2, p2b, _ = resto[0]
