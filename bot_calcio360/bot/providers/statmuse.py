@@ -210,6 +210,7 @@ def enrich_full(partite: list[dict], lega_key: str = None,
             yc_a = round(a["yc"] + (a.get("rc") or 0), 2)
             m["nota_cartellini"] = (f"{m['casa']} {yc_h}/gara, "
                                     f"{m['trasferta']} {yc_a}/gara")
+            m["cartellini_squadre"] = {"casa": yc_h, "ospite": yc_a}
 
         if h.get("off_for") is not None and a.get("off_for") is not None:
             m["fuorigioco"] = {

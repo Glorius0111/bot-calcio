@@ -34,6 +34,8 @@ class ReportFinale:
     gol_o25: float = 0.0
     gol_o35: float = 0.0
     gol_gg: float = 0.0
+    supercombo: str = ""
+    supercombo_prob: float = 0.0
     uno: float = 0.0
     ics: float = 0.0
     due: float = 0.0
@@ -198,7 +200,26 @@ def genera_report(match: dict) -> ReportFinale:
     ao_o15 = prob_over(st_g.atteso_ospite, 1.5) * 100
 
     # Scale di linee + linea quotabile (zona 55-78%: quota giocabile)
-    sc_a = scala_over(st_a.totale, [8.5, 9.5, 10.5, 11.5, 12.5, 13.5])
+    # SUPER COMBO stile book: Angoli Over 7.5 + entrambe cartellino + GG.
+    # Entrambe cartellino dai cartellini veri per squadra (Poisson).
+    def _q(p):
+        return round(100 / p, 2) if p and p > 0 else 0
+
+    sc_a = scala_over(st_a.totale, [7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5])
+    p_a75 = sc_a[7.5]
+    yc = match.get("cartellini_squadre")
+    if yc:
+        p_card_h = (1 - math.exp(-max(0.01, yc.get("casa", 0)))) * 100
+        p_card_a = (1 - math.exp(-max(0.01, yc.get("ospite", 0)))) * 100
+        p_entrambi = p_card_h / 100 * p_card_a / 100 * 100
+    else:
+        p_card_h = p_card_a = p_entrambi = 0.0
+    p_super = p_a75 / 100 * p_entrambi / 100 * p_gg / 100 * 100
+    supercombo = ""
+    if p_a75 and p_entrambi and p_gg:
+        supercombo = (f"Angoli Over 7.5 ({p_a75:.0f}%) + entrambe cartellino "
+                      f"({p_entrambi:.0f}%) + GG ({p_gg:.0f}%) = "
+                      f"{p_super:.1f}% (equa {_q(p_super)})")
     sc_a_casa = scala_over(st_a.atteso_casa, [4.5, 5.5, 6.5, 7.5])
     sc_a_osp = scala_over(st_a.atteso_ospite, [4.5, 5.5, 6.5, 7.5])
     sc_t = scala_over(st_t.totale, [8.5, 9.5, 10.5, 11.5, 13.5])
@@ -234,9 +255,6 @@ def genera_report(match: dict) -> ReportFinale:
     # GIOCATA DEL TIPSTER: solo angoli (tot/casa/ospite) e tiri totali.
     # Regole dichiarate: base = vicinanza al 65% in zona 55-78%;
     # bonus se allineata al contesto (casa con CONSIGLIATA, ecc.).
-    def _q(p):
-        return round(100 / p, 2) if p and p > 0 else 0
-
     cand = []  # (etichetta, prob, mercato)
     for n, s, p in tutte:
         if n in ("Ang", "Tiri"):
@@ -387,6 +405,11 @@ def genera_report(match: dict) -> ReportFinale:
         if combo:
             righe.append(f"Doppia: {combo} (stima come se i due esiti fossero indipendenti)")
         righe.append("")
+    if supercombo:
+        righe.append(f"SUPER COMBO stile book: {supercombo}")
+        righe.append("  (stima con esiti indipendenti: nella stessa partita sono correlati, "
+                     "la quota vera del book sarà più bassa)")
+        righe.append("")
     righe.append("MARCATORI — chi segna più spesso:")
     if marc:
         for m in marc[:6]:
@@ -441,5 +464,6 @@ def genera_report(match: dict) -> ReportFinale:
         scala_falli=sc_f,
         idea=idea, giocabili=giocabili,
         giocata=giocata, giocata_alt=giocata_alt, combo=combo, motivo=motivo_g,
+        supercombo=supercombo, supercombo_prob=round(p_super, 1),
         marcatori=marc, giudizio=giudizio, testo=testo,
     )
