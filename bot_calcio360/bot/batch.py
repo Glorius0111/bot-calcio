@@ -184,5 +184,14 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
     righe.append("PROVVISORIO = dati reali ma campione < 6: nessun pronostico. "
                  "ALTA/BUONA/MEDIA = giudizi operativi.")
     (out / "_classifica.txt").write_text("\n".join(righe), encoding="utf-8")
-    genera_html(risultati, out, risultati_giocati=risultati_giocati or [])
+    dest = genera_html(risultati, out, risultati_giocati=risultati_giocati or [])
+    try:
+        import shutil
+        shutil.copyfile(dest, out / "index.html")  # il dominio apre la pagina da solo
+        hdr = out / "_headers"
+        if not hdr.exists():
+            hdr.write_text("/*\n  Content-Type: text/html; charset=utf-8\n",
+                           encoding="utf-8")
+    except OSError:
+        pass
     return risultati
