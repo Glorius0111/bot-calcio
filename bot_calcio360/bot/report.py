@@ -231,59 +231,44 @@ def genera_report(match: dict) -> ReportFinale:
     giocabili = [f"{n} O{s} ({p:.0f}%)" for n, s, p in tutte]
     idea = giocabili[0] if giocabili else ""
 
-    # GIOCATA DEL TIPSTER: righe esplicite con motivazione.
-    # Regole dichiarate: base = vicinanza al 65%; bonus se allineata al contesto
-    # (CONSIGLIATA premia la casa: 1, 1X, DNB 1, gol casa; EVITARE premia
-    # l'ospite e la prudenza: 2, X2, DNB 2, Under, NG, X).
+    # GIOCATA DEL TIPSTER: solo angoli (tot/casa/ospite) e tiri totali.
+    # Regole dichiarate: base = vicinanza al 65% in zona 55-78%;
+    # bonus se allineata al contesto (casa con CONSIGLIATA, ecc.).
     def _q(p):
         return round(100 / p, 2) if p and p > 0 else 0
 
-    cand = []  # (etichetta, prob, lato)
+    cand = []  # (etichetta, prob, mercato)
     for n, s, p in tutte:
-        cand.append((f"{n} Over {s}", p, "over"))
-    for lab, p, lato in (
-            ("1 (casa)", p1, "casa"), ("X (pareggio)", px, "x"),
-            ("2 (ospite)", p2, "ospite"),
-            ("Doppia 1X", dc_1x, "casa"), ("Doppia 12", dc_12, "neutra"),
-            ("Doppia X2", dc_x2, "ospite"),
-            ("DNB 1 (rimborso se X)", p1 / max(1, p1 + px) * 100 if (p1 + px) else 0, "casa"),
-            ("DNB 2 (rimborso se X)", p2 / max(1, p2 + px) * 100 if (p2 + px) else 0, "ospite"),
-            ("Under 2.5 gol", 100 - p_25, "under"),
-            ("Under 3.5 gol", 100 - p_35, "under"),
-            ("NG (una non segna)", 100 - p_gg, "under"),
-            (f"Casa Over 0.5", ch_o05, "casa"), (f"Casa Over 1.5", ch_o15, "casa"),
-            (f"Ospite Over 0.5", ao_o05, "ospite"), (f"Ospite Over 1.5", ao_o15, "ospite")):
-        if 45.0 <= p <= 82.0:
-            cand.append((lab, round(p, 1), lato))
+        if n in ("Ang", "Tiri"):
+            cand.append((f"{n} Over {s}", p, "tot"))
+    for s, p in sc_a_casa.items():
+        if 55.0 <= p <= 78.0:
+            cand.append((f"Ang casa Over {s}", p, "casa"))
+    for s, p in sc_a_osp.items():
+        if 55.0 <= p <= 78.0:
+            cand.append((f"Ang ospite Over {s}", p, "ospite"))
     sem = (match.get("contesto") or {}).get("semaforo", "NEUTRA")
 
     def _score(item):
-        lab, p, lato = item
+        lab, p, mercato = item
         d = abs(p - 65.0)
-        if sem == "CONSIGLIATA" and lato == "casa":
+        if sem == "CONSIGLIATA" and mercato == "casa":
             d -= 6
-        if sem == "EVITARE" and lato in ("ospite", "under", "x"):
+        if sem == "EVITARE" and mercato == "ospite":
             d -= 6
-        if sem == "EVITARE" and lato == "casa":
+        if sem == "EVITARE" and mercato == "casa":
             d += 8
         return d
 
     cand.sort(key=_score)
     if not cand:
-        # Fallback onesto: niente in zona 55-82, prendi la linea più vicina
-        # al 65% comunque e segnala prudenza esplicita.
-        tutte2 = []
-        for n, s, p in tutte:
-            tutte2.append((f"{n} Over {s}", p, "over"))
-        for lab, p, lato in (
-                ("1 (casa)", p1, "casa"), ("X (pareggio)", px, "x"),
-                ("2 (ospite)", p2, "ospite"),
-                ("Under 2.5 gol", 100 - p_25, "under")):
-            tutte2.append((lab, round(p, 1), lato))
+        # Fallback onesto: la linea angoli/tiri più vicina al 65% comunque.
+        tutte2 = ([(f"Ang Over {s}", p, "tot") for _, s, p in tutte if _ == "Ang"]
+                  + [(f"Tiri Over {s}", p, "tot") for _, s, p in tutte if _ == "Tiri"])
         tutte2.sort(key=lambda x: (abs(x[1] - 65.0), -x[1]))
         if tutte2:
-            lab, p, lato = tutte2[0]
-            cand = [(lab, p, lato)]
+            lab, p, mercato = tutte2[0]
+            cand = [(lab, p, mercato)]
             motivo_extra = " (fuori zona ideale: massima prudenza)"
         else:
             motivo_extra = ""

@@ -28,13 +28,20 @@ def _fetch(url: str) -> str:
     import time as _t
     if f.exists() and _t.time() - f.stat().st_mtime < CACHE_TTL:
         return f.read_text(encoding="utf-8", errors="replace")
-    time.sleep(2)
-    out = subprocess.run(
-        ["curl", "-s", "--max-time", "40", "-A", UA, url],
-        capture_output=True, timeout=60)
-    html = out.stdout.decode("utf-8", errors="replace")
+    html = ""
+    for tent in range(3):
+        time.sleep(2 + tent * 5)
+        try:
+            out = subprocess.run(
+                ["curl", "-s", "--max-time", "100", "-A", UA, url],
+                capture_output=True, timeout=130)
+            html = out.stdout.decode("utf-8", errors="replace")
+            if len(html) >= 20000:
+                break
+        except Exception:
+            html = ""
     if len(html) < 20000:
-        raise RuntimeError(f"Statbunker vuoto: {url}")
+        raise RuntimeError(f"Statbunker vuoto dopo retry: {url}")
     f.write_text(html, encoding="utf-8", errors="replace")
     return html
 
