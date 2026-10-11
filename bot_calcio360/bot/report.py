@@ -200,13 +200,13 @@ def genera_report(match: dict) -> ReportFinale:
     ao_o15 = prob_over(st_g.atteso_ospite, 1.5) * 100
 
     # Scale di linee + linea quotabile (zona 55-78%: quota giocabile)
-    # SUPER COMBO stile book: Angoli Over 7.5 + entrambe cartellino + GG.
-    # Entrambe cartellino dai cartellini veri per squadra (Poisson).
+    # SUPER COMBO: 3 gambe DIVERSE scelte dall'analisi (non un modello fisso).
+    # Regole: linee in zona 50-80%, mercati diversi, le più vicine al 65%.
+    # Entrambe-cartellino dai gialli veri per squadra (Poisson).
     def _q(p):
         return round(100 / p, 2) if p and p > 0 else 0
 
     sc_a = scala_over(st_a.totale, [7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5])
-    p_a75 = sc_a[7.5]
     yc = match.get("cartellini_squadre")
     if yc:
         p_card_h = (1 - math.exp(-max(0.01, yc.get("casa", 0)))) * 100
@@ -214,12 +214,8 @@ def genera_report(match: dict) -> ReportFinale:
         p_entrambi = p_card_h / 100 * p_card_a / 100 * 100
     else:
         p_card_h = p_card_a = p_entrambi = 0.0
-    p_super = p_a75 / 100 * p_entrambi / 100 * p_gg / 100 * 100
+    p_super = 0.0
     supercombo = ""
-    if p_a75 and p_entrambi and p_gg:
-        supercombo = (f"Angoli Over 7.5 ({p_a75:.0f}%) + entrambe cartellino "
-                      f"({p_entrambi:.0f}%) + GG ({p_gg:.0f}%) = "
-                      f"{p_super:.1f}% (equa {_q(p_super)})")
     sc_a_casa = scala_over(st_a.atteso_casa, [4.5, 5.5, 6.5, 7.5])
     sc_a_osp = scala_over(st_a.atteso_ospite, [4.5, 5.5, 6.5, 7.5])
     sc_t = scala_over(st_t.totale, [8.5, 9.5, 10.5, 11.5, 13.5])
@@ -251,6 +247,32 @@ def genera_report(match: dict) -> ReportFinale:
     tutte.sort(key=lambda x: abs(x[2] - 65.0))
     giocabili = [f"{n} O{s} ({p:.0f}%)" for n, s, p in tutte]
     idea = giocabili[0] if giocabili else ""
+
+    # Super combo dinamica: 3 mercati diversi scelti dall'analisi.
+    gambe = []
+    for n, s, p in tutte:
+        if 50.0 <= p <= 80.0:
+            gambe.append((n, f"{n} Over {s} ({p:.0f}%)", p))
+    if 50.0 <= p_entrambi <= 80.0:
+        gambe.append(("Cartellini", f"Entrambe cartellino ({p_entrambi:.0f}%)",
+                      round(p_entrambi, 1)))
+    if 50.0 <= p_gg <= 80.0:
+        gambe.append(("GG", f"GG ({p_gg:.0f}%)", round(p_gg, 1)))
+    gambe.sort(key=lambda x: abs(x[2] - 65.0))
+    scelte, usati = [], set()
+    for mercato, lab, p in gambe:
+        if mercato not in usati:
+            usati.add(mercato)
+            scelte.append((lab, p))
+        if len(scelte) == 3:
+            break
+    if len(scelte) >= 2:
+        pc = 1.0
+        for _, p in scelte:
+            pc *= p / 100
+        p_super = round(pc * 100, 1)
+        supercombo = (" + ".join(lab for lab, _ in scelte)
+                      + f" = {p_super:.1f}% (equa {_q(p_super)})")
 
     # GIOCATA DEL TIPSTER: solo angoli (tot/casa/ospite) e tiri totali.
     # Regole dichiarate: base = vicinanza al 65% in zona 55-78%;
