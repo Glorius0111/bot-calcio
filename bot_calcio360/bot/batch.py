@@ -70,6 +70,12 @@ def elabora_tutte(partite: list[dict], out_dir: str | Path = "reports",
                   risultati_giocati: list[dict] = None) -> list[dict]:
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
+    # pulizia: niente file di giornate vecchie
+    for vecchio in out.glob("*.txt"):
+        try:
+            vecchio.unlink()
+        except OSError:
+            pass
     risultati = []
     for m in partite:
         if not m.get("stato"):
