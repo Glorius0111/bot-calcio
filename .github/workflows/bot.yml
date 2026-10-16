@@ -1,7 +1,6 @@
 name: "BOT 360 v2 - aggiorna e pubblica su GitHub Pages"
 
 # Gira da solo 2 volte al giorno, rigenera la pagina e GitHub Pages la pubblica.
-# Un solo giro alla volta (cancella quello precedente se parte un altro).
 concurrency:
   group: bot-360-v2
   cancel-in-progress: true
@@ -33,9 +32,9 @@ jobs:
       - name: Prepara la pagina per GitHub Pages
         run: |
           cd bot_calcio360/reports_auto
-          mkdir -p ../docs
+          mkdir -p ../../docs
           cp -r _report.html index.html
-          cp -r *.txt ../docs/ 2>/dev/null || true
+          cp -r *.txt ../../docs/ 2>/dev/null || true
           echo "Pagina pronta"
       - name: Pubblica su GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
