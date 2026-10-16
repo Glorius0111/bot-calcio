@@ -1,0 +1,45 @@
+=== Real Betis vs Barcelona ===
+Si gioca: 18/10/2026 alle 21:00
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 53% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 66% | Over 9.5: 40% | Over 10.5: 28% | Over 11.5: 18% | Over 12.5: 12% | Over 13.5: 7%
+  Di questi: casa circa 3 (Over 4,5: 25%), ospite circa 6 (Over 4,5: 64%).
+
+TIRI IN PORTA — previsti circa 13 in totale.
+  Over 8,5: 91% su 100. Quota bassa, non conviene.
+  Altre linee: Over 9.5: 86% | Over 10.5: 78% | Over 11.5: 68% | Over 13.5: 46%
+  Di questi: casa circa 7, ospite circa 6.
+  tiri totali (non solo in porta): casa 16.7 / ospite 18.0.
+
+CARTELLINI — previsti circa 3 (da circa 23 falli totali).
+  Over 3,5 cartellini: 41.1% su 100.
+  Quest'anno: Real Betis 2.33/gara, Barcelona 1.0/gara.
+  Falli Over 25,5: 31% su 100.
+
+FUORIGIOCO — previsti circa 3. Over 3,5: 45% su 100.
+
+GOL — previsti circa 2.9 (0.6 casa + 2.3 ospite).
+  Over 2,5: 55% su 100. Entrambe segnano: 40% su 100.
+  Esito 1X2: 1 al 8% · X al 16% · 2 al 75%.
+  Doppie chance: 1X al 24% · 12 al 83% · X2 al 92%.
+  Casa segna: Over 0,5 al 45% · Over 1,5 al 12%. Ospite segna: Over 0,5 al 90% · Over 1,5 al 66%.
+  Gol attesi dai dati (xG): casa 1.19 / ospite 3.58.
+
+LA GIOCATA PIU' SENSATA: Ang O7.5 (66%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Offside O2.5 (66%) | Tiri O11.5 (68%) | Tiri O10.5 (78%)
+
+GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (64%, equa 1.56)
+Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 7.5 (66%, equa 1.51)
+Doppia: Ang ospite Over 4.5 + Tiri Over 11.5 (44%, equa 2.29) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Ang Over 7.5 (66%) + Offside Over 2.5 (66%) + Tiri Over 11.5 (68%) = 29.8% (equa 3.36)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Raphinha (Barcelona): segna nel 82% dei casi (xG 1.46) — tira i rigori
+  Lamine Yamal (Barcelona): segna nel 62% dei casi (xG 0.97)
+  Fermín López (Barcelona): segna nel 43% dei casi (xG 0.57)

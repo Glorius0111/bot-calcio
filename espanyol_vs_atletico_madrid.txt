@@ -1,0 +1,45 @@
+=== Espanyol vs Atletico Madrid ===
+Si gioca: 18/10/2026 alle 21:00
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 58% su 100. Quota interessante.
+  Altre linee: Over 7.5: 70% | Over 9.5: 44% | Over 10.5: 32% | Over 11.5: 22% | Over 12.5: 14% | Over 13.5: 9%
+  Di questi: casa circa 4 (Over 4,5: 32%), ospite circa 6 (Over 4,5: 64%).
+
+TIRI IN PORTA — previsti circa 8 in totale.
+  Over 8,5: 46% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 33% | Over 10.5: 22% | Over 11.5: 14% | Over 13.5: 5%
+  Di questi: casa circa 4, ospite circa 4.
+  tiri totali (non solo in porta): casa 14.8 / ospite 13.3.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.1% su 100.
+  Quest'anno: Espanyol 3.0/gara, Atletico Madrid 1.33/gara.
+  Falli Over 25,5: 36% su 100.
+
+FUORIGIOCO — previsti circa 6. Over 3,5: 83% su 100.
+
+GOL — previsti circa 1.8 (0.8 casa + 1.0 ospite).
+  Over 2,5: 26% su 100. Entrambe segnano: 33% su 100.
+  Esito 1X2: 1 al 27% · X al 33% · 2 al 40%.
+  Doppie chance: 1X al 60% · 12 al 67% · X2 al 73%.
+  Casa segna: Over 0,5 al 53% · Over 1,5 al 17%. Ospite segna: Over 0,5 al 63% · Over 1,5 al 26%.
+  Gol attesi dai dati (xG): casa 1.26 / ospite 1.34.
+
+LA GIOCATA PIU' SENSATA: Offside O4.5 (69%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O7.5 (70%) | Ang O8.5 (58%)
+
+GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (64%, equa 1.56)
+Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 7.5 (70%, equa 1.42)
+
+SUPER COMBO stile book: Offside Over 4.5 (69%) + Entrambe cartellino (70%) + Ang Over 7.5 (70%) = 34.1% (equa 2.93)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Jonathan David (Atletico Madrid): segna nel 63% dei casi (xG 1.0)
+  Roberto Fernández (Espanyol): segna nel 49% dei casi (xG 0.68)
+  Alejandro Grimaldo (Atletico Madrid): segna nel 29% dei casi (xG 0.34)
+  Álex Baena (Atletico Madrid): segna nel 20% dei casi (xG 0.22)

@@ -1,0 +1,43 @@
+=== Lille vs Brest ===
+Si gioca: 17/10/2026 alle 20:45
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 69% su 100. Quota interessante.
+  Altre linee: Over 7.5: 80% | Over 9.5: 56% | Over 10.5: 44% | Over 11.5: 32% | Over 12.5: 22% | Over 13.5: 15%
+  Di questi: casa circa 4 (Over 4,5: 44%), ospite circa 6 (Over 4,5: 69%).
+
+TIRI IN PORTA — previsti circa 10 in totale.
+  Over 8,5: 69% su 100. Quota interessante.
+  Altre linee: Over 9.5: 56% | Over 10.5: 44% | Over 11.5: 32% | Over 13.5: 15%
+  Di questi: casa circa 6, ospite circa 5.
+  tiri totali (non solo in porta): casa 11.0 / ospite 17.7.
+
+CARTELLINI — previsti circa 4 (da circa 26 falli totali).
+  Over 3,5 cartellini: 50.8% su 100.
+  Quest'anno: Lille 1.5/gara, Brest 1.0/gara.
+  Falli Over 25,5: 56% su 100.
+
+FUORIGIOCO — previsti circa 5. Over 3,5: 73% su 100.
+
+GOL — previsti circa 2.1 (1.2 casa + 0.9 ospite).
+  Over 2,5: 34% su 100. Entrambe segnano: 41% su 100.
+  Esito 1X2: 1 al 42% · X al 30% · 2 al 28%.
+  Doppie chance: 1X al 72% · 12 al 70% · X2 al 58%.
+  Casa segna: Over 0,5 al 69% · Over 1,5 al 33%. Ospite segna: Over 0,5 al 59% · Over 1,5 al 22%.
+  Gol attesi dai dati (xG): casa 1.92 / ospite 1.73.
+
+LA GIOCATA PIU' SENSATA: Falli O24.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Tiri O8.5 (68%) | Ang O8.5 (69%) | Gol O1.5 (61%)
+
+GIOCATA DEL TIPSTER: Tiri Over 8.5 (68%, equa 1.46)
+Perché: scelgo Tiri Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 8.5 (69%, equa 1.46)
+Doppia: Tiri Over 8.5 + Ang Over 8.5 (47%, equa 2.13) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Falli Over 24.5 (64%) + Tiri Over 8.5 (68%) + Ang Over 8.5 (69%) = 30.1% (equa 3.32)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Kamory Doumbia (Brest): segna nel 64% dei casi (xG 0.78) — tira i rigori

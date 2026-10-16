@@ -1,0 +1,44 @@
+=== Monza vs Cagliari ===
+Si gioca: 19/10/2026 alle 18:30
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 58% su 100. Quota interessante.
+  Altre linee: Over 7.5: 70% | Over 9.5: 44% | Over 10.5: 32% | Over 11.5: 22% | Over 12.5: 14% | Over 13.5: 9%
+  Di questi: casa circa 6 (Over 4,5: 70%), ospite circa 3 (Over 4,5: 24%).
+
+TIRI IN PORTA — previsti circa 10 in totale.
+  Over 8,5: 61% su 100. Quota interessante.
+  Altre linee: Over 9.5: 48% | Over 10.5: 36% | Over 11.5: 25% | Over 13.5: 10%
+  Di questi: casa circa 5, ospite circa 5.
+  tiri totali (non solo in porta): casa 15.0 / ospite 8.0.
+
+CARTELLINI — previsti circa 3 (da circa 20 falli totali).
+  Over 3,5 cartellini: 29.3% su 100.
+  Quest'anno: Monza 2.5/gara, Cagliari 0.67/gara.
+  Falli Over 25,5: 9% su 100.
+
+FUORIGIOCO — previsti circa 4. Over 3,5: 57% su 100.
+
+GOL — previsti circa 1.2 (0.2 casa + 1.0 ospite).
+  Over 2,5: 12% su 100. Entrambe segnano: 13% su 100.
+  Esito 1X2: 1 al 8% · X al 37% · 2 al 54%.
+  Doppie chance: 1X al 46% · 12 al 63% · X2 al 92%.
+  Casa segna: Over 0,5 al 20% · Over 1,5 al 2%. Ospite segna: Over 0,5 al 62% · Over 1,5 al 26%.
+  Gol attesi dai dati (xG): casa 1.59 / ospite 1.08.
+
+LA GIOCATA PIU' SENSATA: Tiri O8.5 (61%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Gol O0.5 (70%) | Ang O7.5 (70%) | Ang O8.5 (58%)
+
+GIOCATA DEL TIPSTER: Tiri Over 8.5 (61%, equa 1.64)
+Perché: scelgo Tiri Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang casa Over 4.5 (70%, equa 1.42)
+Doppia: Tiri Over 8.5 + Ang casa Over 4.5 (43%, equa 2.34) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Tiri Over 8.5 (61%) + Gol Over 0.5 (70%) + Ang Over 7.5 (70%) = 30.0% (equa 3.33)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Daniel Maldini (Cagliari): segna nel 57% dei casi (xG 0.59) — tira i rigori
+  Gustavo Varela (Monza): segna nel 55% dei casi (xG 0.55) — tira i rigori

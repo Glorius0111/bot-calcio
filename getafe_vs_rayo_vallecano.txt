@@ -1,0 +1,41 @@
+=== Getafe vs Rayo Vallecano ===
+Si gioca: 18/10/2026 alle 21:00
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 53% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 66% | Over 9.5: 40% | Over 10.5: 28% | Over 11.5: 18% | Over 12.5: 12% | Over 13.5: 7%
+  Di questi: casa circa 4 (Over 4,5: 47%), ospite circa 4 (Over 4,5: 44%).
+
+TIRI IN PORTA — previsti circa 8 in totale.
+  Over 8,5: 37% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 25% | Over 10.5: 16% | Over 11.5: 10% | Over 13.5: 3%
+  Di questi: casa circa 4, ospite circa 4.
+  tiri totali (non solo in porta): casa 14.2 / ospite 13.5.
+
+CARTELLINI — previsti circa 4 (da circa 26 falli totali).
+  Over 3,5 cartellini: 48.1% su 100.
+  Quest'anno: Getafe 3.25/gara, Rayo Vallecano 2.0/gara.
+  Falli Over 25,5: 49% su 100.
+
+FUORIGIOCO — previsti circa 2. Over 3,5: 24% su 100.
+
+GOL — previsti circa 2.4 (1.5 casa + 0.9 ospite).
+  Over 2,5: 42% su 100. Entrambe segnano: 45% su 100.
+  Esito 1X2: 1 al 52% · X al 26% · 2 al 22%.
+  Doppie chance: 1X al 78% · 12 al 74% · X2 al 48%.
+  Casa segna: Over 0,5 al 78% · Over 1,5 al 44%. Ospite segna: Over 0,5 al 58% · Over 1,5 al 22%.
+  Gol attesi dai dati (xG): casa 0.91 / ospite 1.39.
+
+LA GIOCATA PIU' SENSATA: Falli O23.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O7.5 (66%) | Gol O1.5 (69%) | Falli O24.5 (57%)
+
+GIOCATA DEL TIPSTER: Ang Over 7.5 (66%, equa 1.51)
+Perché: scelgo Ang Over 7.5 perché contesto equilibrato, decide il modello.
+
+SUPER COMBO stile book: Falli Over 23.5 (65%) + Ang Over 7.5 (66%) + Gol Over 1.5 (69%) = 29.3% (equa 3.41)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Sergio Camello (Rayo Vallecano): segna nel 36% dei casi (xG 0.45)

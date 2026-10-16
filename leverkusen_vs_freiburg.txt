@@ -1,0 +1,46 @@
+=== Leverkusen vs Freiburg ===
+Si gioca: 17/10/2026 alle 15:30
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 58% su 100. Quota interessante.
+  Altre linee: Over 7.5: 70% | Over 9.5: 44% | Over 10.5: 32% | Over 11.5: 22% | Over 12.5: 14% | Over 13.5: 9%
+  Di questi: casa circa 5 (Over 4,5: 62%), ospite circa 4 (Over 4,5: 36%).
+
+TIRI IN PORTA — previsti circa 13 in totale.
+  Over 8,5: 90% su 100. Quota bassa, non conviene.
+  Altre linee: Over 9.5: 83% | Over 10.5: 75% | Over 11.5: 65% | Over 13.5: 43%
+  Di questi: casa circa 6, ospite circa 7.
+  tiri totali (non solo in porta): casa 19.5 / ospite 19.0.
+
+CARTELLINI — previsti circa 3 (da circa 23 falli totali).
+  Over 3,5 cartellini: 39.5% su 100.
+  Quest'anno: Leverkusen 2.0/gara, Freiburg 2.5/gara.
+  Falli Over 25,5: 27% su 100.
+
+FUORIGIOCO — previsti circa 4. Over 3,5: 46% su 100.
+
+GOL — previsti circa 1.2 (0.5 casa + 0.8 ospite).
+  Over 2,5: 13% su 100. Entrambe segnano: 21% su 100.
+  Esito 1X2: 1 al 22% · X al 40% · 2 al 38%.
+  Doppie chance: 1X al 62% · 12 al 60% · X2 al 78%.
+  Casa segna: Over 0,5 al 39% · Over 1,5 al 9%. Ospite segna: Over 0,5 al 53% · Over 1,5 al 17%.
+  Gol attesi dai dati (xG): casa 2.55 / ospite 2.02.
+
+LA GIOCATA PIU' SENSATA: Tiri O11.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Offside O2.5 (68%) | Ang O7.5 (70%) | Gol O0.5 (71%)
+
+GIOCATA DEL TIPSTER: Tiri Over 11.5 (65%, equa 1.55)
+Perché: scelgo Tiri Over 11.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang casa Over 4.5 (62%, equa 1.62)
+Doppia: Tiri Over 11.5 + Ang Over 7.5 (46%, equa 2.19) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Tiri Over 11.5 (65%) + Offside Over 2.5 (68%) + Ang Over 7.5 (70%) = 31.0% (equa 3.23)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Patrik Schick (Leverkusen): segna nel 67% dei casi (xG 1.1)
+  Yuito Suzuki (Freiburg): segna nel 46% dei casi (xG 0.61)
+  Igor Matanovic (Freiburg): segna nel 37% dei casi (xG 0.46)
+  Maximilian Eggestein (Freiburg): segna nel 23% dei casi (xG 0.26)

@@ -1,0 +1,43 @@
+=== Real Madrid vs Sevilla ===
+Si gioca: 18/10/2026 alle 21:00
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 8 in totale.
+  Over 8,5: 46% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 60% | Over 9.5: 33% | Over 10.5: 22% | Over 11.5: 14% | Over 12.5: 8% | Over 13.5: 5%
+  Di questi: casa circa 5 (Over 4,5: 62%), ospite circa 3 (Over 4,5: 18%).
+
+TIRI IN PORTA — previsti circa 13 in totale.
+  Over 8,5: 88% su 100. Quota bassa, non conviene.
+  Altre linee: Over 9.5: 80% | Over 10.5: 71% | Over 11.5: 60% | Over 13.5: 38%
+  Di questi: casa circa 7, ospite circa 6.
+  tiri totali (non solo in porta): casa 21.0 / ospite 8.0.
+
+CARTELLINI — previsti circa 3 (da circa 23 falli totali).
+  Over 3,5 cartellini: 41.3% su 100.
+  Quest'anno: Real Madrid 1.0/gara, Sevilla 4.0/gara.
+  Falli Over 25,5: 32% su 100.
+
+FUORIGIOCO — previsti circa 3. Over 3,5: 35% su 100.
+
+GOL — previsti circa 2.0 (0.8 casa + 1.2 ospite).
+  Over 2,5: 32% su 100. Entrambe segnano: 39% su 100.
+  Esito 1X2: 1 al 25% · X al 30% · 2 al 45%.
+  Doppie chance: 1X al 55% · 12 al 70% · X2 al 75%.
+  Casa segna: Over 0,5 al 56% · Over 1,5 al 20%. Ospite segna: Over 0,5 al 70% · Over 1,5 al 33%.
+  Gol attesi dai dati (xG): casa 2.87 / ospite 0.6.
+
+LA GIOCATA PIU' SENSATA: Tiri O11.5 (60%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O7.5 (60%) | Gol O1.5 (60%) | Tiri O10.5 (71%)
+
+GIOCATA DEL TIPSTER: Ang casa Over 4.5 (62%, equa 1.61)
+Perché: scelgo Ang casa Over 4.5 perché contesto equilibrato, decide il modello.
+Alternativa: Tiri Over 11.5 (60%, equa 1.67)
+Doppia: Ang casa Over 4.5 + Tiri Over 10.5 (44%, equa 2.27) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Entrambe cartellino (62%) + Tiri Over 11.5 (60%) + Ang Over 7.5 (60%) = 22.2% (equa 4.5)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Kylian Mbappé (Real Madrid): segna nel 75% dei casi (xG 1.12) — tira i rigori

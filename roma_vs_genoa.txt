@@ -1,0 +1,43 @@
+=== Roma vs Genoa ===
+Si gioca: 17/10/2026 alle 20:45
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 7 in totale.
+  Over 8,5: 22% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 34% | Over 9.5: 13% | Over 10.5: 7% | Over 11.5: 4% | Over 12.5: 2% | Over 13.5: 1%
+  Di questi: casa circa 3 (Over 4,5: 24%), ospite circa 3 (Over 4,5: 23%).
+
+TIRI IN PORTA — previsti circa 10 in totale.
+  Over 8,5: 70% su 100. Quota interessante.
+  Altre linee: Over 9.5: 58% | Over 10.5: 46% | Over 11.5: 34% | Over 13.5: 16%
+  Di questi: casa circa 5, ospite circa 5.
+  tiri totali (non solo in porta): casa 24.7 / ospite 10.0.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 44.2% su 100.
+  Quest'anno: Roma 1.67/gara, Genoa 2.5/gara.
+  Falli Over 25,5: 39% su 100.
+
+FUORIGIOCO — previsti circa 4. Over 3,5: 60% su 100.
+
+GOL — previsti circa 1.4 (1.1 casa + 0.2 ospite).
+  Over 2,5: 16% su 100. Entrambe segnano: 15% su 100.
+  Esito 1X2: 1 al 59% · X al 33% · 2 al 8%.
+  Doppie chance: 1X al 92% · 12 al 67% · X2 al 41%.
+  Casa segna: Over 0,5 al 68% · Over 1,5 al 32%. Ospite segna: Over 0,5 al 22% · Over 1,5 al 3%.
+  Gol attesi dai dati (xG): casa 2.6 / ospite 0.56.
+
+LA GIOCATA PIU' SENSATA: Offside O3.5 (60%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Tiri O8.5 (70%) | Tiri O9.5 (58%) | Falli O23.5 (55%)
+
+GIOCATA DEL TIPSTER: Tiri Over 8.5 (70%, equa 1.42)
+Perché: scelgo Tiri Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Tiri Over 9.5 (58%, equa 1.72)
+
+SUPER COMBO stile book: Offside Over 3.5 (60%) + Tiri Over 8.5 (70%) + Entrambe cartellino (75%) = 31.4% (equa 3.18)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Donyell Malen (Roma): segna nel 69% dei casi (xG 1.17)
+  Milutin Osmajic (Genoa): segna nel 22% dei casi (xG 0.25)

@@ -1,0 +1,43 @@
+=== Troyes vs Lens ===
+Si gioca: 17/10/2026 alle 20:45
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 63% su 100. Quota interessante.
+  Altre linee: Over 7.5: 75% | Over 9.5: 50% | Over 10.5: 38% | Over 11.5: 27% | Over 12.5: 18% | Over 13.5: 11%
+  Di questi: casa circa 5 (Over 4,5: 53%), ospite circa 5 (Over 4,5: 53%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 55% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 41% | Over 10.5: 30% | Over 11.5: 20% | Over 13.5: 7%
+  Di questi: casa circa 5, ospite circa 4.
+  tiri totali (non solo in porta): casa 18.0 / ospite 15.0.
+
+CARTELLINI — previsti circa 3 (da circa 22 falli totali).
+  Over 3,5 cartellini: 38.4% su 100.
+  Quest'anno: Troyes 1.5/gara, Lens 2.0/gara.
+  Falli Over 25,5: 25% su 100.
+
+FUORIGIOCO — previsti circa 4. Over 3,5: 63% su 100.
+
+GOL — previsti circa 1.7 (1.2 casa + 0.6 ospite).
+  Over 2,5: 25% su 100. Entrambe segnano: 29% su 100.
+  Esito 1X2: 1 al 51% · X al 31% · 2 al 18%.
+  Doppie chance: 1X al 82% · 12 al 69% · X2 al 49%.
+  Casa segna: Over 0,5 al 69% · Over 1,5 al 32%. Ospite segna: Over 0,5 al 43% · Over 1,5 al 11%.
+  Gol attesi dai dati (xG): casa 1.65 / ospite 1.91.
+
+LA GIOCATA PIU' SENSATA: Ang O8.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Offside O3.5 (63%) | Ang O7.5 (75%)
+
+GIOCATA DEL TIPSTER: Ang Over 8.5 (63%, equa 1.59)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 7.5 (75%, equa 1.34)
+
+SUPER COMBO stile book: Ang Over 8.5 (63%) + Offside Over 3.5 (63%) + Entrambe cartellino (67%) = 26.5% (equa 3.77)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Florian Thauvin (Lens): segna nel 62% dei casi (xG 0.73) — tira i rigori
+  Matthieu Udol (Lens): segna nel 24% dei casi (xG 0.27)

@@ -1,0 +1,44 @@
+=== Bologna vs Inter ===
+Si gioca: 17/10/2026 alle 18:00
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 59% su 100. Quota interessante.
+  Altre linee: Over 7.5: 71% | Over 9.5: 46% | Over 10.5: 33% | Over 11.5: 23% | Over 12.5: 15% | Over 13.5: 9%
+  Di questi: casa circa 4 (Over 4,5: 34%), ospite circa 6 (Over 4,5: 64%).
+
+TIRI IN PORTA — previsti circa 10 in totale.
+  Over 8,5: 63% su 100. Quota interessante.
+  Altre linee: Over 9.5: 50% | Over 10.5: 38% | Over 11.5: 27% | Over 13.5: 11%
+  Di questi: casa circa 5, ospite circa 5.
+  tiri totali (non solo in porta): casa 15.3 / ospite 23.5.
+
+CARTELLINI — previsti circa 3 (da circa 23 falli totali).
+  Over 3,5 cartellini: 38.9% su 100.
+  Quest'anno: Bologna 2.33/gara, Inter 2.0/gara.
+  Falli Over 25,5: 26% su 100.
+
+FUORIGIOCO — previsti circa 3. Over 3,5: 43% su 100.
+
+GOL — previsti circa 1.4 (0.7 casa + 0.7 ospite).
+  Over 2,5: 16% su 100. Entrambe segnano: 24% su 100.
+  Esito 1X2: 1 al 30% · X al 39% · 2 al 31%.
+  Doppie chance: 1X al 69% · 12 al 61% · X2 al 70%.
+  Casa segna: Over 0,5 al 49% · Over 1,5 al 14%. Ospite segna: Over 0,5 al 50% · Over 1,5 al 15%.
+  Gol attesi dai dati (xG): casa 1.49 / ospite 3.25.
+
+LA GIOCATA PIU' SENSATA: Offside O2.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Tiri O8.5 (63%) | Ang O8.5 (59%) | Ang O7.5 (71%)
+
+GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (64%, equa 1.56)
+Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello.
+Alternativa: Tiri Over 8.5 (63%, equa 1.59)
+Doppia: Ang ospite Over 4.5 + Tiri Over 8.5 (40%, equa 2.48) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Offside Over 2.5 (65%) + Tiri Over 8.5 (63%) + Ang Over 8.5 (59%) = 23.9% (equa 4.18)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Lautaro Martínez (Inter): segna nel 73% dei casi (xG 1.3)
+  Marcus Thuram (Inter): segna nel 58% dei casi (xG 0.87)

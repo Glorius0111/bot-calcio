@@ -1,0 +1,44 @@
+=== Man City vs Ipswich ===
+Si gioca: 17/10/2026 alle 16:00
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 69% su 100. Quota interessante.
+  Altre linee: Over 7.5: 79% | Over 9.5: 56% | Over 10.5: 44% | Over 11.5: 32% | Over 12.5: 22% | Over 13.5: 15%
+  Di questi: casa circa 6 (Over 4,5: 74%), ospite circa 4 (Over 4,5: 37%).
+
+TIRI IN PORTA — previsti circa 10 in totale.
+  Over 8,5: 70% su 100. Quota interessante.
+  Altre linee: Over 9.5: 58% | Over 10.5: 46% | Over 11.5: 34% | Over 13.5: 16%
+  Di questi: casa circa 5, ospite circa 5.
+  tiri totali (non solo in porta): casa 14.7 / ospite 11.3.
+
+CARTELLINI — previsti circa 3 (da circa 22 falli totali).
+  Over 3,5 cartellini: 37.5% su 100.
+  Quest'anno: Man City 0.67/gara, Ipswich 3.33/gara.
+  Falli Over 25,5: 23% su 100.
+
+FUORIGIOCO — previsti circa 3. Over 3,5: 43% su 100.
+
+GOL — previsti circa 2.7 (1.8 casa + 0.8 ospite).
+  Over 2,5: 50% su 100. Entrambe segnano: 48% su 100.
+  Esito 1X2: 1 al 61% · X al 22% · 2 al 17%.
+  Doppie chance: 1X al 83% · 12 al 78% · X2 al 39%.
+  Casa segna: Over 0,5 al 84% · Over 1,5 al 55%. Ospite segna: Over 0,5 al 57% · Over 1,5 al 20%.
+  Gol attesi dai dati (xG): casa 2.43 / ospite 1.72.
+
+LA GIOCATA PIU' SENSATA: Offside O2.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O8.5 (68%) | Tiri O8.5 (70%) | Tiri O9.5 (58%)
+
+GIOCATA DEL TIPSTER: Ang Over 8.5 (68%, equa 1.46)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Tiri Over 8.5 (70%, equa 1.42)
+Doppia: Ang Over 8.5 + Tiri Over 8.5 (48%, equa 2.07) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Offside Over 2.5 (65%) + Ang Over 8.5 (68%) + Tiri Over 8.5 (70%) = 31.3% (equa 3.19)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Erling Haaland (Man City): segna nel 59% dei casi (xG 0.9)
+  Rayan Cherki (Man City): segna nel 22% dei casi (xG 0.25)

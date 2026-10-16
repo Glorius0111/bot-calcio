@@ -1,0 +1,46 @@
+=== Bayern vs RB Leipzig ===
+Si gioca: 17/10/2026 alle 15:30
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 12 in totale.
+  Over 8,5: 86% su 100. Quota bassa, non conviene.
+  Altre linee: Over 7.5: 92% | Over 9.5: 77% | Over 10.5: 67% | Over 11.5: 56% | Over 12.5: 44% | Over 13.5: 34%
+  Di questi: casa circa 8 (Over 4,5: 87%), ospite circa 5 (Over 4,5: 48%).
+
+TIRI IN PORTA — previsti circa 16 in totale.
+  Over 8,5: 98% su 100. Quota bassa, non conviene.
+  Altre linee: Over 9.5: 96% | Over 10.5: 92% | Over 11.5: 87% | Over 13.5: 72%
+  Di questi: casa circa 8, ospite circa 8.
+  tiri totali (non solo in porta): casa 22.0 / ospite 15.5.
+
+CARTELLINI — previsti circa 3 (da circa 22 falli totali).
+  Over 3,5 cartellini: 38.6% su 100.
+  Quest'anno: Bayern 1.0/gara, RB Leipzig 1.5/gara.
+  Falli Over 25,5: 26% su 100.
+
+FUORIGIOCO — previsti circa 4. Over 3,5: 46% su 100.
+
+GOL — previsti circa 2.2 (1.7 casa + 0.6 ospite).
+  Over 2,5: 39% su 100. Entrambe segnano: 36% su 100.
+  Esito 1X2: 1 al 64% · X al 24% · 2 al 13%.
+  Doppie chance: 1X al 87% · 12 al 76% · X2 al 36%.
+  Casa segna: Over 0,5 al 81% · Over 1,5 al 50%. Ospite segna: Over 0,5 al 44% · Over 1,5 al 12%.
+  Gol attesi dai dati (xG): casa 3.89 / ospite 1.43.
+
+LA GIOCATA PIU' SENSATA: Gol O1.5 (66%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O10.5 (67%) | Offside O2.5 (68%) | Tiri O13.5 (72%)
+
+GIOCATA DEL TIPSTER: Ang casa Over 6.5 (63%, equa 1.58)
+Perché: scelgo Ang casa Over 6.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 10.5 (67%, equa 1.49)
+Doppia: Ang casa Over 6.5 + Tiri Over 13.5 (46%, equa 2.18) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Gol Over 1.5 (66%) + Ang Over 10.5 (67%) + Offside Over 2.5 (68%) = 29.9% (equa 3.34)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Harry Kane (Bayern): segna nel 59% dei casi (xG 0.64) — tira i rigori
+  Christopher Nkunku (RB Leipzig): segna nel 53% dei casi (xG 0.75)
+  Michael Olise (Bayern): segna nel 52% dei casi (xG 0.73)
+  Antonio Nusa (RB Leipzig): segna nel 10% dei casi (xG 0.11)
