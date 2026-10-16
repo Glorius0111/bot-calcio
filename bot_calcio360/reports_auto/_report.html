@@ -62,7 +62,7 @@ padding:12px 24px;font-size:16px;cursor:pointer;box-shadow:0 4px 14px rgba(31,12
 table{font-size:13px}th,td{padding:5px 6px}}
 </style></head><body>
 <div class='topbar'><div><h1>Bot Calcio <span class='gold'>360°</span> — weekend</h1>
-<p class='sub'>Aggiornato: 16/10/2026 13:31 · 67 partite · dati reali 2026/27</p></div>
+<p class='sub'>Aggiornato: 16/10/2026 15:11 · 67 partite · dati reali 2026/27</p></div>
 <div><button class='agg' onclick="fetch('/aggiorna',{method:'POST'}).then(r=>{if(!r.ok)throw 0;location.reload()}).catch(()=>alert('Qui su Netlify il bottone non puo aggiornare da solo: la pagina si aggiorna con un nuovo deploy (trascina di nuovo la cartella) oppure con Azioni GitHub dal telefono. In locale col server invece funziona.'))">AGGIORNA DATI</button></div></div>
 <div class='legenda'><b>Come si legge:</b> ogni mercato ha il suo colore (azzurro=angoli, verde=tiri, giallo=cartellini, viola=gol, rosa=GG), il numero a destra dice tutto. <b>IDEA</b> = la linea piu' vicina al 65%: non e' a caso e non e' la piu' alta — sopra il 78% i book pagano spiccioli, sotto il 55% e' rischioso. Sotto IDEA trovi le <b>altre linee che valgono</b>, in ordine di bonta'. <b>PROVVISORIO</b> = dati veri ma campione sotto 6 partite: guardare, non giocare.<br>Premi <b>AGGIORNA DATI</b> in alto per riscaricare tutto da solo.</div>
 <div class='filtri'><button class='on' onclick="f('TUTTE')">Tutte</button>
