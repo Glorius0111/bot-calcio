@@ -67,6 +67,7 @@ LEAGUE_HINT = {
     "england": "premier league", "italy": "serie a", "spain": "laliga",
     "germany": "bundesliga", "france": "ligue 1",
     "portugal": "primeira liga", "netherlands": "eredivisie",
+    "belgium": "jupiler pro league", "turkey": "super lig",
     "champions": "champions league", "europa": "europa league",
 }
 

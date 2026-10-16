@@ -26,6 +26,8 @@ LEAGUES = {
     "france": ("ligue-1-2026-27", "Ligue 1 2026/27"),
     "portugal": (None, "Liga Portugal 2026/27"),
     "netherlands": (None, "Eredivisie 2026/27"),
+    "belgium": (None, "Belgio 2026/27"),
+    "turkey": (None, "Turchia 2026/27"),
     "champions": ("champions-league-2026-27", "Champions League 2026/27"),
     "europa": ("europa-league-2026-27", "Europa League 2026/27"),
 }
@@ -233,11 +235,11 @@ def scarica_calendario(slug: str) -> list[dict]:
 
 class AutoFixtureProvider(BaseProvider):
     """Prossime partite (da ieri a +giorni). Zero file manuali."""
-
     def __init__(self, leghe: list[str] = None, giorni: int = 3,
                  indietro: int = 1, oggi: date = None):
         self.leghe = leghe or ["italy", "england", "spain", "germany", "france",
-                               "portugal", "netherlands", "champions", "europa"]
+                               "portugal", "netherlands", "belgium", "turkey",
+                               "champions", "europa"]
         self.giorni = giorni
         self.indietro = indietro
         self.oggi = oggi or date.today()

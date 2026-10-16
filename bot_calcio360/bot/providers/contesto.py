@@ -1,10 +1,12 @@
-"""Occhio dell'esperto: forma recente + precedenti H2H (dati REALI).
+"""Occhio dell'esperto: forma recente + precedenti H2H + accordo col modello.
 
 Fonte: Statbunker UpcomingMatches (form ultima 3 + incroci diretti).
-Regole dichiarate del semaforo (contesto, non modifica le probabilità):
-  punteggio = (V casa ultime3 - V ospite ultime3)
-            + (V casa negli incroci - V ospite negli incroci)
-  >= +2 -> CONSIGLIATA · <= -2 -> EVITARE · altro -> NEUTRA
+Regola dichiarata (contesto + modello, NON cambia le probabilità):
+  CONSIGLIATA se contesto >= +1 E modello pro-casa (gol attesi casa-ospite >= +0.5),
+    oppure contesto molto forte da solo (>= +3);
+  EVITARE se contesto <= -1 E modello contro la casa (<= -0.3),
+    oppure contesto molto contro da solo (<= -3);
+  altrimenti NEUTRA.
 Assenze/infortuni: non pubblicati gratis in forma leggibile -> non inventati.
 """
 import re
@@ -105,8 +107,14 @@ def _trova(tab: dict, casa: str, trasf: str):
     return None
 
 
-def contesto_partita(casa: str, trasferta: str, tab: dict) -> dict:
-    """Fatti + semaforo. Sempre onesto: niente dati -> NEUTRA spiegata."""
+def contesto_partita(casa: str, trasferta: str, tab: dict,
+                     diff_attesi: float = 0.0) -> dict:
+    """Fatti + semaforo. Regola dichiarata (contesto + modello):
+    CONSIGLIATA se contesto >= +1 E modello pro-casa (diff attesi >= +0.5),
+      oppure contesto molto forte da solo (>= +3);
+    EVITARE se contesto <= -1 E modello contro la casa (diff <= -0.3),
+      oppure contesto molto contro (<= -3);
+    altrimenti NEUTRA. Senza dati: NEUTRA spiegata."""
     c = _trova(tab, casa, trasferta)
     if not c:
         return {"forma_casa": "", "forma_osp": "", "h2h": "-",
@@ -122,12 +130,12 @@ def contesto_partita(casa: str, trasferta: str, tab: dict) -> dict:
         note.append(f"{trasferta} in forma: {c['forma_osp']} nelle ultime 3.")
     if c["h2h"] != "-":
         note.append(f"Ultimi incroci: {c['h2h']} (vittorie casa {c['wh']}, ospite {c['lh']}).")
-    if punteggio >= 2:
+    if punteggio >= 3 or (punteggio >= 1 and diff_attesi >= 0.5):
         sem = "CONSIGLIATA"
-        note.append("Contesto da esperto favorevole alla casa.")
-    elif punteggio <= -2:
+        note.append("Contesto e modello concordano per la casa.")
+    elif punteggio <= -3 or (punteggio <= -1 and diff_attesi <= -0.3):
         sem = "EVITARE"
-        note.append("Contesto da esperto controcorrente: meglio evitare.")
+        note.append("Contesto e modello contro la casa: meglio evitare.")
     else:
         sem = "NEUTRA"
         note.append("Contesto equilibrato: vale solo il modello.")

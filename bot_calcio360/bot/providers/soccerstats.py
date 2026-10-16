@@ -26,6 +26,8 @@ LEGA_SOCCERSTATS = {
     "la liga": "spain", "bundesliga": "germany", "ligue": "france",
     "liga portugal": "portugal", "portugal": "portugal",
     "eredivisie": "netherlands", "netherlands": "netherlands",
+    "jupiler": "belgium", "belgium": "belgium", "belgio": "belgium",
+    "super lig": "turkey", "turkey": "turkey", "turchia": "turkey",
 }
 
 # nomi soccerstats -> nomi comuni calendario
@@ -170,7 +172,10 @@ def scarica_lega(lega: str) -> dict:
     'played_home': ..., 'played_away': ..., 'scorers': {norm_team: [(player, goals)]}}."""
     cr = _fetch(f"{BASE}/table.asp?league={lega}&tid=cr")
     ha = _fetch(f"{BASE}/homeaway.asp?league={lega}")
-    sc = _fetch(f"{BASE}/scorers.asp?league={lega}")
+    try:
+        sc = _fetch(f"{BASE}/scorers.asp?league={lega}")
+    except Exception:
+        sc = ""  # alcune leghe non hanno la tabella cannonieri
     d: dict = {"corners_home": {}, "corners_away": {},
                "played_home": {}, "played_away": {},
                "goals_home": {}, "goals_away": {}, "scorers": {}}
@@ -255,13 +260,6 @@ def arricchisci(partite: list[dict], lega: str) -> tuple[list[dict], dict]:
                     m.get("partite_casa", 0), m.get("partite_trasferta", 0))
             except Exception:
                 m["rischio"] = []
-        if contesto_tab:
-            try:
-                m["contesto"] = contesto_partita(
-                    m["casa"], m["trasferta"], contesto_tab)
-            except Exception:
-                m["contesto"] = {"semaforo": "NEUTRA", "note": [],
-                                 "forma_casa": "", "forma_osp": "", "h2h": "-"}
         # PLUS quasi-ammonito: ammonito OPPURE 2+ falli (reale StatMuse).
         # Il calcolo combinato col sostituto avviene in enrich_full (statmuse),
         # che ha anche falli/gialli di squadra. Qui salvo i falli/gara.
@@ -284,6 +282,16 @@ def arricchisci(partite: list[dict], lega: str) -> tuple[list[dict], dict]:
                         "ospite_fatti_fuori": round(ga[0], 2),
                         "ospite_subiti_fuori": round(ga[1], 2)}
             gol_ok = True
+        if contesto_tab:
+            try:
+                _g2 = m.get("gol", {})
+                _ah = (float(_g2.get("casa_fatti_casa", 0)) + float(_g2.get("ospite_subiti_fuori", 0))) / 2.0
+                _aa = (float(_g2.get("ospite_fatti_fuori", 0)) + float(_g2.get("casa_subiti_casa", 0))) / 2.0
+                m["contesto"] = contesto_partita(
+                    m["casa"], m["trasferta"], contesto_tab, _ah - _aa)
+            except Exception:
+                m["contesto"] = {"semaforo": "NEUTRA", "note": [],
+                                 "forma_casa": "", "forma_osp": "", "h2h": "-"}
         # marcatori reali (proxy xG = gol/partita * 0.9)
         cand = []
         for team in (m["casa"], m["trasferta"]):
