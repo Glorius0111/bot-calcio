@@ -32,8 +32,8 @@ LA GIOCATA PIU' SENSATA: Ang O9.5 (63%) (la piu' vicina al 65%: sopra pagano poc
 Altre linee che valgono: Falli O24.5 (68%) | Falli O25.5 (60%) | Offside O3.5 (57%)
 
 GIOCATA DEL TIPSTER: Ang Over 9.5 (63%, equa 1.58)
-Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-Alternativa: Ang casa Over 4.5 (68%, equa 1.47)
+Perché: scelgo Ang Over 9.5 perché il contesto invita alla prudenza (forma/precedenti contro) Osasuna in forma: DLW nelle ultime 3 Racing Santander in forma: LLL nelle ultime 3.
+Alternativa: Ang ospite Over 4.5 (56%, equa 1.79)
 
 SUPER COMBO stile book: Ang Over 9.5 (63%) + Falli Over 24.5 (68%) + Offside Over 3.5 (57%) = 24.2% (equa 4.13)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
@@ -43,9 +43,12 @@ MARCATORI — chi segna più spesso:
   Yassir Zabiri (Racing Santander): segna nel 62% dei casi (xG 0.98)
 
 A RISCHIO AMMONIZIONE — i più fallosi:
-  Jon Moncayola (Osasuna): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 52% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 62% su 100.
+  Jon Moncayola (Osasuna): 3 gialli -> ammonito nel 53% dei casi. PLUS (lui o il sostituto): 63% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 71% su 100.
   Yassir Zabiri (Racing Santander): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 49% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 80% su 100.
 
-OCCHIO DELL'ESPERTO — semaforo: NEUTRA
-  • Precedenti non disponibili gratis per questa lega.
+OCCHIO DELL'ESPERTO — semaforo: EVITARE
+  • Osasuna in forma: DLW nelle ultime 3.
+  • Racing Santander in forma: LLL nelle ultime 3.
+  • Ultimi incroci: LWLLL (vittorie casa 1, ospite 4).
+  • Contesto e modello contro la casa: meglio evitare.
   (Il semaforo non cambia le probabilità: dice solo se il contesto aiuta.)

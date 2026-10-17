@@ -21,21 +21,21 @@ CARTELLINI — previsti circa 3 (da circa 22 falli totali).
 
 FUORIGIOCO — previsti circa 4. Over 3,5: 66% su 100.
 
-GOL — previsti circa 1.0 (0.6 casa + 0.4 ospite).
-  Over 2,5: 9% su 100. Entrambe segnano: 15% su 100.
-  Esito 1X2: 1 al 35% · X al 45% · 2 al 20%.
-  Doppie chance: 1X al 80% · 12 al 55% · X2 al 65%.
-  Casa segna: Over 0,5 al 46% · Over 1,5 al 13%. Ospite segna: Over 0,5 al 33% · Over 1,5 al 6%.
+GOL — previsti circa 2.2 (1.0 casa + 1.2 ospite).
+  Over 2,5: 39% su 100. Entrambe segnano: 45% su 100.
+  Esito 1X2: 1 al 30% · X al 28% · 2 al 42%.
+  Doppie chance: 1X al 58% · 12 al 72% · X2 al 70%.
+  Casa segna: Over 0,5 al 63% · Over 1,5 al 26%. Ospite segna: Over 0,5 al 71% · Over 1,5 al 36%.
   Gol attesi dai dati (xG): casa 0.84 / ospite 1.45.
 
-LA GIOCATA PIU' SENSATA: Gol O0.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+LA GIOCATA PIU' SENSATA: Gol O1.5 (66%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 Altre linee che valgono: Offside O3.5 (66%) | Ang O9.5 (63%) | Ang O8.5 (74%)
 
 GIOCATA DEL TIPSTER: Ang Over 9.5 (63%, equa 1.58)
-Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-Alternativa: Ang casa Over 5.5 (57%, equa 1.74)
+Perché: scelgo Ang Over 9.5 perché il contesto invita alla prudenza (forma/precedenti contro) Valencia in forma: LLL nelle ultime 3 Athletic Club in forma: DWL nelle ultime 3.
+Alternativa: Ang Over 8.5 (74%, equa 1.34)
 
-SUPER COMBO stile book: Gol Over 0.5 (64%) + Offside Over 3.5 (66%) + Ang Over 9.5 (63%) = 26.7% (equa 3.75)
+SUPER COMBO stile book: Gol Over 1.5 (66%) + Offside Over 3.5 (66%) + Ang Over 9.5 (63%) = 27.3% (equa 3.66)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
@@ -43,8 +43,11 @@ MARCATORI — chi segna più spesso:
 
 A RISCHIO AMMONIZIONE — i più fallosi:
   Inigo Ruiz de Galarreta (Athletic Club): 2 gialli -> ammonito nel 63% dei casi. PLUS (lui o il sostituto): 70% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 84% su 100.
-  Justin de Haas (Valencia): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 46% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 60% su 100.
+  Ryunosuke Sato (Valencia): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 46% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 60% su 100.
 
-OCCHIO DELL'ESPERTO — semaforo: NEUTRA
-  • Precedenti non disponibili gratis per questa lega.
+OCCHIO DELL'ESPERTO — semaforo: EVITARE
+  • Valencia in forma: LLL nelle ultime 3.
+  • Athletic Club in forma: DWL nelle ultime 3.
+  • Ultimi incroci: WLWLD (vittorie casa 2, ospite 2).
+  • Contesto e modello contro la casa: meglio evitare.
   (Il semaforo non cambia le probabilità: dice solo se il contesto aiuta.)

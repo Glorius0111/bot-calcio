@@ -110,10 +110,10 @@ def _trova(tab: dict, casa: str, trasf: str):
 def contesto_partita(casa: str, trasferta: str, tab: dict,
                      diff_attesi: float = 0.0) -> dict:
     """Fatti + semaforo. Regola dichiarata (contesto + modello):
-    CONSIGLIATA se contesto >= +1 E modello pro-casa (diff attesi >= +0.5),
-      oppure contesto molto forte da solo (>= +3);
-    EVITARE se contesto <= -1 E modello contro la casa (diff <= -0.3),
-      oppure contesto molto contro (<= -3);
+    CONSIGLIATA se contesto >= +1 E modello pro-casa (diff attesi >= +0.2),
+      oppure contesto forte da solo (>= +2);
+    EVITARE se contesto <= -1 E modello contro la casa (diff <= -0.2),
+      oppure contesto molto contro (<= -2);
     altrimenti NEUTRA. Senza dati: NEUTRA spiegata."""
     c = _trova(tab, casa, trasferta)
     if not c:
@@ -130,10 +130,10 @@ def contesto_partita(casa: str, trasferta: str, tab: dict,
         note.append(f"{trasferta} in forma: {c['forma_osp']} nelle ultime 3.")
     if c["h2h"] != "-":
         note.append(f"Ultimi incroci: {c['h2h']} (vittorie casa {c['wh']}, ospite {c['lh']}).")
-    if punteggio >= 3 or (punteggio >= 1 and diff_attesi >= 0.5):
+    if punteggio >= 2 or (punteggio >= 1 and diff_attesi >= 0.2):
         sem = "CONSIGLIATA"
         note.append("Contesto e modello concordano per la casa.")
-    elif punteggio <= -3 or (punteggio <= -1 and diff_attesi <= -0.3):
+    elif punteggio <= -2 or (punteggio <= -1 and diff_attesi <= -0.2):
         sem = "EVITARE"
         note.append("Contesto e modello contro la casa: meglio evitare.")
     else:

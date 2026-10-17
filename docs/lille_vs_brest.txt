@@ -21,15 +21,15 @@ CARTELLINI — previsti circa 4 (da circa 26 falli totali).
 
 FUORIGIOCO — previsti circa 5. Over 3,5: 73% su 100.
 
-GOL — previsti circa 0.6 (0.3 casa + 0.3 ospite).
-  Over 2,5: 2% su 100. Entrambe segnano: 7% su 100.
-  Esito 1X2: 1 al 23% · X al 59% · 2 al 18%.
-  Doppie chance: 1X al 82% · 12 al 41% · X2 al 77%.
-  Casa segna: Over 0,5 al 28% · Over 1,5 al 5%. Ospite segna: Over 0,5 al 24% · Over 1,5 al 3%.
+GOL — previsti circa 2.1 (1.2 casa + 0.9 ospite).
+  Over 2,5: 34% su 100. Entrambe segnano: 41% su 100.
+  Esito 1X2: 1 al 42% · X al 30% · 2 al 28%.
+  Doppie chance: 1X al 72% · 12 al 70% · X2 al 58%.
+  Casa segna: Over 0,5 al 69% · Over 1,5 al 33%. Ospite segna: Over 0,5 al 59% · Over 1,5 al 22%.
   Gol attesi dai dati (xG): casa 1.92 / ospite 2.47.
 
 LA GIOCATA PIU' SENSATA: Tiri O9.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Falli O23.5 (68%) | Ang O8.5 (69%) | Falli O24.5 (60%)
+Altre linee che valgono: Falli O23.5 (68%) | Ang O8.5 (69%) | Gol O1.5 (61%)
 
 GIOCATA DEL TIPSTER: Tiri Over 9.5 (64%, equa 1.56)
 Perché: scelgo Tiri Over 9.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.

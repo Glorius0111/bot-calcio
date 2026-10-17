@@ -21,22 +21,22 @@ CARTELLINI — previsti circa 3 (da circa 20 falli totali).
 
 FUORIGIOCO — previsti circa 3. Over 3,5: 35% su 100.
 
-GOL — previsti circa 0.6 (-0.2 casa + 0.8 ospite).
-  Over 2,5: 2% su 100. Entrambe segnano: 1% su 100.
-  Esito 1X2: 1 al 2% · X al 44% · 2 al 54%.
-  Doppie chance: 1X al 46% · 12 al 56% · X2 al 98%.
-  Casa segna: Over 0,5 al 1% · Over 1,5 al 0%. Ospite segna: Over 0,5 al 56% · Over 1,5 al 19%.
+GOL — previsti circa 1.2 (0.2 casa + 1.0 ospite).
+  Over 2,5: 12% su 100. Entrambe segnano: 13% su 100.
+  Esito 1X2: 1 al 8% · X al 37% · 2 al 54%.
+  Doppie chance: 1X al 46% · 12 al 63% · X2 al 92%.
+  Casa segna: Over 0,5 al 20% · Over 1,5 al 2%. Ospite segna: Over 0,5 al 62% · Over 1,5 al 26%.
   Gol attesi dai dati (xG): casa 1.56 / ospite 1.06.
 
 LA GIOCATA PIU' SENSATA: Tiri O8.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O7.5 (70%) | Ang O8.5 (58%) | Offside O2.5 (58%)
+Altre linee che valgono: Gol O0.5 (70%) | Ang O7.5 (70%) | Ang O8.5 (58%)
 
 GIOCATA DEL TIPSTER: Tiri Over 8.5 (63%, equa 1.59)
 Perché: scelgo Tiri Over 8.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
 Alternativa: Ang casa Over 4.5 (70%, equa 1.42)
 Doppia: Tiri Over 8.5 + Ang casa Over 4.5 (44%, equa 2.27) (stima come se i due esiti fossero indipendenti)
 
-SUPER COMBO stile book: Tiri Over 8.5 (63%) + Ang Over 7.5 (70%) + Entrambe cartellino (58%) = 25.7% (equa 3.89)
+SUPER COMBO stile book: Tiri Over 8.5 (63%) + Gol Over 0.5 (70%) + Ang Over 7.5 (70%) = 30.9% (equa 3.24)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
