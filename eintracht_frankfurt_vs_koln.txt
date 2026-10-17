@@ -3,40 +3,40 @@ Si gioca: 17/10/2026 alle 15:30
 
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
-ANGOLI — previsti circa 11 in totale.
-  Over 8,5: 74% su 100. Quota interessante.
-  Altre linee: Over 7.5: 83% | Over 9.5: 62% | Over 10.5: 50% | Over 11.5: 38% | Over 12.5: 28% | Over 13.5: 19%
-  Di questi: casa circa 5 (Over 4,5: 63%), ospite circa 5 (Over 4,5: 60%).
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 69% su 100. Quota interessante.
+  Altre linee: Over 7.5: 79% | Over 9.5: 56% | Over 10.5: 44% | Over 11.5: 32% | Over 12.5: 22% | Over 13.5: 15%
+  Di questi: casa circa 6 (Over 4,5: 64%), ospite circa 5 (Over 4,5: 50%).
 
 TIRI IN PORTA — previsti circa 10 in totale.
-  Over 8,5: 72% su 100. Quota interessante.
-  Altre linee: Over 9.5: 60% | Over 10.5: 48% | Over 11.5: 36% | Over 13.5: 18%
+  Over 8,5: 70% su 100. Quota interessante.
+  Altre linee: Over 9.5: 58% | Over 10.5: 46% | Over 11.5: 34% | Over 13.5: 16%
   Di questi: casa circa 5, ospite circa 5.
-  tiri totali (non solo in porta): casa 16.0 / ospite 18.0.
+  tiri totali (non solo in porta): casa 15.7 / ospite 15.0.
 
-CARTELLINI — previsti circa 3 (da circa 20 falli totali).
-  Over 3,5 cartellini: 30.8% su 100.
-  Quest'anno: Eintracht Frankfurt 1.5/gara, Koln 3.0/gara.
-  Falli Over 25,5: 11% su 100.
+CARTELLINI — previsti circa 3 (da circa 22 falli totali).
+  Over 3,5 cartellini: 35.5% su 100.
+  Quest'anno: Eintracht Frankfurt 1.67/gara, Koln 2.67/gara.
+  Falli Over 25,5: 19% su 100.
 
-FUORIGIOCO — previsti circa 2. Over 3,5: 24% su 100.
+FUORIGIOCO — previsti circa 2. Over 3,5: 14% su 100.
 
-GOL — previsti circa 2.1 (1.8 casa + 0.3 ospite).
-  Over 2,5: 36% su 100. Entrambe segnano: 21% su 100.
-  Esito 1X2: 1 al 75% · X al 19% · 2 al 5%.
-  Doppie chance: 1X al 95% · 12 al 81% · X2 al 24%.
-  Casa segna: Over 0,5 al 84% · Over 1,5 al 55%. Ospite segna: Over 0,5 al 26% · Over 1,5 al 4%.
-  Gol attesi dai dati (xG): casa 1.65 / ospite 2.36.
+GOL — previsti circa 1.7 (1.4 casa + 0.3 ospite).
+  Over 2,5: 25% su 100. Entrambe segnano: 21% su 100.
+  Esito 1X2: 1 al 64% · X al 27% · 2 al 9%.
+  Doppie chance: 1X al 91% · 12 al 73% · X2 al 36%.
+  Casa segna: Over 0,5 al 75% · Over 1,5 al 40%. Ospite segna: Over 0,5 al 28% · Over 1,5 al 5%.
+  Gol attesi dai dati (xG): casa 1.7 / ospite 1.84.
 
-LA GIOCATA PIU' SENSATA: Gol O1.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O9.5 (62%) | Tiri O9.5 (60%) | Tiri O8.5 (72%)
+LA GIOCATA PIU' SENSATA: Ang O8.5 (68%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Tiri O8.5 (70%) | Tiri O9.5 (58%) | Ang O9.5 (56%)
 
-GIOCATA DEL TIPSTER: Ang casa Over 4.5 (63%, equa 1.59)
+GIOCATA DEL TIPSTER: Ang casa Over 4.5 (64%, equa 1.56)
 Perché: scelgo Ang casa Over 4.5 perché contesto equilibrato, decide il modello.
-Alternativa: Ang Over 9.5 (62%, equa 1.61)
-Doppia: Ang casa Over 4.5 + Tiri Over 8.5 (45%, equa 2.2) (stima come se i due esiti fossero indipendenti)
+Alternativa: Ang Over 8.5 (68%, equa 1.46)
+Doppia: Ang casa Over 4.5 + Tiri Over 8.5 (45%, equa 2.22) (stima come se i due esiti fossero indipendenti)
 
-SUPER COMBO stile book: Gol Over 1.5 (63%) + Ang Over 9.5 (62%) + Tiri Over 9.5 (60%) = 23.6% (equa 4.24)
+SUPER COMBO stile book: Ang Over 8.5 (68%) + Tiri Over 8.5 (70%) + Entrambe cartellino (76%) = 36.4% (equa 2.75)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:

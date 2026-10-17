@@ -6,39 +6,39 @@ ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (serv
 ANGOLI — previsti circa 10 in totale.
   Over 8,5: 64% su 100. Quota interessante.
   Altre linee: Over 7.5: 76% | Over 9.5: 51% | Over 10.5: 39% | Over 11.5: 28% | Over 12.5: 18% | Over 13.5: 12%
-  Di questi: casa circa 6 (Over 4,5: 64%), ospite circa 4 (Over 4,5: 42%).
+  Di questi: casa circa 5 (Over 4,5: 60%), ospite circa 4 (Over 4,5: 47%).
 
 TIRI IN PORTA — previsti circa 6 in totale.
-  Over 8,5: 11% su 100. Difficile, meglio evitare.
-  Altre linee: Over 9.5: 5% | Over 10.5: 2% | Over 11.5: 1% | Over 13.5: 0%
+  Over 8,5: 17% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 10% | Over 10.5: 5% | Over 11.5: 2% | Over 13.5: 0%
   Di questi: casa circa 3, ospite circa 3.
-  tiri totali (non solo in porta): casa 11.8 / ospite 8.0.
+  tiri totali (non solo in porta): casa 12.0 / ospite 8.6.
 
-CARTELLINI — previsti circa 3 (da circa 22 falli totali).
-  Over 3,5 cartellini: 38.6% su 100.
-  Quest'anno: Deportivo La Coruna 2.0/gara, Levante 1.0/gara.
-  Falli Over 25,5: 26% su 100.
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 42.0% su 100.
+  Quest'anno: Deportivo La Coruna 2.0/gara, Levante 1.2/gara.
+  Falli Over 25,5: 34% su 100.
 
-FUORIGIOCO — previsti circa 3. Over 3,5: 30% su 100.
+FUORIGIOCO — previsti circa 2. Over 3,5: 22% su 100.
 
-GOL — previsti circa 1.0 (0.9 casa + 0.1 ospite).
-  Over 2,5: 9% su 100. Entrambe segnano: 7% su 100.
-  Esito 1X2: 1 al 55% · X al 40% · 2 al 5%.
-  Doppie chance: 1X al 95% · 12 al 60% · X2 al 45%.
-  Casa segna: Over 0,5 al 60% · Over 1,5 al 23%. Ospite segna: Over 0,5 al 12% · Over 1,5 al 1%.
-  Gol attesi dai dati (xG): casa 1.08 / ospite 0.75.
+GOL — previsti circa 1.0 (0.8 casa + 0.2 ospite).
+  Over 2,5: 8% su 100. Entrambe segnano: 10% su 100.
+  Esito 1X2: 1 al 50% · X al 42% · 2 al 8%.
+  Doppie chance: 1X al 92% · 12 al 58% · X2 al 50%.
+  Casa segna: Over 0,5 al 56% · Over 1,5 al 20%. Ospite segna: Over 0,5 al 18% · Over 1,5 al 2%.
+  Gol attesi dai dati (xG): casa 1.08 / ospite 0.77.
 
 LA GIOCATA PIU' SENSATA: Gol O0.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 Altre linee che valgono: Ang O8.5 (64%) | Ang O7.5 (76%)
 
-GIOCATA DEL TIPSTER: Ang casa Over 4.5 (64%, equa 1.56)
-Perché: scelgo Ang casa Over 4.5 perché contesto equilibrato, decide il modello.
-Alternativa: Ang Over 8.5 (64%, equa 1.57)
+GIOCATA DEL TIPSTER: Ang Over 8.5 (64%, equa 1.57)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang casa Over 4.5 (60%, equa 1.66)
 
-SUPER COMBO stile book: Gol Over 0.5 (64%) + Ang Over 8.5 (64%) + Entrambe cartellino (55%) = 22.4% (equa 4.46)
+SUPER COMBO stile book: Gol Over 0.5 (64%) + Ang Over 8.5 (64%) + Entrambe cartellino (60%) = 24.6% (equa 4.07)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
   Roger Brugué (Levante): segna nel 46% dei casi (xG 0.61)
-  Iván Romero (Levante): segna nel 44% dei casi (xG 0.58)
   P. Aubameyang (Deportivo La Coruna): segna nel 41% dei casi (xG 0.53)
+  Iván Romero (Levante): segna nel 39% dei casi (xG 0.49)

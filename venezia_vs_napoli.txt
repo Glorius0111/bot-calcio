@@ -40,4 +40,4 @@ SUPER COMBO stile book: Gol Over 2.5 (65%) + Tiri Over 9.5 (62%) + GG (61%) = 24
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
-  Kevin De Bruyne (Napoli): segna nel 53% dei casi (xG 0.5) — tira i rigori
+  Kevin De Bruyne (Napoli): segna nel 39% dei casi (xG 0.5)
