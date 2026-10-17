@@ -30,5 +30,8 @@ GIOCATA DEL TIPSTER: Ang Over 9.5 (65%, equa 1.55)
 Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello.
 Alternativa: Ang ospite Over 5.5 (68%, equa 1.46)
 
+SUPER COMBO stile book: Ang Over 9.5 (65%) + Angoli ospite Over 5.5 (68%) + X (pareggio) (69%) = 30.6% (equa 3.27)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
 MARCATORI — chi segna più spesso:
   Rafik El Arguioui (Cambuur): segna nel 36% dei casi (xG 0.45)

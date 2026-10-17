@@ -28,14 +28,14 @@ GOL — previsti circa 1.5 (0.9 casa + 0.6 ospite).
   Casa segna: Over 0,5 al 60% · Over 1,5 al 23%. Ospite segna: Over 0,5 al 44% · Over 1,5 al 12%.
   Gol attesi dai dati (xG): casa 0.97 / ospite 0.6.
 
-LA GIOCATA PIU' SENSATA: Offside O4.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O10.5 (63%) | Ang O9.5 (74%) | Gol O0.5 (78%)
+LA GIOCATA PIU' SENSATA: Ang O10.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O9.5 (74%)
 
 GIOCATA DEL TIPSTER: Ang casa Over 5.5 (65%, equa 1.53)
 Perché: scelgo Ang casa Over 5.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
 Alternativa: Ang Over 10.5 (63%, equa 1.6)
 
-SUPER COMBO stile book: Offside Over 4.5 (64%) + Ang Over 10.5 (63%) + Gol Over 0.5 (78%) = 31.3% (equa 3.19)
+SUPER COMBO stile book: Angoli casa Over 5.5 (65%) + Ang Over 10.5 (63%) + Angoli ospite Over 4.5 (57%) = 23.5% (equa 4.26)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:

@@ -17,24 +17,24 @@ CARTELLINI — previsti circa 3 (da circa 24 falli totali).
   Over 3,5 cartellini: 43.3% su 100.
   Falli Over 25,5: 37% su 100.
 
-GOL — previsti circa 2.2 (0.4 casa + 1.8 ospite).
-  Over 2,5: 38% su 100. Entrambe segnano: 27% su 100.
-  Esito 1X2: 1 al 7% · X al 20% · 2 al 73%.
-  Doppie chance: 1X al 27% · 12 al 80% · X2 al 93%.
-  Casa segna: Over 0,5 al 32% · Over 1,5 al 6%. Ospite segna: Over 0,5 al 84% · Over 1,5 al 55%.
+GOL — previsti circa 0.3 (0.0 casa + 0.3 ospite).
+  Over 2,5: 1% su 100. Entrambe segnano: 1% su 100.
+  Esito 1X2: 1 al 4% · X al 72% · 2 al 25%.
+  Doppie chance: 1X al 75% · 12 al 28% · X2 al 96%.
+  Casa segna: Over 0,5 al 4% · Over 1,5 al 0%. Ospite segna: Over 0,5 al 26% · Over 1,5 al 4%.
 
-LA GIOCATA PIU' SENSATA: Gol O1.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O9.5 (61%) | Ang O8.5 (73%)
+LA GIOCATA PIU' SENSATA: Ang O9.5 (61%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O8.5 (73%)
 
 GIOCATA DEL TIPSTER: Ang Over 9.5 (61%, equa 1.63)
 Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello.
 Alternativa: Ang ospite Over 6.5 (61%, equa 1.64)
 
-SUPER COMBO stile book: Gol Over 1.5 (65%) + Ang Over 9.5 (61%) = 39.8% (equa 2.51)
+SUPER COMBO stile book: Ang Over 9.5 (61%) + Angoli ospite Over 6.5 (61%) + X (pareggio) (69%) = 25.8% (equa 3.88)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
-  Thom van Bergen (FC Groningen): segna nel 47% dei casi (xG 0.64)
-  B. Willumsson (FC Groningen): segna nel 47% dei casi (xG 0.64)
-  Tolu Arokodare (Ajax): segna nel 40% dei casi (xG 0.51)
-  Julian Brandt (Ajax): segna nel 40% dei casi (xG 0.51)
+  Thom van Bergen (FC Groningen): segna nel 39% dei casi (xG 0.5)
+  B. Willumsson (FC Groningen): segna nel 39% dei casi (xG 0.5)
+  Tolu Arokodare (Ajax): segna nel 33% dei casi (xG 0.4)
+  Julian Brandt (Ajax): segna nel 33% dei casi (xG 0.4)

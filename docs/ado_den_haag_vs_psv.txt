@@ -30,6 +30,9 @@ GIOCATA DEL TIPSTER: Ang ospite Over 6.5 (66%, equa 1.53)
 Perché: scelgo Ang ospite Over 6.5 perché contesto equilibrato, decide il modello.
 Alternativa: Ang Over 8.5 (70%, equa 1.44)
 
+SUPER COMBO stile book: Angoli ospite Over 6.5 (66%) + Ang Over 8.5 (70%) + X (pareggio) (71%) = 32.3% (equa 3.1)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
 MARCATORI — chi segna più spesso:
   Guus Til (PSV): segna nel 47% dei casi (xG 0.64)
   Sven Mijnans (PSV): segna nel 40% dei casi (xG 0.51)

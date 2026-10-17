@@ -3,10 +3,10 @@ Si gioca: 17/10/2026 alle 18:30
 
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
-ANGOLI — previsti circa 9 in totale.
-  Over 8,5: 50% su 100. Difficile, meglio evitare.
-  Altre linee: Over 7.5: 64% | Over 9.5: 37% | Over 10.5: 26% | Over 11.5: 16% | Over 12.5: 10% | Over 13.5: 6%
-  Di questi: casa circa 5 (Over 4,5: 53%), ospite circa 4 (Over 4,5: 34%).
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 67% su 100. Quota interessante.
+  Altre linee: Over 7.5: 78% | Over 9.5: 54% | Over 10.5: 42% | Over 11.5: 30% | Over 12.5: 21% | Over 13.5: 14%
+  Di questi: casa circa 6 (Over 4,5: 74%), ospite circa 4 (Over 4,5: 34%).
 
 TIRI IN PORTA — previsti circa 3 in totale.
   Over 8,5: 0% su 100. Difficile, meglio evitare.
@@ -29,12 +29,13 @@ GOL — previsti circa 1.8 (1.2 casa + 0.6 ospite).
   Gol attesi dai dati (xG): casa 1.14 / ospite 1.13.
 
 LA GIOCATA PIU' SENSATA: Falli O23.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O7.5 (64%) | Offside O2.5 (68%) | Falli O24.5 (57%)
+Altre linee che valgono: Ang O8.5 (67%) | Falli O24.5 (57%) | Ang O7.5 (78%)
 
-GIOCATA DEL TIPSTER: Ang Over 7.5 (64%, equa 1.57)
-Perché: scelgo Ang Over 7.5 perché il contesto premia la casa (forma/precedenti) Newcastle in forma: WDD nelle ultime 3 Aston Villa in forma: LLW nelle ultime 3.
+GIOCATA DEL TIPSTER: Ang casa Over 5.5 (58%, equa 1.72)
+Perché: scelgo Ang casa Over 5.5 perché il contesto premia la casa (forma/precedenti) Newcastle in forma: WDD nelle ultime 3 Aston Villa in forma: LLW nelle ultime 3.
+Alternativa: Ang Over 8.5 (67%, equa 1.5)
 
-SUPER COMBO stile book: Falli Over 23.5 (64%) + Ang Over 7.5 (64%) + Offside Over 2.5 (68%) = 27.7% (equa 3.61)
+SUPER COMBO stile book: Falli Over 23.5 (64%) + Ang Over 8.5 (67%) + Angoli casa Over 5.5 (58%) = 24.9% (equa 4.02)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:

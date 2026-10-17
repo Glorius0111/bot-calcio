@@ -21,21 +21,21 @@ CARTELLINI — previsti circa 4 (da circa 28 falli totali).
 
 FUORIGIOCO — previsti circa 5. Over 3,5: 73% su 100.
 
-GOL — previsti circa 1.4 (0.4 casa + 1.0 ospite).
-  Over 2,5: 16% su 100. Entrambe segnano: 20% su 100.
-  Esito 1X2: 1 al 14% · X al 36% · 2 al 50%.
-  Doppie chance: 1X al 50% · 12 al 64% · X2 al 86%.
-  Casa segna: Over 0,5 al 32% · Over 1,5 al 6%. Ospite segna: Over 0,5 al 63% · Over 1,5 al 26%.
+GOL — previsti circa 0.8 (0.1 casa + 0.7 ospite).
+  Over 2,5: 4% su 100. Entrambe segnano: 5% su 100.
+  Esito 1X2: 1 al 6% · X al 50% · 2 al 45%.
+  Doppie chance: 1X al 55% · 12 al 50% · X2 al 94%.
+  Casa segna: Over 0,5 al 10% · Over 1,5 al 1%. Ospite segna: Over 0,5 al 49% · Over 1,5 al 14%.
   Gol attesi dai dati (xG): casa 1.66 / ospite 1.27.
 
 LA GIOCATA PIU' SENSATA: Ang O10.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Falli O25.5 (67%) | Falli O26.5 (60%) | Offside O3.5 (74%)
+Altre linee che valgono: Falli O25.5 (67%) | Falli O26.5 (60%) | Falli O24.5 (74%)
 
 GIOCATA DEL TIPSTER: Ang Over 10.5 (64%, equa 1.57)
 Perché: scelgo Ang Over 10.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
 Alternativa: Ang casa Over 6.5 (69%, equa 1.46)
 
-SUPER COMBO stile book: Ang Over 10.5 (64%) + Falli Over 25.5 (67%) + Entrambe cartellino (71%) = 30.5% (equa 3.28)
+SUPER COMBO stile book: Ang Over 10.5 (64%) + Falli Over 25.5 (67%) + Angoli casa Over 6.5 (69%) = 29.4% (equa 3.4)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:

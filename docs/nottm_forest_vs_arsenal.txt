@@ -3,10 +3,10 @@ Si gioca: 18/10/2026 alle 17:30
 
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
-ANGOLI — previsti circa 8 in totale.
-  Over 8,5: 41% su 100. Difficile, meglio evitare.
-  Altre linee: Over 7.5: 55% | Over 9.5: 28% | Over 10.5: 18% | Over 11.5: 11% | Over 12.5: 6% | Over 13.5: 3%
-  Di questi: casa circa 4 (Over 4,5: 31%), ospite circa 4 (Over 4,5: 44%).
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 48% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 62% | Over 9.5: 35% | Over 10.5: 24% | Over 11.5: 15% | Over 12.5: 9% | Over 13.5: 5%
+  Di questi: casa circa 4 (Over 4,5: 40%), ospite circa 4 (Over 4,5: 44%).
 
 TIRI IN PORTA — previsti circa 5 in totale.
   Over 8,5: 4% su 100. Difficile, meglio evitare.
@@ -21,17 +21,20 @@ CARTELLINI — previsti circa 4 (da circa 29 falli totali).
 
 FUORIGIOCO — previsti circa 8. Over 3,5: 94% su 100.
 
-GOL — previsti circa 1.1 (0.7 casa + 0.3 ospite).
-  Over 2,5: 9% su 100. Entrambe segnano: 15% su 100.
-  Esito 1X2: 1 al 41% · X al 44% · 2 al 15%.
-  Doppie chance: 1X al 85% · 12 al 56% · X2 al 59%.
-  Casa segna: Over 0,5 al 51% · Over 1,5 al 16%. Ospite segna: Over 0,5 al 28% · Over 1,5 al 5%.
+GOL — previsti circa 0.6 (0.4 casa + 0.2 ospite).
+  Over 2,5: 2% su 100. Entrambe segnano: 5% su 100.
+  Esito 1X2: 1 al 28% · X al 61% · 2 al 11%.
+  Doppie chance: 1X al 89% · 12 al 39% · X2 al 72%.
+  Casa segna: Over 0,5 al 32% · Over 1,5 al 6%. Ospite segna: Over 0,5 al 16% · Over 1,5 al 1%.
   Gol attesi dai dati (xG): casa 1.18 / ospite 1.51.
 
-LA GIOCATA PIU' SENSATA: Gol O0.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Falli O26.5 (67%) | Falli O27.5 (60%) | Falli O25.5 (74%)
+LA GIOCATA PIU' SENSATA: Falli O26.5 (67%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O7.5 (62%) | Falli O27.5 (60%) | Falli O25.5 (74%)
 
-SUPER COMBO stile book: Gol Over 0.5 (65%) + Falli Over 26.5 (67%) + Entrambe cartellino (67%) = 29.4% (equa 3.4)
+GIOCATA DEL TIPSTER: Ang Over 7.5 (62%, equa 1.63)
+Perché: scelgo Ang Over 7.5 perché contesto equilibrato, decide il modello Nottm Forest in forma: LDL nelle ultime 3 Arsenal in forma: LWD nelle ultime 3.
+
+SUPER COMBO stile book: Falli Over 26.5 (67%) + Entrambe cartellino (67%) + Ang Over 7.5 (62%) = 27.7% (equa 3.61)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:

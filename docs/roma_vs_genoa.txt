@@ -28,12 +28,6 @@ GOL — previsti circa 1.4 (1.1 casa + 0.2 ospite).
   Casa segna: Over 0,5 al 68% · Over 1,5 al 32%. Ospite segna: Over 0,5 al 22% · Over 1,5 al 3%.
   Gol attesi dai dati (xG): casa 3.05 / ospite 0.42.
 
-LA GIOCATA PIU' SENSATA: Offside O3.5 (66%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Gol O0.5 (75%)
-
-SUPER COMBO stile book: Offside Over 3.5 (66%) + Gol Over 0.5 (75%) + Entrambe cartellino (55%) = 27.0% (equa 3.7)
-  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
-
 MARCATORI — chi segna più spesso:
   Donyell Malen (Roma): segna nel 77% dei casi (xG 1.46)
   Milutin Osmajic (Genoa): segna nel 22% dei casi (xG 0.25)

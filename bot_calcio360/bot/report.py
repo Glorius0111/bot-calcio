@@ -238,26 +238,71 @@ def genera_report(match: dict) -> ReportFinale:
         off_tot, off_casa, off_osp = st_o.totale, st_o.atteso_casa, st_o.atteso_ospite
     # TUTTE le linee in zona quota (55-78%), ordinate dalla migliore:
     # la migliore = la più vicina al 65% (sopra pagano poco, sotto è rischioso)
+    # Esclusi: Offside (quota a nulla) e Gol O0.5/O1.5 (troppo probabili).
     tutte = []
     for nome, scala in (("Ang", sc_a), ("Tiri", sc_t), ("Gol", sc_g),
-                        ("Falli", sc_f), ("Offside", sc_o or {})):
+                        ("Falli", sc_f)):
         for s, p in scala.items():
+            if nome == "Gol" and isinstance(s, (int, float)) and s < 2.5:
+                continue
             if 55.0 <= p <= 78.0:
                 tutte.append((nome, s, p))
     tutte.sort(key=lambda x: abs(x[2] - 65.0))
     giocabili = [f"{n} O{s} ({p:.0f}%)" for n, s, p in tutte]
     idea = giocabili[0] if giocabili else ""
 
-    # Super combo dinamica: 3 mercati diversi scelti dall'analisi.
+    # Super combo dinamica: 3 gambe DIVERSE scelte dall'analisi.
     gambe = []
     for n, s, p in tutte:
         if 50.0 <= p <= 80.0:
             gambe.append((n, f"{n} Over {s} ({p:.0f}%)", p))
+    # Angoli per squadra (mercato diverso dal totale)
+    for s, p in sc_a_casa.items():
+        if 55.0 <= p <= 78.0:
+            gambe.append(("AngC", f"Angoli casa Over {s} ({p:.0f}%)", p))
+    for s, p in sc_a_osp.items():
+        if 55.0 <= p <= 78.0:
+            gambe.append(("AngO", f"Angoli ospite Over {s} ({p:.0f}%)", p))
+    # Tiri in porta per squadra
+    for s, p in sc_t_casa.items():
+        if 55.0 <= p <= 78.0:
+            gambe.append(("TirC", f"Tiri casa Over {s} ({p:.0f}%)", p))
+    for s, p in sc_t_osp.items():
+        if 55.0 <= p <= 78.0:
+            gambe.append(("TirO", f"Tiri ospite Over {s} ({p:.0f}%)", p))
+    # Cartellini: entrambe squadre
     if 50.0 <= p_entrambi <= 80.0:
         gambe.append(("Cartellini", f"Entrambe cartellino ({p_entrambi:.0f}%)",
                       round(p_entrambi, 1)))
+    # Cartellini: Over totale
+    if 55.0 <= p_c <= 78.0:
+        gambe.append(("CartT", f"Cartellini Over {soglia_c:.1f} ({p_c:.0f}%)",
+                      round(p_c, 1)))
+    # GG (entrambe segnano)
     if 50.0 <= p_gg <= 80.0:
         gambe.append(("GG", f"GG ({p_gg:.0f}%)", round(p_gg, 1)))
+    # 1X2 dal modello Poisson (gol attesi)
+    _lam_h = max(0.1, (st_g.atteso_casa + st_g.atteso_ospite) / 2 + (st_g.atteso_casa - st_g.atteso_ospite) / 2)
+    _lam_a = max(0.1, st_g.atteso_ospite)
+    _p_vin = round(sum(math.exp(-_lam_h) * _lam_h ** i / math.factorial(i) *
+                       sum(math.exp(-_lam_a) * _lam_a ** j / math.factorial(j)
+                           for j in range(i + 20)) for i in range(20)) * 100, 1)
+    _p_par = 0.0
+    for _i in range(15):
+        _p_par += (math.exp(-_lam_h) * _lam_h ** _i / math.factorial(_i) *
+                   math.exp(-_lam_a) * _lam_a ** _i / math.factorial(_i))
+    _p_par = round(_p_par * 100, 1)
+    _p_sco = round(100 - _p_vin - _p_par, 1)
+    if 55.0 <= _p_vin <= 78.0:
+        gambe.append(("1X2", f"1 (casa vince) ({_p_vin:.0f}%)", _p_vin))
+    elif 55.0 <= _p_sco <= 78.0:
+        gambe.append(("1X2", f"2 (ospite vince) ({_p_sco:.0f}%)", _p_sco))
+    elif 55.0 <= _p_par <= 78.0:
+        gambe.append(("1X2", f"X (pareggio) ({_p_par:.0f}%)", _p_par))
+    # Under 3.5 gol (se molto probabile)
+    _p_u35 = round((1 - prob_over(st_g.totale, 3.5)) * 100, 1)
+    if 55.0 <= _p_u35 <= 78.0:
+        gambe.append(("Under", f"Gol Under 3.5 ({_p_u35:.0f}%)", _p_u35))
     gambe.sort(key=lambda x: abs(x[2] - 65.0))
     scelte, usati = [], set()
     for mercato, lab, p in gambe:

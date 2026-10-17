@@ -28,14 +28,10 @@ GOL — previsti circa 2.4 (1.5 casa + 0.9 ospite).
   Casa segna: Over 0,5 al 78% · Over 1,5 al 44%. Ospite segna: Over 0,5 al 58% · Over 1,5 al 22%.
   Gol attesi dai dati (xG): casa 0.91 / ospite 1.45.
 
-LA GIOCATA PIU' SENSATA: Offside O2.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O7.5 (66%) | Gol O1.5 (69%)
+LA GIOCATA PIU' SENSATA: Ang O7.5 (66%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 
 GIOCATA DEL TIPSTER: Ang Over 7.5 (66%, equa 1.51)
 Perché: scelgo Ang Over 7.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-
-SUPER COMBO stile book: Offside Over 2.5 (65%) + Ang Over 7.5 (66%) + Gol Over 1.5 (69%) = 29.4% (equa 3.4)
-  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
   Sergio Camello (Rayo Vallecano): segna nel 36% dei casi (xG 0.44)

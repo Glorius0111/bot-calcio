@@ -30,6 +30,9 @@ GIOCATA DEL TIPSTER: Ang ospite Over 5.5 (68%, equa 1.46)
 Perché: scelgo Ang ospite Over 5.5 perché contesto equilibrato, decide il modello.
 Alternativa: Ang Over 8.5 (70%, equa 1.44)
 
+SUPER COMBO stile book: X (pareggio) (68%) + Angoli ospite Over 5.5 (68%) + Ang Over 8.5 (70%) = 32.3% (equa 3.1)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
 MARCATORI — chi segna più spesso:
   Nacho Ferri (Feyenoord): segna nel 43% dei casi (xG 0.56)
   Anis Hadj Moussa (Feyenoord): segna nel 43% dei casi (xG 0.56)
