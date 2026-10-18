@@ -8,45 +8,37 @@ ANGOLI — previsti circa 12 in totale.
   Altre linee: Over 7.5: 91% | Over 9.5: 76% | Over 10.5: 66% | Over 11.5: 55% | Over 12.5: 43% | Over 13.5: 33%
   Di questi: casa circa 6 (Over 4,5: 75%), ospite circa 6 (Over 4,5: 69%).
 
-TIRI IN PORTA — previsti circa 6 in totale.
-  Over 8,5: 20% su 100. Difficile, meglio evitare.
-  Altre linee: Over 9.5: 12% | Over 10.5: 6% | Over 11.5: 3% | Over 13.5: 1%
-  Di questi: casa circa 3, ospite circa 4.
-  tiri totali (non solo in porta): casa 10.5 / ospite 17.0.
+TIRI IN PORTA — previsti circa 8 in totale.
+  Over 8,5: 46% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 33% | Over 10.5: 22% | Over 11.5: 14% | Over 13.5: 5%
+  Di questi: casa circa 4, ospite circa 5.
+  tiri totali (non solo in porta): casa 12.7 / ospite 15.0.
 
-CARTELLINI — previsti circa 3 (da circa 23 falli totali).
-  Over 3,5 cartellini: 41.1% su 100.
-  Quest'anno: Paris FC 1.0/gara, Rennes 1.0/gara.
-  Falli Over 25,5: 31% su 100.
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 44.6% su 100.
+  Quest'anno: Paris FC 1.67/gara, Rennes 1.5/gara.
+  Falli Over 25,5: 40% su 100.
 
-FUORIGIOCO — previsti circa 4. Over 3,5: 57% su 100.
+FUORIGIOCO — previsti circa 3. Over 3,5: 28% su 100.
 
 GOL — previsti circa 0.7 (0.3 casa + 0.4 ospite).
   Over 2,5: 3% su 100. Entrambe segnano: 9% su 100.
   Esito 1X2: 1 al 22% · X al 56% · 2 al 22%.
   Doppie chance: 1X al 78% · 12 al 44% · X2 al 78%.
   Casa segna: Over 0,5 al 29% · Over 1,5 al 5%. Ospite segna: Over 0,5 al 30% · Over 1,5 al 5%.
-  Gol attesi dai dati (xG): casa 1.59 / ospite 1.87.
+  Gol attesi dai dati (xG): casa 1.41 / ospite 1.66.
 
 LA GIOCATA PIU' SENSATA: Ang O10.5 (66%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O9.5 (76%)
+Altre linee che valgono: Falli O23.5 (56%) | Ang O9.5 (76%)
 
 GIOCATA DEL TIPSTER: Ang Over 10.5 (66%, equa 1.51)
-Perché: scelgo Ang Over 10.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
+Perché: scelgo Ang Over 10.5 perché contesto equilibrato, decide il modello.
 Alternativa: Ang ospite Over 4.5 (69%, equa 1.45)
 
-SUPER COMBO stile book: Ang Over 10.5 (66%) + Angoli ospite Over 4.5 (69%) + Angoli casa Over 5.5 (59%) = 27.2% (equa 3.68)
+SUPER COMBO stile book: Ang Over 10.5 (66%) + Entrambe cartellino (63%) + Angoli ospite Over 4.5 (69%) = 28.9% (equa 3.46)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
-  Lassine Sinayoko (Paris FC): segna nel 66% dei casi (xG 0.84) — tira i rigori
-  Estéban Lepaul (Rennes): segna nel 46% dei casi (xG 0.62)
+  Lassine Sinayoko (Paris FC): segna nel 63% dei casi (xG 0.75) — tira i rigori
+  Estéban Lepaul (Rennes): segna nel 61% dei casi (xG 0.69) — tira i rigori
   Boulaye Dia (Rennes): segna nel 16% dei casi (xG 0.18)
-
-A RISCHIO AMMONIZIONE — i più fallosi:
-  Maxime Lopez (Paris FC): 1 gialli -> ammonito nel 28% dei casi. PLUS (lui o il sostituto): 33% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 60% su 100.
-  Issa Soumare (Rennes): 1 gialli -> ammonito nel 22% dei casi. PLUS (lui o il sostituto): 28% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 55% su 100.
-
-OCCHIO DELL'ESPERTO — semaforo: NEUTRA
-  • Precedenti non disponibili gratis per questa lega.
-  (Il semaforo non cambia le probabilità: dice solo se il contesto aiuta.)

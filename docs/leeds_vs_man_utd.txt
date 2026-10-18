@@ -8,16 +8,16 @@ ANGOLI — previsti circa 9 in totale.
   Altre linee: Over 7.5: 68% | Over 9.5: 41% | Over 10.5: 29% | Over 11.5: 20% | Over 12.5: 12% | Over 13.5: 7%
   Di questi: casa circa 3 (Over 4,5: 24%), ospite circa 6 (Over 4,5: 67%).
 
-TIRI IN PORTA — previsti circa 7 in totale.
-  Over 8,5: 23% su 100. Difficile, meglio evitare.
-  Altre linee: Over 9.5: 14% | Over 10.5: 8% | Over 11.5: 4% | Over 13.5: 1%
-  Di questi: casa circa 3, ospite circa 3.
-  tiri totali (non solo in porta): casa 13.5 / ospite 17.5.
+TIRI IN PORTA — previsti circa 8 in totale.
+  Over 8,5: 41% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 28% | Over 10.5: 18% | Over 11.5: 11% | Over 13.5: 3%
+  Di questi: casa circa 4, ospite circa 4.
+  tiri totali (non solo in porta): casa 13.3 / ospite 21.3.
 
-CARTELLINI — previsti circa 3 (da circa 19 falli totali).
-  Over 3,5 cartellini: 27.1% su 100.
-  Quest'anno: Leeds 0.5/gara, Man Utd 2.0/gara.
-  Falli Over 25,5: 6% su 100.
+CARTELLINI — previsti circa 3 (da circa 18 falli totali).
+  Over 3,5 cartellini: 25.1% su 100.
+  Quest'anno: Leeds 1.0/gara, Man Utd 1.33/gara.
+  Falli Over 25,5: 5% su 100.
 
 FUORIGIOCO — previsti circa 4. Over 3,5: 57% su 100.
 
@@ -26,25 +26,18 @@ GOL — previsti circa 1.6 (1.1 casa + 0.6 ospite).
   Esito 1X2: 1 al 47% · X al 34% · 2 al 19%.
   Doppie chance: 1X al 81% · 12 al 66% · X2 al 53%.
   Casa segna: Over 0,5 al 65% · Over 1,5 al 28%. Ospite segna: Over 0,5 al 43% · Over 1,5 al 11%.
-  Gol attesi dai dati (xG): casa 1.7 / ospite 1.27.
+  Gol attesi dai dati (xG): casa 1.57 / ospite 1.38.
 
 LA GIOCATA PIU' SENSATA: Ang O7.5 (68%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 
 GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (67%, equa 1.5)
-Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
+Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello.
 Alternativa: Ang Over 7.5 (68%, equa 1.48)
 
 SUPER COMBO stile book: Angoli ospite Over 4.5 (67%) + Ang Over 7.5 (68%) = 45.2% (equa 2.21)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
-  Bryan Mbeumo (Man Utd): segna nel 49% dei casi (xG 0.67)
-  D. Calvert-Lewin (Leeds): segna nel 48% dei casi (xG 0.65)
-  Bruno Fernandes (Man Utd): segna nel 43% dei casi (xG 0.56)
-
-A RISCHIO AMMONIZIONE — i più fallosi:
-  Dominic Calvert-Lewin (Leeds): 2 gialli -> ammonito nel 49% dei casi. PLUS (lui o il sostituto): 51% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 81% su 100.
-
-OCCHIO DELL'ESPERTO — semaforo: NEUTRA
-  • Precedenti non disponibili gratis per questa lega.
-  (Il semaforo non cambia le probabilità: dice solo se il contesto aiuta.)
+  D. Calvert-Lewin (Leeds): segna nel 46% dei casi (xG 0.62)
+  Bryan Mbeumo (Man Utd): segna nel 41% dei casi (xG 0.53)
+  Bruno Fernandes (Man Utd): segna nel 39% dei casi (xG 0.5)
