@@ -1,0 +1,40 @@
+=== FC Groningen vs Ajax ===
+Si gioca: 18/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 11 in totale.
+  Over 8,5: 73% su 100. Quota interessante.
+  Altre linee: Over 7.5: 83% | Over 9.5: 61% | Over 10.5: 49% | Over 11.5: 37% | Over 12.5: 27% | Over 13.5: 18%
+  Di questi: casa circa 3 (Over 4,5: 21%), ospite circa 7 (Over 4,5: 86%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 0.3 (0.0 casa + 0.3 ospite).
+  Over 2,5: 1% su 100. Entrambe segnano: 1% su 100.
+  Esito 1X2: 1 al 4% · X al 72% · 2 al 25%.
+  Doppie chance: 1X al 75% · 12 al 28% · X2 al 96%.
+  Casa segna: Over 0,5 al 4% · Over 1,5 al 0%. Ospite segna: Over 0,5 al 26% · Over 1,5 al 4%.
+
+LA GIOCATA PIU' SENSATA: Ang O9.5 (61%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O8.5 (73%)
+
+GIOCATA DEL TIPSTER: Ang Over 9.5 (61%, equa 1.63)
+Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang ospite Over 6.5 (61%, equa 1.64)
+
+SUPER COMBO stile book: Ang Over 9.5 (61%) + Angoli ospite Over 6.5 (61%) + X (pareggio) (69%) = 25.8% (equa 3.88)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Thom van Bergen (FC Groningen): segna nel 39% dei casi (xG 0.5)
+  B. Willumsson (FC Groningen): segna nel 39% dei casi (xG 0.5)
+  Tolu Arokodare (Ajax): segna nel 33% dei casi (xG 0.4)
+  Julian Brandt (Ajax): segna nel 33% dei casi (xG 0.4)
