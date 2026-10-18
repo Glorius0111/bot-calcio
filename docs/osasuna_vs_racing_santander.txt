@@ -4,38 +4,38 @@ Si gioca: 18/10/2026 alle 21:00
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
 ANGOLI — previsti circa 11 in totale.
-  Over 8,5: 75% su 100. Quota interessante.
-  Altre linee: Over 7.5: 84% | Over 9.5: 63% | Over 10.5: 51% | Over 11.5: 39% | Over 12.5: 28% | Over 13.5: 20%
-  Di questi: casa circa 6 (Over 4,5: 68%), ospite circa 5 (Over 4,5: 56%).
+  Over 8,5: 72% su 100. Quota interessante.
+  Altre linee: Over 7.5: 82% | Over 9.5: 61% | Over 10.5: 48% | Over 11.5: 36% | Over 12.5: 26% | Over 13.5: 18%
+  Di questi: casa circa 6 (Over 4,5: 64%), ospite circa 5 (Over 4,5: 56%).
 
 TIRI IN PORTA — previsti circa 8 in totale.
-  Over 8,5: 37% su 100. Difficile, meglio evitare.
-  Altre linee: Over 9.5: 25% | Over 10.5: 16% | Over 11.5: 10% | Over 13.5: 3%
+  Over 8,5: 38% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 26% | Over 10.5: 16% | Over 11.5: 10% | Over 13.5: 3%
   Di questi: casa circa 4, ospite circa 4.
-  tiri totali (non solo in porta): casa 10.5 / ospite 7.8.
+  tiri totali (non solo in porta): casa 12.4 / ospite 8.0.
 
 CARTELLINI — previsti circa 4 (da circa 27 falli totali).
-  Over 3,5 cartellini: 52.9% su 100.
-  Quest'anno: Osasuna 3.0/gara, Racing Santander 3.0/gara.
-  Falli Over 25,5: 62% su 100.
+  Over 3,5 cartellini: 53.5% su 100.
+  Quest'anno: Osasuna 2.8/gara, Racing Santander 3.0/gara.
+  Falli Over 25,5: 63% su 100.
 
-FUORIGIOCO — previsti circa 4. Over 3,5: 52% su 100.
+FUORIGIOCO — previsti circa 4. Over 3,5: 60% su 100.
 
-GOL — previsti circa 5.1 (2.8 casa + 2.4 ospite).
-  Over 2,5: 89% su 100. Entrambe segnano: 85% su 100.
-  Esito 1X2: 1 al 47% · X al 18% · 2 al 34%.
-  Doppie chance: 1X al 65% · 12 al 81% · X2 al 52%.
-  Casa segna: Over 0,5 al 94% · Over 1,5 al 76%. Ospite segna: Over 0,5 al 91% · Over 1,5 al 69%.
-  Gol attesi dai dati (xG): casa 0.95 / ospite 1.04.
+GOL — previsti circa 2.4 (1.9 casa + 0.5 ospite).
+  Over 2,5: 42% su 100. Entrambe segnano: 33% su 100.
+  Esito 1X2: 1 al 71% · X al 20% · 2 al 9%.
+  Doppie chance: 1X al 91% · 12 al 80% · X2 al 29%.
+  Casa segna: Over 0,5 al 85% · Over 1,5 al 56%. Ospite segna: Over 0,5 al 38% · Over 1,5 al 9%.
+  Gol attesi dai dati (xG): casa 1.44 / ospite 0.89.
 
-LA GIOCATA PIU' SENSATA: Ang O9.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Falli O25.5 (62%) | Falli O24.5 (69%) | Gol O4.5 (58%)
+LA GIOCATA PIU' SENSATA: Falli O25.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O9.5 (61%) | Falli O24.5 (70%) | Ang O8.5 (72%)
 
-GIOCATA DEL TIPSTER: Ang Over 9.5 (63%, equa 1.58)
-Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello.
-Alternativa: Ang casa Over 4.5 (68%, equa 1.47)
+GIOCATA DEL TIPSTER: Ang casa Over 4.5 (64%, equa 1.56)
+Perché: scelgo Ang casa Over 4.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 9.5 (61%, equa 1.65)
 
-SUPER COMBO stile book: Ang Over 9.5 (63%) + Angoli casa Over 4.5 (68%) + Falli Over 25.5 (62%) = 26.5% (equa 3.77)
+SUPER COMBO stile book: Angoli casa Over 4.5 (64%) + Falli Over 25.5 (63%) + Ang Over 9.5 (61%) = 24.5% (equa 4.08)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
