@@ -20,12 +20,6 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 21/10 21:00 Sporting CP vs LASK Linz       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 21/10 21:00 Real Madrid vs RB Leipzig      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 
-== Turchia 2026/27 (1 partite) ==
-19/10       Trabzonspor vs Besiktas        Ang  78.2% | Tiri  49.1% | Cart  43.3% | O2.5   5.9% | GG  12.5% => PROVVISORIO | IDEA: Ang O9.5 (68%)
-
-== Premier League 2026/27 (1 partite) ==
-19/10 21:00 Tottenham vs Coventry          Ang  76.8% | Tiri  31.5% | Cart  39.7% | O2.5  23.2% | GG  31.8% => PROVVISORIO | IDEA: Ang O9.5 (66%)
-
 == Europa League 2026/27 (18 partite) ==
 22/10 18:45 Juventus vs Rennes             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 18:45 SK Puntigamer Sturm Graz vs Marseille Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
@@ -45,10 +39,6 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 22/10 21:00 Celtic vs Celta Vigo           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 21:00 Besiktas JK vs Crystal Palace  Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 21:00 Bournemouth vs Milan           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-
-== Serie A (2 partite) ==
-19/10 18:30 Monza vs Cagliari              Ang  57.7% | Tiri  60.8% | Cart  29.3% | O2.5  12.1% | GG  12.5% => PROVVISORIO | IDEA: Tiri O8.5 (61%) | gol: [RIG] Daniel Maldini 57%
-19/10 20:45 Parma vs Torino                Ang  52.2% | Tiri  15.3% | Cart  50.4% | O2.5  20.4% | GG  28.5% => PROVVISORIO | IDEA: Ang O7.5 (66%)
 
 == Liga Portugal 2026/27 (1 partite) ==
 19/10       Braga vs Gil Vicente           Ang  57.7% | Tiri  49.1% | Cart  43.3% | O2.5  11.4% | GG  18.7% => PROVVISORIO | IDEA: Ang O7.5 (70%) | gol: Héctor Hernández 36%
