@@ -1,5 +1,5 @@
-=== NEC vs Fortuna Sittard ===
-Si gioca: 18/10/2026 (orario da confermare)
+=== NK Celje vs FC Red Bull Salzburg ===
+Si gioca: 22/10/2026 alle 21:00
 
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
@@ -17,11 +17,11 @@ CARTELLINI — previsti circa 3 (da circa 24 falli totali).
   Over 3,5 cartellini: 43.3% su 100.
   Falli Over 25,5: 37% su 100.
 
-GOL — previsti circa 1.9 (1.0 casa + 1.0 ospite).
-  Over 2,5: 31% su 100. Entrambe segnano: 39% su 100.
-  Esito 1X2: 1 al 34% · X al 31% · 2 al 34%.
-  Doppie chance: 1X al 66% · 12 al 69% · X2 al 66%.
-  Casa segna: Over 0,5 al 62% · Over 1,5 al 25%. Ospite segna: Over 0,5 al 62% · Over 1,5 al 25%.
+GOL — previsti circa 2.6 (1.4 casa + 1.2 ospite).
+  Over 2,5: 48% su 100. Entrambe segnano: 53% su 100.
+  Esito 1X2: 1 al 42% · X al 26% · 2 al 32%.
+  Doppie chance: 1X al 68% · 12 al 74% · X2 al 58%.
+  Casa segna: Over 0,5 al 75% · Over 1,5 al 41%. Ospite segna: Over 0,5 al 70% · Over 1,5 al 34%.
 
 LA GIOCATA PIU' SENSATA: Ang O8.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 Altre linee che valgono: Ang O7.5 (77%)
@@ -30,7 +30,7 @@ GIOCATA DEL TIPSTER: Ang Over 8.5 (65%, equa 1.54)
 Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello.
 Alternativa: Ang casa Over 4.5 (58%, equa 1.71)
 
-SUPER COMBO stile book: Ang Over 8.5 (65%) + Angoli casa Over 4.5 (58%) = 38.0% (equa 2.63)
+SUPER COMBO stile book: Ang Over 8.5 (65%) + Angoli casa Over 4.5 (58%) + Gol Under 3.5 (74%) = 28.0% (equa 3.57)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
