@@ -1,27 +1,18 @@
 CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 
-== Champions League 2026/27 (18 partite) ==
-20/10 18:45 Fenerbahçe SK vs SK Slavia Praha Ang  65.0% | Tiri  90.0% | Cart  59.2% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 18:45 Sabah FC vs Dortmund           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 21:00 Napoli vs Bodø/Glimt           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 21:00 PSG vs Barcelona               Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 21:00 Roma vs Slovan Bratislava      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 21:00 Stuttgart vs Atletico Madrid   Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 21:00 Man City vs AEK Athens         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 21:00 FC Porto vs PSV Eindhoven      Ang  65.0% | Tiri  49.1% | Cart  47.8% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-20/10 21:00 Liverpool vs Villarreal        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 18:45 Como vs Man Utd                Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+== Eredivisie 2026/27 (1 partite) ==
+23/10       Go Ahead Eagles vs Telstar     Ang  83.8% | Tiri  49.1% | Cart  43.3% | O2.5   5.9% | GG  12.5% => PROVVISORIO | IDEA: Ang O10.5 (64%) | gol: Søren Tengstedt 49%
+
+== Champions League 2026/27 (9 partite) ==
 21/10 18:45 Lille vs Galatasaray SK        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+21/10 18:45 Como vs Man Utd                Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+21/10 21:00 Sporting CP vs LASK Linz       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 21/10 21:00 Bayern vs Arsenal              Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+21/10 21:00 Real Betis vs Feyenoord        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+21/10 21:00 Real Madrid vs RB Leipzig      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 21/10 21:00 Inter vs Shakhtar Donetsk      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 21/10 21:00 Aston Villa vs Viking FK       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 21/10 21:00 Club Brugge vs Lens            Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Real Betis vs Feyenoord        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Sporting CP vs LASK Linz       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Real Madrid vs RB Leipzig      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-
-== Eredivisie 2026/27 (1 partite) ==
-23/10       Go Ahead Eagles vs Telstar     Ang  83.8% | Tiri  49.1% | Cart  43.3% | O2.5   5.9% | GG  12.5% => PROVVISORIO | IDEA: Ang O10.5 (64%) | gol: Søren Tengstedt 49%
 
 == Europa League 2026/27 (18 partite) ==
 22/10 18:45 Juventus vs Rennes             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
