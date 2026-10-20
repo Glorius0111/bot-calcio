@@ -1,0 +1,38 @@
+=== Torino vs Monza ===
+Si gioca: 23/10/2026 alle 20:45
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 8 in totale.
+  Over 8,5: 47% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 60% | Over 9.5: 34% | Over 10.5: 23% | Over 11.5: 14% | Over 12.5: 9% | Over 13.5: 5%
+  Di questi: casa circa 4 (Over 4,5: 31%), ospite circa 5 (Over 4,5: 52%).
+
+TIRI IN PORTA — previsti circa 7 in totale.
+  Over 8,5: 30% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 19% | Over 10.5: 11% | Over 11.5: 6% | Over 13.5: 2%
+  Di questi: casa circa 3, ospite circa 4.
+  tiri totali (non solo in porta): casa 8.0 / ospite 14.0.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 44.2% su 100.
+  Quest'anno: Torino 0.0/gara, Monza 1.33/gara.
+  Falli Over 25,5: 39% su 100.
+
+FUORIGIOCO — previsti circa 6. Over 3,5: 88% su 100.
+
+GOL — previsti circa 2.2 (1.7 casa + 0.5 ospite).
+  Over 2,5: 37% su 100. Entrambe segnano: 32% su 100.
+  Esito 1X2: 1 al 66% · X al 23% · 2 al 11%.
+  Doppie chance: 1X al 89% · 12 al 77% · X2 al 34%.
+  Casa segna: Over 0,5 al 81% · Over 1,5 al 50%. Ospite segna: Over 0,5 al 39% · Over 1,5 al 9%.
+  Gol attesi dai dati (xG): casa 0.95 / ospite 1.89.
+
+LA GIOCATA PIU' SENSATA: Ang O7.5 (60%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+
+GIOCATA DEL TIPSTER: Ang Over 7.5 (60%, equa 1.66)
+Perché: scelgo Ang Over 7.5 perché contesto equilibrato, decide il modello.
+
+MARCATORI — chi segna più spesso:
+  Gustavo Varela (Monza): segna nel 55% dei casi (xG 0.55) — tira i rigori
+  Ché Adams (Torino): segna nel 36% dei casi (xG 0.44)

@@ -1,0 +1,44 @@
+=== Brest vs Nice ===
+Si gioca: 23/10/2026 alle 20:45
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 59% su 100. Quota interessante.
+  Altre linee: Over 7.5: 72% | Over 9.5: 46% | Over 10.5: 34% | Over 11.5: 24% | Over 12.5: 15% | Over 13.5: 9%
+  Di questi: casa circa 4 (Over 4,5: 28%), ospite circa 6 (Over 4,5: 70%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 59% su 100. Quota interessante.
+  Altre linee: Over 9.5: 46% | Over 10.5: 33% | Over 11.5: 23% | Over 13.5: 9%
+  Di questi: casa circa 5, ospite circa 4.
+  tiri totali (non solo in porta): casa 21.0 / ospite 13.0.
+
+CARTELLINI — previsti circa 3 (da circa 22 falli totali).
+  Over 3,5 cartellini: 38.0% su 100.
+  Quest'anno: Brest 1.5/gara, Nice 2.0/gara.
+  Falli Over 25,5: 24% su 100.
+
+FUORIGIOCO — previsti circa 6. Over 3,5: 88% su 100.
+
+GOL — previsti circa 1.4 (1.2 casa + 0.2 ospite).
+  Over 2,5: 16% su 100. Entrambe segnano: 12% su 100.
+  Esito 1X2: 1 al 64% · X al 31% · 2 al 5%.
+  Doppie chance: 1X al 95% · 12 al 69% · X2 al 36%.
+  Casa segna: Over 0,5 al 70% · Over 1,5 al 34%. Ospite segna: Over 0,5 al 16% · Over 1,5 al 1%.
+  Gol attesi dai dati (xG): casa 2.06 / ospite 1.08.
+
+LA GIOCATA PIU' SENSATA: Ang O8.5 (59%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Tiri O8.5 (59%) | Ang O7.5 (72%)
+
+GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (70%, equa 1.43)
+Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 8.5 (59%, equa 1.69)
+Doppia: Ang ospite Over 4.5 + Tiri Over 8.5 (41%, equa 2.44) (stima come se i due esiti fossero indipendenti)
+
+SUPER COMBO stile book: Entrambe cartellino (67%) + Angoli ospite Over 4.5 (70%) + Ang Over 8.5 (59%) = 27.8% (equa 3.6)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Kamory Doumbia (Brest): segna nel 64% dei casi (xG 0.78) — tira i rigori
+  Mama Baldé (Brest): segna nel 32% dei casi (xG 0.39)

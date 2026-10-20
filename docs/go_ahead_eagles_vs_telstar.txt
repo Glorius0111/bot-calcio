@@ -1,0 +1,37 @@
+=== Go Ahead Eagles vs Telstar ===
+Si gioca: 23/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 12 in totale.
+  Over 8,5: 84% su 100. Quota bassa, non conviene.
+  Altre linee: Over 7.5: 91% | Over 9.5: 75% | Over 10.5: 64% | Over 11.5: 53% | Over 12.5: 41% | Over 13.5: 31%
+  Di questi: casa circa 7 (Over 4,5: 84%), ospite circa 5 (Over 4,5: 51%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 0.9 (0.5 casa + 0.4 ospite).
+  Over 2,5: 6% su 100. Entrambe segnano: 13% su 100.
+  Esito 1X2: 1 al 26% · X al 50% · 2 al 24%.
+  Doppie chance: 1X al 76% · 12 al 50% · X2 al 74%.
+  Casa segna: Over 0,5 al 36% · Over 1,5 al 8%. Ospite segna: Over 0,5 al 35% · Over 1,5 al 7%.
+
+LA GIOCATA PIU' SENSATA: Ang O10.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O9.5 (75%)
+
+GIOCATA DEL TIPSTER: Ang Over 10.5 (64%, equa 1.56)
+Perché: scelgo Ang Over 10.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang casa Over 5.5 (72%, equa 1.39)
+
+SUPER COMBO stile book: Ang Over 10.5 (64%) + Angoli casa Over 5.5 (72%) = 46.3% (equa 2.16)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Søren Tengstedt (Go Ahead Eagles): segna nel 49% dei casi (xG 0.68)

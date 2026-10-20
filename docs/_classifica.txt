@@ -20,6 +20,9 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 21/10 21:00 Sporting CP vs LASK Linz       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 21/10 21:00 Real Madrid vs RB Leipzig      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 
+== Eredivisie 2026/27 (1 partite) ==
+23/10       Go Ahead Eagles vs Telstar     Ang  83.8% | Tiri  49.1% | Cart  43.3% | O2.5   5.9% | GG  12.5% => PROVVISORIO | IDEA: Ang O10.5 (64%) | gol: Søren Tengstedt 49%
+
 == Europa League 2026/27 (18 partite) ==
 22/10 18:45 Juventus vs Rennes             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 18:45 SK Puntigamer Sturm Graz vs Marseille Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
@@ -40,8 +43,23 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 22/10 21:00 Besiktas JK vs Crystal Palace  Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 21:00 Bournemouth vs Milan           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 
+== Ligue 1 2026/27 (1 partite) ==
+23/10 20:45 Brest vs Nice                  Ang  59.3% | Tiri  58.7% | Cart  38.0% | O2.5  16.4% | GG  11.6% => PROVVISORIO | IDEA: Ang O8.5 (59%) | gol: [RIG] Kamory Doumbia 64%
+
+== Turchia 2026/27 (1 partite) ==
+23/10       Alanyaspor vs Kocaelispor      Ang  56.1% | Tiri  49.1% | Cart  43.3% | O2.5  16.8% | GG  21.5% => PROVVISORIO | IDEA: Ang O7.5 (69%)
+
+== Premier League 2026/27 (1 partite) ==
+23/10 21:00 Ipswich vs Nottm Forest        Ang  53.4% | Tiri  33.8% | Cart  42.6% | O2.5  36.9% | GG  43.8% => PROVVISORIO | IDEA: Ang O7.5 (67%)
+
 == Liga Portugal 2026/27 (1 partite) ==
-19/10       Braga vs Gil Vicente           Ang  57.7% | Tiri  49.1% | Cart  43.3% | O2.5  11.4% | GG  18.7% => PROVVISORIO | IDEA: Ang O7.5 (70%) | gol: Héctor Hernández 36%
+23/10       Guimaraes vs Maritimo          Ang  42.5% | Tiri  49.1% | Cart  43.3% | O2.5  23.1% | GG  31.6% => PROVVISORIO | IDEA: Ang O7.5 (56%)
+
+== Belgio 2026/27 (1 partite) ==
+23/10       Kortrijk vs KV Mechelen        Ang  30.4% | Tiri  49.1% | Cart  43.3% | O2.5   9.9% | GG  15.4% => PROVVISORIO
+
+== Serie A (1 partite) ==
+23/10 20:45 Torino vs Monza                Ang  46.5% | Tiri  29.8% | Cart  44.2% | O2.5  36.8% | GG  31.9% => PROVVISORIO | IDEA: Ang O7.5 (60%) | gol: [RIG] Gustavo Varela 55%
 
 Legenda: ANG=Over 8.5 angoli, TIRI=Over 8.5 tiri in porta, CART=Over 3.5 cartellini, O2.5=Over 2.5 gol, GG=entrambe segnano.
 IDEA=linea con probabilita' 55-78%, quella che il book quota ~1.40-1.85 (le linee base oltre l'80% non vengono quotate).
