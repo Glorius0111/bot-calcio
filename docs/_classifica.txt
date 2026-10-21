@@ -49,17 +49,6 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 24/10 17:15 Toulouse vs Troyes             Ang  40.7% | Tiri  36.1% | Cart  52.7% | O2.5  15.1% | GG  14.6% => PROVVISORIO | IDEA: Falli O24.5 (69%) | gol: [RIG] Casper Tengstedt 84%
 24/10 20:45 Lens vs Paris FC               Ang  66.3% | Tiri  57.7% | Cart  40.2% | O2.5   2.7% | GG   7.5% => PROVVISORIO | IDEA: Ang O8.5 (66%) | gol: [RIG] Lassine Sinayoko 63%
 
-== Champions League 2026/27 (9 partite) ==
-21/10 18:45 Lille vs Galatasaray SK        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 18:45 Como vs Man Utd                Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Sporting CP vs LASK Linz       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Bayern vs Arsenal              Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Real Betis vs Feyenoord        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Real Madrid vs RB Leipzig      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Inter vs Shakhtar Donetsk      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Aston Villa vs Viking FK       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Club Brugge vs Lens            Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-
 == Europa League 2026/27 (18 partite) ==
 22/10 18:45 Juventus vs Rennes             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 18:45 SK Puntigamer Sturm Graz vs Marseille Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
