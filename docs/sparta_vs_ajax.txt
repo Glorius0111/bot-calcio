@@ -1,0 +1,39 @@
+=== Sparta vs Ajax ===
+Si gioca: 25/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 12 in totale.
+  Over 8,5: 85% su 100. Quota bassa, non conviene.
+  Altre linee: Over 7.5: 92% | Over 9.5: 77% | Over 10.5: 67% | Over 11.5: 55% | Over 12.5: 44% | Over 13.5: 33%
+  Di questi: casa circa 5 (Over 4,5: 49%), ospite circa 8 (Over 4,5: 87%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 2.5 (0.5 casa + 2.0 ospite).
+  Over 2,5: 45% su 100. Entrambe segnano: 33% su 100.
+  Esito 1X2: 1 al 8% · X al 19% · 2 al 74%.
+  Doppie chance: 1X al 26% · 12 al 81% · X2 al 92%.
+  Casa segna: Over 0,5 al 38% · Over 1,5 al 8%. Ospite segna: Over 0,5 al 86% · Over 1,5 al 59%.
+
+LA GIOCATA PIU' SENSATA: Ang O10.5 (67%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O11.5 (55%) | Ang O9.5 (77%)
+
+GIOCATA DEL TIPSTER: Ang Over 10.5 (67%, equa 1.5)
+Perché: scelgo Ang Over 10.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang ospite Over 6.5 (62%, equa 1.61)
+
+SUPER COMBO stile book: Ang Over 10.5 (67%) + Angoli ospite Over 6.5 (62%) + Gol Under 3.5 (76%) = 31.6% (equa 3.16)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Milan Zonneveld (Sparta): segna nel 45% dei casi (xG 0.6)
+  Julian Brandt (Ajax): segna nel 45% dei casi (xG 0.6)
+  Tolu Arokodare (Ajax): segna nel 33% dei casi (xG 0.4)

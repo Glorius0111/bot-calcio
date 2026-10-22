@@ -1,0 +1,38 @@
+=== Rio Ave vs Famalicao ===
+Si gioca: 25/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 67% su 100. Quota interessante.
+  Altre linee: Over 7.5: 78% | Over 9.5: 54% | Over 10.5: 42% | Over 11.5: 30% | Over 12.5: 21% | Over 13.5: 14%
+  Di questi: casa circa 4 (Over 4,5: 32%), ospite circa 6 (Over 4,5: 75%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 1.5 (0.6 casa + 0.9 ospite).
+  Over 2,5: 19% su 100. Entrambe segnano: 27% su 100.
+  Esito 1X2: 1 al 23% · X al 36% · 2 al 41%.
+  Doppie chance: 1X al 59% · 12 al 64% · X2 al 77%.
+  Casa segna: Over 0,5 al 45% · Over 1,5 al 12%. Ospite segna: Over 0,5 al 60% · Over 1,5 al 23%.
+
+LA GIOCATA PIU' SENSATA: Ang O8.5 (67%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O7.5 (78%)
+
+GIOCATA DEL TIPSTER: Ang Over 8.5 (67%, equa 1.5)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang ospite Over 5.5 (59%, equa 1.68)
+
+SUPER COMBO stile book: Ang Over 8.5 (67%) + Angoli ospite Over 5.5 (59%) = 39.6% (equa 2.53)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Georgios Koutsias (Famalicao): segna nel 43% dei casi (xG 0.56)
+  Jalen Blesa (Rio Ave): segna nel 29% dei casi (xG 0.34)

@@ -1,0 +1,37 @@
+=== NEC vs FC Groningen ===
+Si gioca: 25/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 9 in totale.
+  Over 8,5: 53% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 66% | Over 9.5: 40% | Over 10.5: 28% | Over 11.5: 18% | Over 12.5: 12% | Over 13.5: 7%
+  Di questi: casa circa 6 (Over 4,5: 64%), ospite circa 3 (Over 4,5: 25%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 2.4 (1.2 casa + 1.3 ospite).
+  Over 2,5: 44% su 100. Entrambe segnano: 50% su 100.
+  Esito 1X2: 1 al 34% · X al 27% · 2 al 38%.
+  Doppie chance: 1X al 62% · 12 al 73% · X2 al 66%.
+  Casa segna: Over 0,5 al 69% · Over 1,5 al 33%. Ospite segna: Over 0,5 al 72% · Over 1,5 al 36%.
+
+LA GIOCATA PIU' SENSATA: Ang O7.5 (66%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+
+GIOCATA DEL TIPSTER: Ang casa Over 4.5 (64%, equa 1.56)
+Perché: scelgo Ang casa Over 4.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 7.5 (66%, equa 1.51)
+
+SUPER COMBO stile book: Angoli casa Over 4.5 (64%) + Ang Over 7.5 (66%) + Gol Under 3.5 (77%) = 32.7% (equa 3.06)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Thom van Bergen (FC Groningen): segna nel 45% dei casi (xG 0.6)
+  B. Willumsson (FC Groningen): segna nel 45% dei casi (xG 0.6)

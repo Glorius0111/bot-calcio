@@ -1,0 +1,34 @@
+=== Sporting vs Ac. Viseu ===
+Si gioca: 25/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 8 in totale.
+  Over 8,5: 42% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 56% | Over 9.5: 30% | Over 10.5: 20% | Over 11.5: 12% | Over 12.5: 7% | Over 13.5: 4%
+  Di questi: casa circa 5 (Over 4,5: 54%), ospite circa 3 (Over 4,5: 23%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 1.7 (0.8 casa + 0.9 ospite).
+  Over 2,5: 24% su 100. Entrambe segnano: 32% su 100.
+  Esito 1X2: 1 al 28% · X al 34% · 2 al 38%.
+  Doppie chance: 1X al 62% · 12 al 66% · X2 al 72%.
+  Casa segna: Over 0,5 al 53% · Over 1,5 al 17%. Ospite segna: Over 0,5 al 61% · Over 1,5 al 24%.
+
+LA GIOCATA PIU' SENSATA: Ang O7.5 (56%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+
+GIOCATA DEL TIPSTER: Ang Over 7.5 (56%, equa 1.77)
+Perché: scelgo Ang Over 7.5 perché contesto equilibrato, decide il modello.
+
+MARCATORI — chi segna più spesso:
+  Luis Suárez (Sporting): segna nel 55% dei casi (xG 0.79)
+  André Clóvis (Ac. Viseu): segna nel 36% dei casi (xG 0.45)
+  Flávio Gonçalves (Sporting): segna nel 29% dei casi (xG 0.34)

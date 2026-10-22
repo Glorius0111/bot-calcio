@@ -1,0 +1,46 @@
+=== Sunderland vs Leeds ===
+Si gioca: 25/10/2026 alle 18:30
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 8 in totale.
+  Over 8,5: 43% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 57% | Over 9.5: 30% | Over 10.5: 20% | Over 11.5: 12% | Over 12.5: 7% | Over 13.5: 4%
+  Di questi: casa circa 4 (Over 4,5: 44%), ospite circa 4 (Over 4,5: 34%).
+
+TIRI IN PORTA — previsti circa 6 in totale.
+  Over 8,5: 15% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 8% | Over 10.5: 4% | Over 11.5: 2% | Over 13.5: 0%
+  Di questi: casa circa 3, ospite circa 3.
+  tiri totali (non solo in porta): casa 12.0 / ospite 10.5.
+
+CARTELLINI — previsti circa 4 (da circa 28 falli totali).
+  Over 3,5 cartellini: 53.7% su 100.
+  Quest'anno: Sunderland 3.5/gara, Leeds 2.0/gara.
+  Falli Over 25,5: 64% su 100.
+
+FUORIGIOCO — previsti circa 4. Over 3,5: 57% su 100.
+
+GOL — previsti circa 2.9 (1.1 casa + 1.8 ospite).
+  Over 2,5: 55% su 100. Entrambe segnano: 56% su 100.
+  Esito 1X2: 1 al 24% · X al 24% · 2 al 52%.
+  Doppie chance: 1X al 48% · 12 al 76% · X2 al 76%.
+  Casa segna: Over 0,5 al 68% · Over 1,5 al 31%. Ospite segna: Over 0,5 al 83% · Over 1,5 al 52%.
+  Gol attesi dai dati (xG): casa 1.84 / ospite 1.56.
+
+LA GIOCATA PIU' SENSATA: Falli O25.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Falli O24.5 (71%) | Ang O7.5 (57%) | Falli O26.5 (56%)
+
+GIOCATA DEL TIPSTER: Ang Over 7.5 (57%, equa 1.75)
+Perché: scelgo Ang Over 7.5 perché contesto equilibrato, decide il modello.
+
+SUPER COMBO stile book: Falli Over 25.5 (64%) + Gol Under 3.5 (68%) + Ang Over 7.5 (57%) = 24.6% (equa 4.07)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Brian Brobbey (Sunderland): segna nel 50% dei casi (xG 0.69)
+  D. Calvert-Lewin (Leeds): segna nel 46% dei casi (xG 0.62)
+
+A RISCHIO AMMONIZIONE — i più fallosi:
+  Dominic Calvert-Lewin (Leeds): 1 gialli -> ammonito nel 28% dei casi. PLUS (lui o il sostituto): 38% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 81% su 100.
+  Daniel Ballard (Sunderland): 1 gialli -> ammonito nel 22% dei casi. PLUS (lui o il sostituto): 42% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 77% su 100.

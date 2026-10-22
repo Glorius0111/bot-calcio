@@ -1,0 +1,38 @@
+=== AZ vs Twente ===
+Si gioca: 25/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 11 in totale.
+  Over 8,5: 80% su 100. Quota interessante.
+  Altre linee: Over 7.5: 88% | Over 9.5: 69% | Over 10.5: 58% | Over 11.5: 46% | Over 12.5: 35% | Over 13.5: 25%
+  Di questi: casa circa 6 (Over 4,5: 75%), ospite circa 5 (Over 4,5: 57%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 1.8 (0.9 casa + 0.9 ospite).
+  Over 2,5: 27% su 100. Entrambe segnano: 35% su 100.
+  Esito 1X2: 1 al 32% · X al 33% · 2 al 35%.
+  Doppie chance: 1X al 65% · 12 al 67% · X2 al 68%.
+  Casa segna: Over 0,5 al 58% · Over 1,5 al 22%. Ospite segna: Over 0,5 al 61% · Over 1,5 al 24%.
+
+LA GIOCATA PIU' SENSATA: Ang O9.5 (69%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O10.5 (58%)
+
+GIOCATA DEL TIPSTER: Ang Over 9.5 (69%, equa 1.44)
+Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang casa Over 5.5 (60%, equa 1.68)
+
+SUPER COMBO stile book: Ang Over 9.5 (69%) + Angoli casa Over 5.5 (60%) + Angoli ospite Over 4.5 (57%) = 23.5% (equa 4.26)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Ro-Zangelo Daal (AZ): segna nel 43% dei casi (xG 0.56)
+  Wout Weghorst (Twente): segna nel 36% dei casi (xG 0.45)
