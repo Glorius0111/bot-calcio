@@ -98,26 +98,15 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 25/10       Sporting vs Ac. Viseu          Ang  42.5% | Tiri  49.1% | Cart  43.3% | O2.5  23.9% | GG  32.0% => PROVVISORIO | IDEA: Ang O7.5 (56%) | gol: Luis Suárez 55%
 25/10       Estoril vs Moreirense          Ang  33.8% | Tiri  49.1% | Cart  43.3% | O2.5  14.5% | GG  20.6% => PROVVISORIO
 
-== Champions League 2026/27 (9 partite) ==
-21/10 18:45 Lille vs Galatasaray SK        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 18:45 Como vs Man Utd                Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Sporting CP vs LASK Linz       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Bayern vs Arsenal              Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Real Betis vs Feyenoord        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Real Madrid vs RB Leipzig      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Inter vs Shakhtar Donetsk      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Aston Villa vs Viking FK       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-21/10 21:00 Club Brugge vs Lens            Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-
 == Europa League 2026/27 (18 partite) ==
-22/10 18:45 Juventus vs Rennes             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-22/10 18:45 SK Puntigamer Sturm Graz vs Marseille Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-22/10 18:45 Union Saint Gilloise vs Hapoel Be'er Sheva Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-22/10 18:45 OFI Crete vs Leverkusen        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-22/10 18:45 Lech Poznan vs Sunderland      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-22/10 18:45 Dinamo Zagreb vs NEC           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-22/10 18:45 Ferencvárosi TC vs SC União Torreense Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-22/10 18:45 FC Ararat-Armenia vs AZ Alkmaar Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] Juventus vs Rennes             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] SK Puntigamer Sturm Graz vs Marseille Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] Union Saint Gilloise vs Hapoel Be'er Sheva Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] OFI Crete vs Leverkusen        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] Lech Poznan vs Sunderland      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] Dinamo Zagreb vs NEC           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] Ferencvárosi TC vs SC União Torreense Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+22/10 18:45 [IN CORSO] FC Ararat-Armenia vs AZ Alkmaar Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 21:00 Hoffenheim vs Lyon             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 21:00 NK Celje vs FC Red Bull Salzburg Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 22/10 21:00 Lillestrøm SK vs Real Sociedad Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
