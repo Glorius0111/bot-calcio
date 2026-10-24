@@ -6,12 +6,12 @@ ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (serv
 ANGOLI — previsti circa 12 in totale.
   Over 8,5: 83% su 100. Quota bassa, non conviene.
   Altre linee: Over 7.5: 90% | Over 9.5: 74% | Over 10.5: 63% | Over 11.5: 51% | Over 12.5: 40% | Over 13.5: 29%
-  Di questi: casa circa 6 (Over 4,5: 74%), ospite circa 6 (Over 4,5: 66%).
+  Di questi: casa circa 6 (Over 4,5: 73%), ospite circa 6 (Over 4,5: 66%).
 
-TIRI IN PORTA — previsti circa 9 in totale.
-  Over 8,5: 57% su 100. Quota interessante.
-  Altre linee: Over 9.5: 43% | Over 10.5: 31% | Over 11.5: 21% | Over 13.5: 8%
-  Di questi: casa circa 4, ospite circa 6.
+TIRI IN PORTA — previsti circa 8 in totale.
+  Over 8,5: 34% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 22% | Over 10.5: 14% | Over 11.5: 8% | Over 13.5: 2%
+  Di questi: casa circa 4, ospite circa 4.
   tiri totali (non solo in porta): casa 16.3 / ospite 10.0.
 
 CARTELLINI — previsti circa 3 (da circa 21 falli totali).
@@ -21,21 +21,21 @@ CARTELLINI — previsti circa 3 (da circa 21 falli totali).
 
 FUORIGIOCO — previsti circa 5. Over 3,5: 78% su 100.
 
-GOL — previsti circa 2.2 (1.9 casa + 0.4 ospite).
-  Over 2,5: 38% su 100. Entrambe segnano: 25% su 100.
-  Esito 1X2: 1 al 74% · X al 19% · 2 al 6%.
-  Doppie chance: 1X al 94% · 12 al 80% · X2 al 26%.
-  Casa segna: Over 0,5 al 84% · Over 1,5 al 55%. Ospite segna: Over 0,5 al 30% · Over 1,5 al 5%.
+GOL — previsti circa 2.2 (1.6 casa + 0.5 ospite).
+  Over 2,5: 37% su 100. Entrambe segnano: 34% su 100.
+  Esito 1X2: 1 al 64% · X al 24% · 2 al 12%.
+  Doppie chance: 1X al 88% · 12 al 76% · X2 al 36%.
+  Casa segna: Over 0,5 al 80% · Over 1,5 al 48%. Ospite segna: Over 0,5 al 42% · Over 1,5 al 10%.
   Gol attesi dai dati (xG): casa 1.97 / ospite 0.6.
 
 LA GIOCATA PIU' SENSATA: Ang O10.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Tiri O8.5 (57%) | Ang O9.5 (74%)
+Altre linee che valgono: Ang O9.5 (74%)
 
-GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (66%, equa 1.52)
+GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (66%, equa 1.51)
 Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
 Alternativa: Ang Over 10.5 (63%, equa 1.6)
 
-SUPER COMBO stile book: Angoli ospite Over 4.5 (66%) + Tiri ospite Over 4.5 (64%) + Ang Over 10.5 (63%) = 26.4% (equa 3.79)
+SUPER COMBO stile book: Angoli ospite Over 4.5 (66%) + Ang Over 10.5 (63%) + Angoli casa Over 5.5 (57%) = 23.8% (equa 4.2)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:

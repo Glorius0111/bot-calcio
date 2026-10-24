@@ -3,15 +3,15 @@ Si gioca: 24/10/2026 alle 15:30
 
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
-ANGOLI — previsti circa 9 in totale.
-  Over 8,5: 59% su 100. Quota interessante.
-  Altre linee: Over 7.5: 71% | Over 9.5: 46% | Over 10.5: 33% | Over 11.5: 23% | Over 12.5: 15% | Over 13.5: 9%
-  Di questi: casa circa 4 (Over 4,5: 31%), ospite circa 6 (Over 4,5: 67%).
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 67% su 100. Quota interessante.
+  Altre linee: Over 7.5: 78% | Over 9.5: 55% | Over 10.5: 42% | Over 11.5: 31% | Over 12.5: 21% | Over 13.5: 14%
+  Di questi: casa circa 5 (Over 4,5: 52%), ospite circa 5 (Over 4,5: 60%).
 
-TIRI IN PORTA — previsti circa 9 in totale.
-  Over 8,5: 57% su 100. Quota interessante.
-  Altre linee: Over 9.5: 44% | Over 10.5: 31% | Over 11.5: 21% | Over 13.5: 8%
-  Di questi: casa circa 5, ospite circa 4.
+TIRI IN PORTA — previsti circa 8 in totale.
+  Over 8,5: 44% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 32% | Over 10.5: 21% | Over 11.5: 13% | Over 13.5: 4%
+  Di questi: casa circa 4, ospite circa 4.
   tiri totali (non solo in porta): casa 17.0 / ospite 11.5.
 
 CARTELLINI — previsti circa 3 (da circa 22 falli totali).
@@ -21,21 +21,20 @@ CARTELLINI — previsti circa 3 (da circa 22 falli totali).
 
 FUORIGIOCO — previsti circa 4. Over 3,5: 66% su 100.
 
-GOL — previsti circa 3.1 (2.1 casa + 1.0 ospite).
-  Over 2,5: 59% su 100. Entrambe segnano: 55% su 100.
-  Esito 1X2: 1 al 62% · X al 21% · 2 al 18%.
-  Doppie chance: 1X al 82% · 12 al 79% · X2 al 38%.
-  Casa segna: Over 0,5 al 87% · Over 1,5 al 61%. Ospite segna: Over 0,5 al 63% · Over 1,5 al 26%.
+GOL — previsti circa 2.4 (1.7 casa + 0.8 ospite).
+  Over 2,5: 44% su 100. Entrambe segnano: 44% su 100.
+  Esito 1X2: 1 al 59% · X al 24% · 2 al 17%.
+  Doppie chance: 1X al 83% · 12 al 76% · X2 al 41%.
+  Casa segna: Over 0,5 al 81% · Over 1,5 al 50%. Ospite segna: Over 0,5 al 54% · Over 1,5 al 18%.
   Gol attesi dai dati (xG): casa 1.54 / ospite 1.75.
 
-LA GIOCATA PIU' SENSATA: Gol O2.5 (59%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O7.5 (71%) | Ang O8.5 (59%) | Tiri O8.5 (57%)
+LA GIOCATA PIU' SENSATA: Ang O8.5 (67%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 
-GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (67%, equa 1.5)
-Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-Alternativa: Ang Over 7.5 (71%, equa 1.4)
+GIOCATA DEL TIPSTER: Ang Over 8.5 (67%, equa 1.49)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
+Alternativa: Ang ospite Over 4.5 (60%, equa 1.66)
 
-SUPER COMBO stile book: Gol Under 3.5 (64%) + Angoli ospite Over 4.5 (67%) + Gol Over 2.5 (59%) = 25.0% (equa 4.0)
+SUPER COMBO stile book: Ang Over 8.5 (67%) + Angoli ospite Over 4.5 (60%) + Gol Under 3.5 (77%) = 31.2% (equa 3.21)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:

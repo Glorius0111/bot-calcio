@@ -4,14 +4,14 @@ Si gioca: 24/10/2026 alle 13:30
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
 ANGOLI — previsti circa 10 in totale.
-  Over 8,5: 63% su 100. Quota interessante.
-  Altre linee: Over 7.5: 75% | Over 9.5: 50% | Over 10.5: 38% | Over 11.5: 27% | Over 12.5: 18% | Over 13.5: 12%
-  Di questi: casa circa 4 (Over 4,5: 31%), ospite circa 6 (Over 4,5: 72%).
+  Over 8,5: 64% su 100. Quota interessante.
+  Altre linee: Over 7.5: 76% | Over 9.5: 51% | Over 10.5: 39% | Over 11.5: 28% | Over 12.5: 18% | Over 13.5: 12%
+  Di questi: casa circa 4 (Over 4,5: 30%), ospite circa 6 (Over 4,5: 73%).
 
-TIRI IN PORTA — previsti circa 7 in totale.
-  Over 8,5: 23% su 100. Difficile, meglio evitare.
-  Altre linee: Over 9.5: 14% | Over 10.5: 8% | Over 11.5: 4% | Over 13.5: 1%
-  Di questi: casa circa 3, ospite circa 4.
+TIRI IN PORTA — previsti circa 6 in totale.
+  Over 8,5: 15% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 8% | Over 10.5: 4% | Over 11.5: 2% | Over 13.5: 0%
+  Di questi: casa circa 3, ospite circa 3.
   tiri totali (non solo in porta): casa 7.0 / ospite 12.0.
 
 CARTELLINI — previsti circa 3 (da circa 24 falli totali).
@@ -21,27 +21,35 @@ CARTELLINI — previsti circa 3 (da circa 24 falli totali).
 
 FUORIGIOCO — previsti circa 0. Over 3,5: 0% su 100.
 
-GOL — previsti circa 1.6 (0.5 casa + 1.1 ospite).
-  Over 2,5: 21% su 100. Entrambe segnano: 24% su 100.
-  Esito 1X2: 1 al 15% · X al 33% · 2 al 52%.
-  Doppie chance: 1X al 48% · 12 al 67% · X2 al 85%.
-  Casa segna: Over 0,5 al 37% · Over 1,5 al 8%. Ospite segna: Over 0,5 al 67% · Over 1,5 al 30%.
+GOL — previsti circa 1.6 (0.6 casa + 1.0 ospite).
+  Over 2,5: 22% su 100. Entrambe segnano: 29% su 100.
+  Esito 1X2: 1 al 21% · X al 34% · 2 al 45%.
+  Doppie chance: 1X al 55% · 12 al 66% · X2 al 79%.
+  Casa segna: Over 0,5 al 45% · Over 1,5 al 12%. Ospite segna: Over 0,5 al 64% · Over 1,5 al 28%.
   Gol attesi dai dati (xG): casa 0.59 / ospite 1.43.
 
-LA GIOCATA PIU' SENSATA: Ang O8.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O7.5 (75%)
+LA GIOCATA PIU' SENSATA: Ang O8.5 (64%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O7.5 (76%)
 
-GIOCATA DEL TIPSTER: Ang Over 8.5 (63%, equa 1.58)
-Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello.
-Alternativa: Ang ospite Over 4.5 (72%, equa 1.39)
+GIOCATA DEL TIPSTER: Ang Over 8.5 (64%, equa 1.57)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello Aston Villa in forma: DLL nelle ultime 3 Man City in forma: WWD nelle ultime 3.
+Alternativa: Ang ospite Over 5.5 (57%, equa 1.74)
 
-SUPER COMBO stile book: Ang Over 8.5 (63%) + Angoli ospite Over 4.5 (72%) = 45.6% (equa 2.19)
+SUPER COMBO stile book: Ang Over 8.5 (64%) + Angoli ospite Over 5.5 (57%) = 36.6% (equa 2.73)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
   Erling Haaland (Man City): segna nel 59% dei casi (xG 0.9)
+  Nicolas Jackson (Aston Villa): segna nel 26% dei casi (xG 0.3)
   Rayan Cherki (Man City): segna nel 22% dei casi (xG 0.25)
 
 A RISCHIO AMMONIZIONE — i più fallosi:
-  Joao Gomes (Aston Villa): 2 gialli -> ammonito nel 49% dei casi. PLUS (lui o il sostituto): 58% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 76% su 100.
-  Joako Gvardiol (Man City): 2 gialli -> ammonito nel 49% dei casi. PLUS (lui o il sostituto): 58% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 64% su 100.
+  Joao Gomes (Aston Villa): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 50% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 70% su 100.
+  Joako Gvardiol (Man City): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 50% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 61% su 100.
+
+OCCHIO DELL'ESPERTO — semaforo: NEUTRA
+  • Aston Villa in forma: DLL nelle ultime 3.
+  • Man City in forma: WWD nelle ultime 3.
+  • Ultimi incroci: WWWDL (vittorie casa 3, ospite 1).
+  • Contesto equilibrato: vale solo il modello.
+  (Il semaforo non cambia le probabilità: dice solo se il contesto aiuta.)

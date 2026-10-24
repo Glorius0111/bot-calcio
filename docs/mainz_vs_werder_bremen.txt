@@ -6,12 +6,12 @@ ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (serv
 ANGOLI — previsti circa 10 in totale.
   Over 8,5: 67% su 100. Quota interessante.
   Altre linee: Over 7.5: 78% | Over 9.5: 54% | Over 10.5: 42% | Over 11.5: 30% | Over 12.5: 21% | Over 13.5: 14%
-  Di questi: casa circa 6 (Over 4,5: 64%), ospite circa 4 (Over 4,5: 47%).
+  Di questi: casa circa 5 (Over 4,5: 61%), ospite circa 5 (Over 4,5: 51%).
 
-TIRI IN PORTA — previsti circa 7 in totale.
-  Over 8,5: 28% su 100. Difficile, meglio evitare.
-  Altre linee: Over 9.5: 18% | Over 10.5: 10% | Over 11.5: 6% | Over 13.5: 1%
-  Di questi: casa circa 4, ospite circa 4.
+TIRI IN PORTA — previsti circa 6 in totale.
+  Over 8,5: 19% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 11% | Over 10.5: 6% | Over 11.5: 3% | Over 13.5: 1%
+  Di questi: casa circa 3, ospite circa 3.
   tiri totali (non solo in porta): casa 20.0 / ospite 11.5.
 
 CARTELLINI — previsti circa 3 (da circa 22 falli totali).
@@ -21,26 +21,27 @@ CARTELLINI — previsti circa 3 (da circa 22 falli totali).
 
 FUORIGIOCO — previsti circa 2. Over 3,5: 14% su 100.
 
-GOL — previsti circa 1.9 (1.7 casa + 0.2 ospite).
-  Over 2,5: 29% su 100. Entrambe segnano: 16% su 100.
-  Esito 1X2: 1 al 74% · X al 21% · 2 al 4%.
-  Doppie chance: 1X al 96% · 12 al 79% · X2 al 26%.
-  Casa segna: Over 0,5 al 81% · Over 1,5 al 50%. Ospite segna: Over 0,5 al 20% · Over 1,5 al 2%.
+GOL — previsti circa 2.0 (1.5 casa + 0.5 ospite).
+  Over 2,5: 33% su 100. Entrambe segnano: 32% su 100.
+  Esito 1X2: 1 al 61% · X al 26% · 2 al 13%.
+  Doppie chance: 1X al 87% · 12 al 74% · X2 al 39%.
+  Casa segna: Over 0,5 al 78% · Over 1,5 al 44%. Ospite segna: Over 0,5 al 41% · Over 1,5 al 10%.
   Gol attesi dai dati (xG): casa 1.86 / ospite 0.81.
 
 LA GIOCATA PIU' SENSATA: Ang O8.5 (67%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 Altre linee che valgono: Ang O7.5 (78%)
 
-GIOCATA DEL TIPSTER: Ang casa Over 4.5 (64%, equa 1.56)
-Perché: scelgo Ang casa Over 4.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-Alternativa: Ang Over 8.5 (67%, equa 1.5)
+GIOCATA DEL TIPSTER: Ang Over 8.5 (67%, equa 1.5)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
+Alternativa: Ang casa Over 4.5 (61%, equa 1.64)
 
-SUPER COMBO stile book: Angoli casa Over 4.5 (64%) + Ang Over 8.5 (67%) = 42.8% (equa 2.34)
+SUPER COMBO stile book: Ang Over 8.5 (67%) + Angoli casa Over 4.5 (61%) = 40.6% (equa 2.46)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
   Phillip Tietz (Mainz): segna nel 47% dei casi (xG 0.63)
   Niclas Füllkrug (Werder Bremen): segna nel 27% dei casi (xG 0.31)
+  Anthony Caci (Mainz): segna nel 23% dei casi (xG 0.26)
 
 OCCHIO DELL'ESPERTO — semaforo: NEUTRA
   • Precedenti non disponibili gratis per questa lega.
