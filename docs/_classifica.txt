@@ -1,5 +1,9 @@
 CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 
+== Ligue 1 2026/27 (2 partite) ==
+30/10 20:00 Le Havre vs PSG                Ang  51.4% | Tiri  93.2% | Cart  39.3% | O2.5   0.6% | GG   0.3% => PROVVISORIO | IDEA: Ang O7.5 (65%) | gol: [RIG] Josh Maja 63%
+30/10 22:05 Lille vs Lens                  Ang  62.3% | Tiri  51.1% | Cart  40.4% | O2.5  32.3% | GG  39.6% => PROVVISORIO | IDEA: Ang O8.5 (62%) | gol: [RIG] Florian Thauvin 62%
+
 == Serie A (10 partite) ==
 27/10 19:30 Sassuolo vs Lazio              Ang  78.7% | Tiri  53.3% | Cart  36.8% | O2.5  19.5% | GG  11.0% => PROVVISORIO | IDEA: Ang O9.5 (68%)
 27/10 21:45 Roma vs Cagliari               Ang  49.4% | Tiri  76.8% | Cart  31.7% | O2.5  17.5% | GG  25.0% => PROVVISORIO | IDEA: Tiri O9.5 (66%) | gol: Donyell Malen 69%
@@ -11,6 +15,15 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 28/10 21:45 Genoa vs Juventus              Ang  57.7% | Tiri  30.7% | Cart  39.1% | O2.5  16.4% | GG  23.2% => PROVVISORIO | IDEA: Ang O7.5 (70%) | gol: Milutin Osmajic 22%
 29/10 19:30 Frosinone vs Lecce             Ang  75.7% | Tiri  84.5% | Cart  47.6% | O2.5  16.8% | GG  25.4% => PROVVISORIO | IDEA: Tiri O10.5 (65%) | gol: Antonio Raimondo 41%
 29/10 21:45 Fiorentina vs Atalanta         Ang  37.9% | Tiri  39.6% | Cart  33.9% | O2.5  70.9% | GG  70.4% => PROVVISORIO | IDEA: Gol O2.5 (71%) | gol: Franco Mastantuono 41%
+
+== Belgio 2026/27 (1 partite) ==
+30/10       Zulte-Waregem vs Club Brugge   Ang  77.5% | Tiri  49.1% | Cart  43.3% | O2.5   1.3% | GG   4.5% => PROVVISORIO | IDEA: Ang O9.5 (67%)
+
+== Liga Portugal 2026/27 (1 partite) ==
+30/10       Casa Pia vs Sporting           Ang  61.1% | Tiri  49.1% | Cart  43.3% | O2.5   0.1% | GG   0.4% => PROVVISORIO | IDEA: Ang O8.5 (61%) | gol: Luis Suárez 55%
+
+== Turchia 2026/27 (1 partite) ==
+30/10       Konyaspor vs Galatasaray       Ang  60.8% | Tiri  49.1% | Cart  43.3% | O2.5   0.8% | GG   1.7% => PROVVISORIO | IDEA: Ang O8.5 (61%)
 
 Legenda: ANG=Over 8.5 angoli, TIRI=Over 8.5 tiri in porta, CART=Over 3.5 cartellini, O2.5=Over 2.5 gol, GG=entrambe segnano.
 IDEA=linea con probabilita' 55-78%, quella che il book quota ~1.40-1.85 (le linee base oltre l'80% non vengono quotate).
