@@ -9,9 +9,9 @@ ANGOLI — previsti circa 9 in totale.
   Di questi: casa circa 4 (Over 4,5: 35%), ospite circa 5 (Over 4,5: 64%).
 
 TIRI IN PORTA — previsti circa 10 in totale.
-  Over 8,5: 72% su 100. Quota interessante.
-  Altre linee: Over 9.5: 60% | Over 10.5: 48% | Over 11.5: 36% | Over 13.5: 17%
-  Di questi: casa circa 4, ospite circa 7.
+  Over 8,5: 62% su 100. Quota interessante.
+  Altre linee: Over 9.5: 49% | Over 10.5: 37% | Over 11.5: 26% | Over 13.5: 11%
+  Di questi: casa circa 4, ospite circa 6.
   tiri totali (non solo in porta): casa 15.8 / ospite 14.5.
 
 CARTELLINI — previsti circa 3 (da circa 21 falli totali).
@@ -21,29 +21,28 @@ CARTELLINI — previsti circa 3 (da circa 21 falli totali).
 
 FUORIGIOCO — previsti circa 7. Over 3,5: 91% su 100.
 
-GOL — previsti circa 4.2 (1.5 casa + 2.6 ospite).
-  Over 2,5: 79% su 100. Entrambe segnano: 73% su 100.
-  Esito 1X2: 1 al 21% · X al 18% · 2 al 60%.
-  Doppie chance: 1X al 39% · 12 al 82% · X2 al 78%.
-  Casa segna: Over 0,5 al 79% · Over 1,5 al 46%. Ospite segna: Over 0,5 al 93% · Over 1,5 al 74%.
+GOL — previsti circa 3.5 (1.2 casa + 2.2 ospite).
+  Over 2,5: 68% su 100. Entrambe segnano: 64% su 100.
+  Esito 1X2: 1 al 20% · X al 20% · 2 al 60%.
+  Doppie chance: 1X al 40% · 12 al 80% · X2 al 79%.
+  Casa segna: Over 0,5 al 71% · Over 1,5 al 36%. Ospite segna: Over 0,5 al 89% · Over 1,5 al 66%.
   Gol attesi dai dati (xG): casa 1.21 / ospite 2.6.
 
-LA GIOCATA PIU' SENSATA: Tiri O9.5 (60%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Gol O3.5 (60%) | Ang O7.5 (71%) | Ang O8.5 (59%)
+LA GIOCATA PIU' SENSATA: Gol O2.5 (68%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Tiri O8.5 (62%) | Ang O7.5 (71%) | Ang O8.5 (59%)
 
 GIOCATA DEL TIPSTER: Ang ospite Over 4.5 (64%, equa 1.57)
 Perché: scelgo Ang ospite Over 4.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-Alternativa: Tiri Over 9.5 (60%, equa 1.67)
-Doppia: Ang ospite Over 4.5 + Tiri Over 8.5 (46%, equa 2.19) (stima come se i due esiti fossero indipendenti)
+Alternativa: Tiri Over 8.5 (62%, equa 1.61)
 
-SUPER COMBO stile book: Angoli ospite Over 4.5 (64%) + Tiri ospite Over 5.5 (67%) + Tiri Over 9.5 (60%) = 25.4% (equa 3.94)
+SUPER COMBO stile book: GG (64%) + Angoli ospite Over 4.5 (64%) + Gol Over 2.5 (68%) = 27.5% (equa 3.64)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
   Donyell Malen (Roma): segna nel 69% dei casi (xG 1.17)
 
 A RISCHIO AMMONIZIONE — i più fallosi:
-  Jesper Karlstrom (Udinese): 2 gialli -> ammonito nel 49% dei casi. PLUS (lui o il sostituto): 58% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 70% su 100.
+  Jesper Karlstrom (Udinese): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 50% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 62% su 100.
   Mario Hermoso (Roma): 1 gialli -> ammonito nel 22% dei casi. PLUS (lui o il sostituto): 30% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 46% su 100.
 
 OCCHIO DELL'ESPERTO — semaforo: NEUTRA
