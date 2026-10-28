@@ -1,0 +1,29 @@
+=== Moreirense vs Estrela Amadora ===
+Si gioca: 31/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 7 in totale.
+  Over 8,5: 30% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 44% | Over 9.5: 19% | Over 10.5: 12% | Over 11.5: 6% | Over 12.5: 3% | Over 13.5: 2%
+  Di questi: casa circa 3 (Over 4,5: 13%), ospite circa 5 (Over 4,5: 48%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 2.1 (1.2 casa + 0.9 ospite).
+  Over 2,5: 36% su 100. Entrambe segnano: 42% su 100.
+  Esito 1X2: 1 al 41% · X al 29% · 2 al 30%.
+  Doppie chance: 1X al 70% · 12 al 71% · X2 al 59%.
+  Casa segna: Over 0,5 al 69% · Over 1,5 al 33%. Ospite segna: Over 0,5 al 61% · Over 1,5 al 25%.
+
+MARCATORI — chi segna più spesso:
+  Ianis Stoica (Estrela Amadora): segna nel 36% dei casi (xG 0.45)
+  Abraham Marcus (Estrela Amadora): segna nel 36% dei casi (xG 0.45)
+  Leandro Antonetti (Estrela Amadora): segna nel 36% dei casi (xG 0.45)

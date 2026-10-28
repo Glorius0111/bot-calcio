@@ -1,0 +1,38 @@
+=== Ajax vs AZ ===
+Si gioca: 31/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 11 in totale.
+  Over 8,5: 78% su 100. Quota interessante.
+  Altre linee: Over 7.5: 86% | Over 9.5: 67% | Over 10.5: 55% | Over 11.5: 43% | Over 12.5: 32% | Over 13.5: 23%
+  Di questi: casa circa 5 (Over 4,5: 56%), ospite circa 6 (Over 4,5: 73%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 1.9 (1.0 casa + 0.9 ospite).
+  Over 2,5: 30% su 100. Entrambe segnano: 38% su 100.
+  Esito 1X2: 1 al 36% · X al 32% · 2 al 32%.
+  Doppie chance: 1X al 68% · 12 al 68% · X2 al 64%.
+  Casa segna: Over 0,5 al 63% · Over 1,5 al 26%. Ospite segna: Over 0,5 al 60% · Over 1,5 al 23%.
+
+LA GIOCATA PIU' SENSATA: Ang O9.5 (67%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O10.5 (55%) | Ang O8.5 (78%)
+
+GIOCATA DEL TIPSTER: Ang Over 9.5 (67%, equa 1.49)
+Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang ospite Over 4.5 (73%, equa 1.37)
+
+SUPER COMBO stile book: Ang Over 9.5 (67%) + Angoli ospite Over 4.5 (73%) + Angoli casa Over 4.5 (56%) = 27.3% (equa 3.66)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Julian Brandt (Ajax): segna nel 42% dei casi (xG 0.54)
+  Tolu Arokodare (Ajax): segna nel 36% dei casi (xG 0.45)

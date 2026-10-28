@@ -40,7 +40,7 @@ SUPER COMBO stile book: Ang Over 7.5 (65%) + X (pareggio) (65%) + Angoli ospite 
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
-  Josh Maja (Le Havre): segna nel 63% dei casi (xG 0.74) — tira i rigori
+  Josh Maja (Le Havre): segna nel 52% dei casi (xG 0.74)
   Ferran Torres (PSG): segna nel 46% dei casi (xG 0.61)
   Marquinhos (PSG): segna nel 28% dei casi (xG 0.33)
 

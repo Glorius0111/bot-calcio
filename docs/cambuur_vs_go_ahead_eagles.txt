@@ -1,0 +1,40 @@
+=== Cambuur vs Go Ahead Eagles ===
+Si gioca: 31/10/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 12 in totale.
+  Over 8,5: 81% su 100. Quota bassa, non conviene.
+  Altre linee: Over 7.5: 89% | Over 9.5: 71% | Over 10.5: 60% | Over 11.5: 48% | Over 12.5: 37% | Over 13.5: 27%
+  Di questi: casa circa 5 (Over 4,5: 59%), ospite circa 6 (Over 4,5: 75%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 2.5 (1.7 casa + 0.8 ospite).
+  Over 2,5: 45% su 100. Entrambe segnano: 45% su 100.
+  Esito 1X2: 1 al 57% · X al 24% · 2 al 18%.
+  Doppie chance: 1X al 82% · 12 al 76% · X2 al 43%.
+  Casa segna: Over 0,5 al 81% · Over 1,5 al 49%. Ospite segna: Over 0,5 al 56% · Over 1,5 al 20%.
+
+LA GIOCATA PIU' SENSATA: Ang O10.5 (60%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O9.5 (71%)
+
+GIOCATA DEL TIPSTER: Ang ospite Over 5.5 (60%, equa 1.66)
+Perché: scelgo Ang ospite Over 5.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang Over 10.5 (60%, equa 1.67)
+
+SUPER COMBO stile book: Angoli ospite Over 5.5 (60%) + Ang Over 10.5 (60%) + Angoli casa Over 4.5 (59%) = 21.3% (equa 4.69)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Søren Tengstedt (Go Ahead Eagles): segna nel 51% dei casi (xG 0.72)
+  Nicolas Binder (Cambuur): segna nel 36% dei casi (xG 0.45)
+  Ilyes Hamache (Cambuur): segna nel 36% dei casi (xG 0.45)
+  Rafik El Arguioui (Cambuur): segna nel 36% dei casi (xG 0.45)
