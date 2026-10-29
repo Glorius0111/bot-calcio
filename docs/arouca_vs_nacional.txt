@@ -1,0 +1,37 @@
+=== Arouca vs Nacional ===
+Si gioca: 01/11/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 63% su 100. Quota interessante.
+  Altre linee: Over 7.5: 75% | Over 9.5: 50% | Over 10.5: 38% | Over 11.5: 27% | Over 12.5: 18% | Over 13.5: 11%
+  Di questi: casa circa 5 (Over 4,5: 49%), ospite circa 5 (Over 4,5: 57%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 1.8 (1.2 casa + 0.6 ospite).
+  Over 2,5: 26% su 100. Entrambe segnano: 31% su 100.
+  Esito 1X2: 1 al 51% · X al 31% · 2 al 18%.
+  Doppie chance: 1X al 82% · 12 al 69% · X2 al 49%.
+  Casa segna: Over 0,5 al 70% · Over 1,5 al 34%. Ospite segna: Over 0,5 al 44% · Over 1,5 al 12%.
+
+LA GIOCATA PIU' SENSATA: Ang O8.5 (63%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O7.5 (75%)
+
+GIOCATA DEL TIPSTER: Ang Over 8.5 (63%, equa 1.59)
+Perché: scelgo Ang Over 8.5 perché contesto equilibrato, decide il modello.
+Alternativa: Ang ospite Over 4.5 (57%, equa 1.75)
+
+SUPER COMBO stile book: Ang Over 8.5 (63%) + Angoli ospite Over 4.5 (57%) = 36.0% (equa 2.78)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Iván Barbero (Arouca): segna nel 43% dei casi (xG 0.56)

@@ -1,0 +1,35 @@
+=== Maritimo vs Santa Clara ===
+Si gioca: 01/11/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 8 in totale.
+  Over 8,5: 45% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 59% | Over 9.5: 32% | Over 10.5: 22% | Over 11.5: 14% | Over 12.5: 8% | Over 13.5: 4%
+  Di questi: casa circa 4 (Over 4,5: 46%), ospite circa 4 (Over 4,5: 35%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 0.3 (0.0 casa + 0.3 ospite).
+  Over 2,5: 0% su 100. Entrambe segnano: 0% su 100.
+  Esito 1X2: 1 al 4% · X al 73% · 2 al 23%.
+  Doppie chance: 1X al 77% · 12 al 27% · X2 al 96%.
+  Casa segna: Over 0,5 al 1% · Over 1,5 al 0%. Ospite segna: Over 0,5 al 24% · Over 1,5 al 3%.
+
+LA GIOCATA PIU' SENSATA: Ang O7.5 (59%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+
+GIOCATA DEL TIPSTER: Ang Over 7.5 (59%, equa 1.69)
+Perché: scelgo Ang Over 7.5 perché contesto equilibrato, decide il modello.
+
+SUPER COMBO stile book: X (pareggio) (71%) + Ang Over 7.5 (59%) = 41.7% (equa 2.4)
+  (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
+
+MARCATORI — chi segna più spesso:
+  Gonçalo Paciência (Santa Clara): segna nel 39% dei casi (xG 0.5)
