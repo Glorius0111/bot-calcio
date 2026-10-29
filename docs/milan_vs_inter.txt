@@ -26,7 +26,7 @@ GOL — previsti circa 1.7 (0.6 casa + 1.1 ospite).
   Esito 1X2: 1 al 21% · X al 33% · 2 al 46%.
   Doppie chance: 1X al 54% · 12 al 67% · X2 al 79%.
   Casa segna: Over 0,5 al 45% · Over 1,5 al 12%. Ospite segna: Over 0,5 al 65% · Over 1,5 al 28%.
-  Gol attesi dai dati (xG): casa 2.18 / ospite 3.04.
+  Gol attesi dai dati (xG): casa 2.21 / ospite 3.12.
 
 LA GIOCATA PIU' SENSATA: Tiri O8.5 (67%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 Altre linee che valgono: Ang O7.5 (60%)
@@ -42,7 +42,7 @@ SUPER COMBO stile book: Tiri Over 8.5 (67%) + Ang Over 7.5 (60%) + Tiri casa Ove
 MARCATORI — chi segna più spesso:
   Lautaro Martínez (Inter): segna nel 73% dei casi (xG 1.3)
   Marcus Thuram (Inter): segna nel 58% dei casi (xG 0.87)
-  Alphadjo Cissè (Milan): segna nel 40% dei casi (xG 0.51)
+  Alphadjo Cissè (Milan): segna nel 39% dei casi (xG 0.49)
   Adrien Rabiot (Milan): segna nel 21% dei casi (xG 0.23)
 
 A RISCHIO AMMONIZIONE — i più fallosi:

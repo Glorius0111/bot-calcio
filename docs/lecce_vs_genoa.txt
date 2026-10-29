@@ -3,10 +3,10 @@ Si gioca: 01/11/2026 alle 18:00
 
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
-ANGOLI — previsti circa 7 in totale.
-  Over 8,5: 30% su 100. Difficile, meglio evitare.
-  Altre linee: Over 7.5: 44% | Over 9.5: 20% | Over 10.5: 12% | Over 11.5: 6% | Over 12.5: 3% | Over 13.5: 2%
-  Di questi: casa circa 4 (Over 4,5: 32%), ospite circa 4 (Over 4,5: 28%).
+ANGOLI — previsti circa 8 in totale.
+  Over 8,5: 38% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 52% | Over 9.5: 26% | Over 10.5: 16% | Over 11.5: 10% | Over 12.5: 6% | Over 13.5: 3%
+  Di questi: casa circa 4 (Over 4,5: 30%), ospite circa 4 (Over 4,5: 40%).
 
 TIRI IN PORTA — previsti circa 5 in totale.
   Over 8,5: 4% su 100. Difficile, meglio evitare.
@@ -22,10 +22,10 @@ CARTELLINI — previsti circa 3 (da circa 23 falli totali).
 FUORIGIOCO — previsti circa 2. Over 3,5: 9% su 100.
 
 GOL — previsti circa 1.1 (1.0 casa + 0.1 ospite).
-  Over 2,5: 10% su 100. Entrambe segnano: 4% su 100.
-  Esito 1X2: 1 al 62% · X al 36% · 2 al 3%.
-  Doppie chance: 1X al 97% · 12 al 64% · X2 al 38%.
-  Casa segna: Over 0,5 al 64% · Over 1,5 al 27%. Ospite segna: Over 0,5 al 7% · Over 1,5 al 0%.
+  Over 2,5: 10% su 100. Entrambe segnano: 7% su 100.
+  Esito 1X2: 1 al 59% · X al 37% · 2 al 4%.
+  Doppie chance: 1X al 96% · 12 al 63% · X2 al 41%.
+  Casa segna: Over 0,5 al 63% · Over 1,5 al 26%. Ospite segna: Over 0,5 al 10% · Over 1,5 al 1%.
   Gol attesi dai dati (xG): casa 0.95 / ospite 0.53.
 
 MARCATORI — chi segna più spesso:

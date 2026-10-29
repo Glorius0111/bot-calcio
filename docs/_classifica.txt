@@ -12,7 +12,7 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 31/10 16:30 Eintracht Frankfurt vs HSV     Ang  60.8% | Tiri  49.4% | Cart  47.2% | O2.5  28.1% | GG  26.5% => PROVVISORIO | IDEA: Falli O23.5 (62%) | gol: Younes Ebnoutalib 46%
 
 == Ligue 1 2026/27 (9 partite) ==
-30/10 20:00 Le Havre vs PSG                Ang  51.4% | Tiri  93.2% | Cart  39.3% | O2.5   0.6% | GG   0.3% => PROVVISORIO | IDEA: Ang O7.5 (65%) | gol: [RIG] Josh Maja 63%
+30/10 20:00 Le Havre vs PSG                Ang  51.4% | Tiri  93.2% | Cart  39.3% | O2.5   0.6% | GG   0.3% => PROVVISORIO | IDEA: Ang O7.5 (65%) | gol: Josh Maja 52%
 30/10 22:05 Lille vs Lens                  Ang  62.3% | Tiri  51.1% | Cart  40.4% | O2.5  32.3% | GG  39.6% => PROVVISORIO | IDEA: Ang O8.5 (62%) | gol: [RIG] Florian Thauvin 62%
 31/10 18:15 Nice vs Rennes                 Ang  73.3% | Tiri  18.6% | Cart  39.7% | O2.5   1.5% | GG   5.1% => PROVVISORIO | IDEA: Ang O9.5 (62%) | gol: [RIG] Estéban Lepaul 61%
 31/10 21:45 Lyon vs Angers                 Ang  76.8% | Tiri  56.6% | Cart  38.6% | O2.5  31.8% | GG  38.8% => PROVVISORIO | IDEA: Ang O9.5 (66%) | gol: Ernest Nuamah 42%
@@ -45,18 +45,6 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 01/11       Lommel SK vs Gent              Ang  74.3% | Tiri  49.1% | Cart  43.3% | O2.5   0.9% | GG   3.6% => PROVVISORIO | IDEA: Ang O9.5 (63%)
 01/11       Sint-Truiden vs OH Leuven      Ang  64.4% | Tiri  49.1% | Cart  43.3% | O2.5  16.0% | GG  16.0% => PROVVISORIO | IDEA: Ang O8.5 (64%)
 
-== Serie A (10 partite) ==
-29/10 19:30 Frosinone vs Lecce             Ang  75.7% | Tiri  84.5% | Cart  47.6% | O2.5  16.8% | GG  25.4% => PROVVISORIO | IDEA: Tiri O10.5 (65%) | gol: Antonio Raimondo 41%
-29/10 21:45 Fiorentina vs Atalanta         Ang  37.9% | Tiri  39.6% | Cart  33.9% | O2.5  70.9% | GG  70.4% => PROVVISORIO | IDEA: Gol O2.5 (71%) | gol: Franco Mastantuono 41%
-31/10 16:00 Bologna vs Monza               Ang  44.9% | Tiri  52.0% | Cart  49.7% | O2.5  36.7% | GG  33.3% => PROVVISORIO | IDEA: Falli O24.5 (62%) | gol: Samuel Mbangula 75%
-31/10 19:00 Udinese vs Roma                Ang  58.6% | Tiri  62.0% | Cart  35.3% | O2.5  67.9% | GG  63.8% => PROVVISORIO | IDEA: Gol O2.5 (68%) | gol: Donyell Malen 69%
-31/10 21:45 Milan vs Inter                 Ang  46.7% | Tiri  66.7% | Cart  22.5% | O2.5  23.1% | GG  29.4% => PROVVISORIO | IDEA: Tiri O8.5 (67%) | gol: Lautaro Martínez 73%
-01/11 12:30 Como vs Venezia                Ang  74.9% | Tiri  26.0% | Cart  23.2% | O2.5  29.2% | GG  25.5% => PROVVISORIO | IDEA: Ang O9.5 (64%) | gol: Anastasios Douvikas 45%
-01/11 15:00 Frosinone vs Torino            Ang  75.7% | Tiri  66.7% | Cart  51.0% | O2.5  23.1% | GG  30.4% => PROVVISORIO | IDEA: Ang O9.5 (65%) | gol: Antonio Raimondo 41%
-01/11 15:00 Lazio vs Cagliari              Ang  65.6% | Tiri  40.7% | Cart  38.9% | O2.5  27.3% | GG  30.1% => PROVVISORIO | IDEA: Ang O8.5 (66%) | gol: [RIG] Daniel Maldini 57%
-01/11 18:00 Lecce vs Genoa                 Ang  30.4% | Tiri   4.4% | Cart  38.9% | O2.5   9.9% | GG   4.3% => PROVVISORIO
-01/11 20:45 Juventus vs Napoli             Ang  77.7% | Tiri  77.7% | Cart  29.0% | O2.5  24.8% | GG  33.0% => PROVVISORIO | IDEA: Ang O9.5 (67%) | gol: [RIG] Kevin De Bruyne 55%
-
 == Eredivisie 2026/27 (9 partite) ==
 31/10       Cambuur vs Go Ahead Eagles     Ang  80.9% | Tiri  49.1% | Cart  43.3% | O2.5  45.1% | GG  45.3% => PROVVISORIO | IDEA: Ang O10.5 (60%) | gol: Søren Tengstedt 51%
 31/10       Ajax vs AZ                     Ang  77.7% | Tiri  49.1% | Cart  43.3% | O2.5  30.2% | GG  38.0% => PROVVISORIO | IDEA: Ang O9.5 (67%) | gol: Julian Brandt 42%
@@ -67,6 +55,16 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 01/11       FC Groningen vs Sparta         Ang  80.7% | Tiri  49.1% | Cart  43.3% | O2.5  42.8% | GG  47.2% => PROVVISORIO | IDEA: Ang O10.5 (60%) | gol: B. Willumsson 55%
 01/11       Excelsior vs Twente            Ang  68.4% | Tiri  49.1% | Cart  43.3% | O2.5  19.0% | GG  27.4% => PROVVISORIO | IDEA: Ang O8.5 (68%)
 01/11       Telstar vs Utrecht             Ang  63.2% | Tiri  49.1% | Cart  43.3% | O2.5  33.4% | GG  38.4% => PROVVISORIO | IDEA: Ang O8.5 (63%) | gol: Artem Stepanov 36%
+
+== Serie A (8 partite) ==
+31/10 16:00 Bologna vs Monza               Ang  44.9% | Tiri  52.0% | Cart  49.7% | O2.5  36.7% | GG  33.3% => PROVVISORIO | IDEA: Falli O24.5 (62%) | gol: Samuel Mbangula 79%
+31/10 19:00 Udinese vs Roma                Ang  58.6% | Tiri  62.0% | Cart  35.3% | O2.5  67.9% | GG  63.8% => PROVVISORIO | IDEA: Gol O2.5 (68%) | gol: Donyell Malen 69%
+31/10 21:45 Milan vs Inter                 Ang  46.7% | Tiri  66.7% | Cart  22.5% | O2.5  23.1% | GG  29.4% => PROVVISORIO | IDEA: Tiri O8.5 (67%) | gol: Lautaro Martínez 73%
+01/11 12:30 Como vs Venezia                Ang  74.9% | Tiri  26.0% | Cart  23.2% | O2.5  29.2% | GG  25.5% => PROVVISORIO | IDEA: Ang O9.5 (64%) | gol: Anastasios Douvikas 45%
+01/11 15:00 Frosinone vs Torino            Ang  75.7% | Tiri  72.1% | Cart  49.7% | O2.5  22.1% | GG  29.2% => PROVVISORIO | IDEA: Ang O9.5 (65%) | gol: [RIG] Giacomo Calò 41%
+01/11 15:00 Lazio vs Cagliari              Ang  65.6% | Tiri  40.7% | Cart  38.9% | O2.5  27.3% | GG  30.1% => PROVVISORIO | IDEA: Ang O8.5 (66%) | gol: [RIG] Daniel Maldini 57%
+01/11 18:00 Lecce vs Genoa                 Ang  38.0% | Tiri   4.4% | Cart  38.9% | O2.5   9.9% | GG   6.5% => PROVVISORIO
+01/11 20:45 Juventus vs Napoli             Ang  77.7% | Tiri  77.7% | Cart  29.0% | O2.5  24.8% | GG  33.0% => PROVVISORIO | IDEA: Ang O9.5 (67%) | gol: Kevin De Bruyne 45%
 
 == Turchia 2026/27 (8 partite) ==
 30/10       Konyaspor vs Galatasaray       Ang  60.8% | Tiri  49.1% | Cart  43.3% | O2.5   0.8% | GG   1.7% => PROVVISORIO | IDEA: Ang O8.5 (61%)

@@ -9,43 +9,43 @@ ANGOLI — previsti circa 11 in totale.
   Di questi: casa circa 5 (Over 4,5: 58%), ospite circa 6 (Over 4,5: 68%).
 
 TIRI IN PORTA — previsti circa 10 in totale.
-  Over 8,5: 67% su 100. Quota interessante.
-  Altre linee: Over 9.5: 54% | Over 10.5: 42% | Over 11.5: 30% | Over 13.5: 14%
+  Over 8,5: 72% su 100. Quota interessante.
+  Altre linee: Over 9.5: 60% | Over 10.5: 48% | Over 11.5: 36% | Over 13.5: 18%
   Di questi: casa circa 5, ospite circa 5.
-  tiri totali (non solo in porta): casa 16.8 / ospite 10.0.
+  tiri totali (non solo in porta): casa 18.6 / ospite 10.0.
 
-CARTELLINI — previsti circa 4 (da circa 27 falli totali).
-  Over 3,5 cartellini: 51.0% su 100.
-  Quest'anno: Frosinone 1.75/gara, Torino 1.5/gara.
-  Falli Over 25,5: 57% su 100.
+CARTELLINI — previsti circa 4 (da circa 26 falli totali).
+  Over 3,5 cartellini: 49.7% su 100.
+  Quest'anno: Frosinone 1.4/gara, Torino 1.5/gara.
+  Falli Over 25,5: 54% su 100.
 
-FUORIGIOCO — previsti circa 4. Over 3,5: 66% su 100.
+FUORIGIOCO — previsti circa 5. Over 3,5: 67% su 100.
 
-GOL — previsti circa 1.7 (0.7 casa + 1.0 ospite).
-  Over 2,5: 23% su 100. Entrambe segnano: 30% su 100.
+GOL — previsti circa 1.6 (0.6 casa + 1.0 ospite).
+  Over 2,5: 22% su 100. Entrambe segnano: 29% su 100.
   Esito 1X2: 1 al 23% · X al 34% · 2 al 43%.
   Doppie chance: 1X al 57% · 12 al 66% · X2 al 77%.
-  Casa segna: Over 0,5 al 48% · Over 1,5 al 14%. Ospite segna: Over 0,5 al 63% · Over 1,5 al 26%.
-  Gol attesi dai dati (xG): casa 1.63 / ospite 1.14.
+  Casa segna: Over 0,5 al 46% · Over 1,5 al 13%. Ospite segna: Over 0,5 al 63% · Over 1,5 al 26%.
+  Gol attesi dai dati (xG): casa 1.93 / ospite 1.14.
 
 LA GIOCATA PIU' SENSATA: Ang O9.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Falli O24.5 (64%) | Tiri O8.5 (67%) | Falli O23.5 (72%)
+Altre linee che valgono: Falli O24.5 (62%) | Falli O23.5 (69%) | Tiri O9.5 (60%)
 
 GIOCATA DEL TIPSTER: Ang Over 9.5 (65%, equa 1.55)
 Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-Alternativa: Tiri Over 8.5 (67%, equa 1.5)
-Doppia: Ang Over 9.5 + Tiri Over 8.5 (43%, equa 2.32) (stima come se i due esiti fossero indipendenti)
+Alternativa: Ang ospite Over 4.5 (68%, equa 1.47)
+Doppia: Ang Over 9.5 + Tiri Over 8.5 (47%, equa 2.15) (stima come se i due esiti fossero indipendenti)
 
-SUPER COMBO stile book: Ang Over 9.5 (65%) + Falli Over 24.5 (64%) + Entrambe cartellino (64%) = 26.7% (equa 3.75)
+SUPER COMBO stile book: Ang Over 9.5 (65%) + Angoli ospite Over 4.5 (68%) + Falli Over 24.5 (62%) = 27.0% (equa 3.7)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
+  Giacomo Calò (Frosinone): segna nel 41% dei casi (xG 0.28) — tira i rigori
   Antonio Raimondo (Frosinone): segna nel 41% dei casi (xG 0.52)
   Ché Adams (Torino): segna nel 32% dei casi (xG 0.38)
-  Giacomo Calò (Frosinone): segna nel 18% dei casi (xG 0.2)
 
 A RISCHIO AMMONIZIONE — i più fallosi:
-  Romano Schmid (Frosinone): 2 gialli -> ammonito nel 39% dei casi. PLUS (lui o il sostituto): 47% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 72% su 100.
+  Romano Schmid (Frosinone): 2 gialli -> ammonito nel 33% dei casi. PLUS (lui o il sostituto): 40% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 66% su 100.
   Nathan Patterson (Torino): 1 gialli -> ammonito nel 22% dei casi. PLUS (lui o il sostituto): 30% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 54% su 100.
 
 OCCHIO DELL'ESPERTO — semaforo: NEUTRA
