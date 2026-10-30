@@ -26,7 +26,7 @@ GOL — previsti circa 1.6 (0.6 casa + 1.0 ospite).
   Esito 1X2: 1 al 23% · X al 34% · 2 al 43%.
   Doppie chance: 1X al 57% · 12 al 66% · X2 al 77%.
   Casa segna: Over 0,5 al 46% · Over 1,5 al 13%. Ospite segna: Over 0,5 al 63% · Over 1,5 al 26%.
-  Gol attesi dai dati (xG): casa 1.93 / ospite 1.14.
+  Gol attesi dai dati (xG): casa 1.98 / ospite 1.14.
 
 LA GIOCATA PIU' SENSATA: Ang O9.5 (65%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
 Altre linee che valgono: Falli O24.5 (62%) | Falli O23.5 (69%) | Tiri O9.5 (60%)

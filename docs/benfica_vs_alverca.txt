@@ -1,0 +1,30 @@
+=== Benfica vs Alverca ===
+Si gioca: 02/11/2026 (orario da confermare)
+
+ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
+
+ANGOLI — previsti circa 8 in totale.
+  Over 8,5: 38% su 100. Difficile, meglio evitare.
+  Altre linee: Over 7.5: 52% | Over 9.5: 26% | Over 10.5: 16% | Over 11.5: 10% | Over 12.5: 6% | Over 13.5: 3%
+  Di questi: casa circa 5 (Over 4,5: 49%), ospite circa 3 (Over 4,5: 22%).
+
+TIRI IN PORTA — previsti circa 9 in totale.
+  Over 8,5: 49% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 36% | Over 10.5: 25% | Over 11.5: 16% | Over 13.5: 6%
+  Di questi: casa circa 4, ospite circa 4.
+
+CARTELLINI — previsti circa 3 (da circa 24 falli totali).
+  Over 3,5 cartellini: 43.3% su 100.
+  Falli Over 25,5: 37% su 100.
+
+GOL — previsti circa 2.2 (1.2 casa + 1.0 ospite).
+  Over 2,5: 37% su 100. Entrambe segnano: 44% su 100.
+  Esito 1X2: 1 al 39% · X al 29% · 2 al 31%.
+  Doppie chance: 1X al 69% · 12 al 71% · X2 al 61%.
+  Casa segna: Over 0,5 al 69% · Over 1,5 al 33%. Ospite segna: Over 0,5 al 64% · Over 1,5 al 27%.
+
+MARCATORI — chi segna più spesso:
+  Vangelis Pavlidis (Benfica): segna nel 64% dei casi (xG 1.01)
+  Gianluca Prestianni (Benfica): segna nel 49% dei casi (xG 0.68)
+  Dawda Camara (Alverca): segna nel 29% dei casi (xG 0.34)
+  Vivaldo Semedo (Alverca): segna nel 29% dei casi (xG 0.34)
