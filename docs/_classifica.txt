@@ -3,24 +3,13 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 == Bundesliga 2026/27 (9 partite) ==
 31/10 16:30 Bayern vs Dortmund             Ang  78.2% | Tiri  97.8% | Cart  38.4% | O2.5   4.9% | GG  10.9% => PROVVISORIO | IDEA: Ang O9.5 (68%) | gol: [RIG] Harry Kane 59%
 31/10 16:30 Werder Bremen vs Hoffenheim    Ang  80.9% | Tiri  94.8% | Cart  39.3% | O2.5  42.8% | GG  47.6% => PROVVISORIO | IDEA: Ang O10.5 (60%) | gol: Niclas Füllkrug 27%
-31/10 16:30 Elversberg vs Mainz            Ang  62.3% | Tiri  86.5% | Cart  54.7% | O2.5  45.5% | GG  40.8% => PROVVISORIO | IDEA: Falli O25.5 (66%) | gol: M. Krattenmacher 62%
+31/10 16:30 Elversberg vs Mainz            Ang  62.3% | Tiri  90.6% | Cart  55.9% | O2.5  45.5% | GG  40.8% => PROVVISORIO | IDEA: Tiri O11.5 (66%) | gol: M. Krattenmacher 62%
 31/10 16:30 Schalke vs RB Leipzig          Ang  82.5% | Tiri  12.1% | Cart  37.5% | O2.5  39.9% | GG  21.1% => PROVVISORIO | IDEA: Ang O10.5 (62%) | gol: Rômulo 55%
 31/10 16:30 Union Berlin vs Koln           Ang  75.3% | Tiri  77.5% | Cart  29.3% | O2.5  23.1% | GG  25.4% => PROVVISORIO | IDEA: Ang O9.5 (64%)
 31/10 16:30 Leverkusen vs Stuttgart        Ang  76.8% | Tiri  70.8% | Cart  37.1% | O2.5  32.3% | GG  39.0% => PROVVISORIO | IDEA: Ang O9.5 (66%) | gol: Patrik Schick 67%
 31/10 16:30 Augsburg vs Freiburg           Ang  60.8% | Tiri  75.3% | Cart  24.9% | O2.5   1.2% | GG   4.3% => PROVVISORIO | IDEA: Tiri O9.5 (64%) | gol: Michael Gregoritsch 46%
 31/10 16:30 M'gladbach vs Paderborn        Ang  73.7% | Tiri  22.8% | Cart  39.1% | O2.5  11.4% | GG  11.7% => PROVVISORIO | IDEA: Ang O9.5 (62%)
 31/10 16:30 Eintracht Frankfurt vs HSV     Ang  60.8% | Tiri  49.4% | Cart  47.2% | O2.5  28.1% | GG  26.5% => PROVVISORIO | IDEA: Falli O23.5 (62%) | gol: Younes Ebnoutalib 46%
-
-== Ligue 1 2026/27 (9 partite) ==
-30/10 20:00 Le Havre vs PSG                Ang  51.4% | Tiri  93.2% | Cart  39.3% | O2.5   0.6% | GG   0.3% => PROVVISORIO | IDEA: Ang O7.5 (65%) | gol: [RIG] Josh Maja 63%
-30/10 22:05 Lille vs Lens                  Ang  62.3% | Tiri  51.1% | Cart  40.4% | O2.5  32.3% | GG  39.6% => PROVVISORIO | IDEA: Ang O8.5 (62%) | gol: [RIG] Florian Thauvin 62%
-31/10 18:15 Nice vs Rennes                 Ang  73.3% | Tiri  18.6% | Cart  39.7% | O2.5   1.5% | GG   5.1% => PROVVISORIO | IDEA: Ang O9.5 (62%) | gol: [RIG] Estéban Lepaul 61%
-31/10 21:45 Lyon vs Angers                 Ang  76.8% | Tiri  56.6% | Cart  38.6% | O2.5  31.8% | GG  38.8% => PROVVISORIO | IDEA: Ang O9.5 (66%) | gol: Ernest Nuamah 42%
-31/10 21:45 Lorient vs Brest               Ang  60.8% | Tiri  46.0% | Cart  51.6% | O2.5  24.7% | GG  33.1% => PROVVISORIO | IDEA: Falli O24.5 (66%) | gol: [RIG] Kamory Doumbia 64%
-31/10 21:45 Troyes vs Le Mans              Ang  51.1% | Tiri  15.3% | Cart  35.5% | O2.5  23.1% | GG  27.8% => PROVVISORIO | IDEA: Ang O7.5 (65%) | gol: Louis Mafouta 60%
-01/11 15:00 Strasbourg vs Auxerre          Ang  64.7% | Tiri  44.9% | Cart  34.4% | O2.5  51.1% | GG  51.8% => PROVVISORIO | IDEA: Ang O8.5 (65%) | gol: Cameron Archer 47%
-01/11 17:15 Paris FC vs Monaco             Ang  49.4% | Tiri  66.7% | Cart  42.0% | O2.5   2.0% | GG   4.8% => PROVVISORIO | IDEA: Tiri O8.5 (67%) | gol: [RIG] Lassine Sinayoko 63%
-01/11 20:45 Marseille vs Toulouse          Ang  40.7% | Tiri  37.3% | Cart  46.6% | O2.5  34.1% | GG  41.2% => PROVVISORIO | IDEA: Falli O23.5 (61%) | gol: [RIG] Casper Tengstedt 84%
 
 == La Liga 2026/27 (10 partite) ==
 01/11 20:00 Barcelona vs Alavés            Ang  31.1% | Tiri  87.3% | Cart  42.6% | O2.5  12.9% | GG  16.3% => PROVVISORIO | IDEA: Tiri O10.5 (70%) | gol: [RIG] Raphinha 82%
@@ -80,8 +69,16 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 02/11 18:30 Sassuolo vs Fiorentina         Ang  50.8% | Tiri  68.1% | Cart  33.3% | O2.5  38.3% | GG  44.0% => PROVVISORIO | IDEA: Ang O7.5 (64%) | gol: Franco Mastantuono 41%
 02/11 20:45 Atalanta vs Parma              Ang  66.7% | Tiri  16.2% | Cart  31.3% | O2.5  21.0% | GG  23.7% => PROVVISORIO | IDEA: Ang O8.5 (67%)
 
-== Turchia 2026/27 (9 partite) ==
-30/10       Konyaspor vs Galatasaray       Ang  60.8% | Tiri  49.1% | Cart  43.3% | O2.5   0.8% | GG   1.7% => PROVVISORIO | IDEA: Ang O8.5 (61%)
+== Ligue 1 2026/27 (7 partite) ==
+31/10 18:15 [FINITA 5:2] Nice vs Rennes                 Ang  72.1% | Tiri  33.7% | Cart  37.1% | O2.5   1.3% | GG   4.5% => PROVVISORIO | IDEA: Ang O9.5 (60%) | gol: [RIG] Elye Wahi 63%
+31/10 21:45 Lyon vs Angers                 Ang  76.8% | Tiri  56.6% | Cart  38.6% | O2.5  31.8% | GG  38.8% => PROVVISORIO | IDEA: Ang O9.5 (66%) | gol: Ernest Nuamah 42%
+31/10 21:45 Lorient vs Brest               Ang  60.8% | Tiri  46.0% | Cart  51.6% | O2.5  24.7% | GG  33.1% => PROVVISORIO | IDEA: Falli O24.5 (66%) | gol: [RIG] Kamory Doumbia 64%
+31/10 21:45 Troyes vs Le Mans              Ang  51.1% | Tiri  15.3% | Cart  35.5% | O2.5  23.1% | GG  27.8% => PROVVISORIO | IDEA: Ang O7.5 (65%) | gol: Louis Mafouta 60%
+01/11 15:00 Strasbourg vs Auxerre          Ang  64.7% | Tiri  44.9% | Cart  34.4% | O2.5  51.1% | GG  51.8% => PROVVISORIO | IDEA: Ang O8.5 (65%) | gol: Cameron Archer 47%
+01/11 17:15 Paris FC vs Monaco             Ang  49.4% | Tiri  66.7% | Cart  42.0% | O2.5   2.0% | GG   4.8% => PROVVISORIO | IDEA: Tiri O8.5 (67%) | gol: [RIG] Lassine Sinayoko 63%
+01/11 20:45 Marseille vs Toulouse          Ang  40.7% | Tiri  37.3% | Cart  46.6% | O2.5  34.1% | GG  41.2% => PROVVISORIO | IDEA: Falli O23.5 (61%) | gol: [RIG] Casper Tengstedt 84%
+
+== Turchia 2026/27 (8 partite) ==
 31/10       Kocaelispor vs Rizespor        Ang  68.9% | Tiri  49.1% | Cart  43.3% | O2.5  21.1% | GG  28.9% => PROVVISORIO | IDEA: Ang O8.5 (69%)
 31/10       Fenerbahce vs Goztepe          Ang  67.8% | Tiri  49.1% | Cart  43.3% | O2.5  45.1% | GG  49.7% => PROVVISORIO | IDEA: Ang O8.5 (68%)
 31/10       Erzurum BB vs Corum            Ang  59.6% | Tiri  49.1% | Cart  43.3% | O2.5  47.7% | GG  52.4% => PROVVISORIO | IDEA: Ang O8.5 (60%)

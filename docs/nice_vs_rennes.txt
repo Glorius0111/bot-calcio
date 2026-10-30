@@ -3,49 +3,50 @@ Si gioca: 31/10/2026 alle 18:15
 
 ESITO: NON GIOCABILE — i dati sono veri ma le squadre hanno giocato poco (servono almeno 6 partite).
 
-ANGOLI — previsti circa 11 in totale.
-  Over 8,5: 73% su 100. Quota interessante.
-  Altre linee: Over 7.5: 83% | Over 9.5: 62% | Over 10.5: 50% | Over 11.5: 38% | Over 12.5: 27% | Over 13.5: 18%
-  Di questi: casa circa 6 (Over 4,5: 78%), ospite circa 4 (Over 4,5: 40%).
+ANGOLI — previsti circa 10 in totale.
+  Over 8,5: 72% su 100. Quota interessante.
+  Altre linee: Over 7.5: 82% | Over 9.5: 60% | Over 10.5: 48% | Over 11.5: 36% | Over 12.5: 26% | Over 13.5: 18%
+  Di questi: casa circa 6 (Over 4,5: 75%), ospite circa 4 (Over 4,5: 42%).
 
-TIRI IN PORTA — previsti circa 6 in totale.
-  Over 8,5: 19% su 100. Difficile, meglio evitare.
-  Altre linee: Over 9.5: 11% | Over 10.5: 6% | Over 11.5: 3% | Over 13.5: 1%
-  Di questi: casa circa 3, ospite circa 4.
-  tiri totali (non solo in porta): casa 10.7 / ospite 14.0.
+TIRI IN PORTA — previsti circa 7 in totale.
+  Over 8,5: 34% su 100. Difficile, meglio evitare.
+  Altre linee: Over 9.5: 22% | Over 10.5: 14% | Over 11.5: 8% | Over 13.5: 2%
+  Di questi: casa circa 4, ospite circa 4.
+  tiri totali (non solo in porta): casa 10.7 / ospite 15.0.
 
-CARTELLINI — previsti circa 3 (da circa 23 falli totali).
-  Over 3,5 cartellini: 39.7% su 100.
-  Quest'anno: Nice 2.0/gara, Rennes 2.33/gara.
-  Falli Over 25,5: 28% su 100.
+CARTELLINI — previsti circa 3 (da circa 22 falli totali).
+  Over 3,5 cartellini: 37.1% su 100.
+  Quest'anno: Nice 2.0/gara, Rennes 2.5/gara.
+  Falli Over 25,5: 22% su 100.
 
-FUORIGIOCO — previsti circa 4. Over 3,5: 50% su 100.
+FUORIGIOCO — previsti circa 4. Over 3,5: 61% su 100.
 
-GOL — previsti circa 0.5 (0.3 casa + 0.3 ospite).
-  Over 2,5: 2% su 100. Entrambe segnano: 5% su 100.
-  Esito 1X2: 1 al 18% · X al 64% · 2 al 18%.
-  Doppie chance: 1X al 82% · 12 al 36% · X2 al 82%.
-  Casa segna: Over 0,5 al 23% · Over 1,5 al 3%. Ospite segna: Over 0,5 al 23% · Over 1,5 al 3%.
-  Gol attesi dai dati (xG): casa 1.24 / ospite 2.14.
+GOL — previsti circa 0.5 (0.3 casa + 0.2 ospite).
+  Over 2,5: 1% su 100. Entrambe segnano: 5% su 100.
+  Esito 1X2: 1 al 19% · X al 65% · 2 al 16%.
+  Doppie chance: 1X al 84% · 12 al 35% · X2 al 81%.
+  Casa segna: Over 0,5 al 23% · Over 1,5 al 3%. Ospite segna: Over 0,5 al 20% · Over 1,5 al 2%.
+  Gol attesi dai dati (xG): casa 1.24 / ospite 2.26.
 
-LA GIOCATA PIU' SENSATA: Ang O9.5 (62%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
-Altre linee che valgono: Ang O8.5 (73%)
+LA GIOCATA PIU' SENSATA: Ang O9.5 (60%) (la piu' vicina al 65%: sopra pagano poco, sotto e' rischioso).
+Altre linee che valgono: Ang O8.5 (72%)
 
-GIOCATA DEL TIPSTER: Ang casa Over 5.5 (63%, equa 1.58)
-Perché: scelgo Ang casa Over 5.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
-Alternativa: Ang Over 9.5 (62%, equa 1.62)
+GIOCATA DEL TIPSTER: Ang Over 9.5 (60%, equa 1.66)
+Perché: scelgo Ang Over 9.5 perché contesto equilibrato, decide il modello Precedenti non disponibili gratis per questa lega.
+Alternativa: Ang casa Over 5.5 (59%, equa 1.68)
 
-SUPER COMBO stile book: X (pareggio) (64%) + Angoli casa Over 5.5 (63%) + Ang Over 9.5 (62%) = 24.9% (equa 4.02)
+SUPER COMBO stile book: X (pareggio) (66%) + Ang Over 9.5 (60%) + Angoli casa Over 5.5 (59%) = 23.5% (equa 4.26)
   (stima con esiti indipendenti: nella stessa partita sono correlati, la quota vera del book sarà più bassa)
 
 MARCATORI — chi segna più spesso:
+  Elye Wahi (Nice): segna nel 63% dei casi (xG 0.74) — tira i rigori
   Estéban Lepaul (Rennes): segna nel 61% dei casi (xG 0.69) — tira i rigori
-  Elye Wahi (Nice): segna nel 36% dei casi (xG 0.45)
-  Boulaye Dia (Rennes): segna nel 28% dei casi (xG 0.33)
+  Boulaye Dia (Rennes): segna nel 52% dei casi (xG 0.49) — tira i rigori
+  Sebastian Szymanski (Rennes): segna nel 16% dei casi (xG 0.17)
 
 A RISCHIO AMMONIZIONE — i più fallosi:
-  Youssouf Ndayishmiyi (Nice): 1 gialli -> ammonito nel 22% dei casi. PLUS (lui o il sostituto): 33% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 46% su 100.
-  Abdel Hamid Ait Boudal (Rennes): 1 gialli -> ammonito nel 18% dei casi. PLUS (lui o il sostituto): 32% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 42% su 100.
+  Youssouf Ndayishmiyi (Nice): 1 gialli -> ammonito nel 18% dei casi. PLUS (lui o il sostituto): 30% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 42% su 100.
+  Abdel Hamid Ait Boudal (Rennes): 1 gialli -> ammonito nel 18% dei casi. PLUS (lui o il sostituto): 33% su 100. QUASI PLUS (ammonito o 2 falli lui/sub): 39% su 100.
 
 OCCHIO DELL'ESPERTO — semaforo: NEUTRA
   • Precedenti non disponibili gratis per questa lega.
