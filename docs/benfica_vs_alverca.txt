@@ -27,4 +27,3 @@ MARCATORI — chi segna più spesso:
   Vangelis Pavlidis (Benfica): segna nel 64% dei casi (xG 1.01)
   Gianluca Prestianni (Benfica): segna nel 49% dei casi (xG 0.68)
   Dawda Camara (Alverca): segna nel 29% dei casi (xG 0.34)
-  Vivaldo Semedo (Alverca): segna nel 29% dei casi (xG 0.34)
