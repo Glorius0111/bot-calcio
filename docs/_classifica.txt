@@ -3,12 +3,6 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 == Premier League 2026/27 (1 partite) ==
 02/11 21:00 Newcastle vs Everton           Ang  80.0% | Tiri  23.9% | Cart  43.3% | O2.5  11.2% | GG  16.3% => PROVVISORIO | IDEA: Ang O9.5 (70%)
 
-== Turchia 2026/27 (4 partite) ==
-01/11       Kasimpasa vs Besiktas          Ang  74.0% | Tiri  49.1% | Cart  43.3% | O2.5   1.4% | GG   0.6% => PROVVISORIO | IDEA: Ang O9.5 (63%)
-01/11       Trabzonspor vs Gaziantep       Ang  52.1% | Tiri  49.1% | Cart  43.3% | O2.5  29.0% | GG  37.0% => PROVVISORIO | IDEA: Ang O7.5 (66%)
-01/11       Basaksehir vs Samsunspor       Ang  47.7% | Tiri  49.1% | Cart  43.3% | O2.5  14.9% | GG  22.8% => PROVVISORIO | IDEA: Ang O7.5 (61%)
-02/11       Genclerbirligi vs Alanyaspor   Ang  51.1% | Tiri  49.1% | Cart  43.3% | O2.5  14.3% | GG  22.0% => PROVVISORIO | IDEA: Ang O7.5 (65%)
-
 == Serie A (2 partite) ==
 02/11 18:30 Sassuolo vs Fiorentina         Ang  27.1% | Tiri  68.1% | Cart  33.3% | O2.5  38.3% | GG  44.0% => PROVVISORIO | IDEA: Tiri O8.5 (68%)
 02/11 20:45 Atalanta vs Parma              Ang  66.7% | Tiri  16.2% | Cart  31.3% | O2.5  21.0% | GG  23.7% => PROVVISORIO | IDEA: Ang O8.5 (67%)
@@ -33,10 +27,32 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 04/11 21:00 RB Leipzig vs Man City         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 04/11 21:00 FC Porto vs Napoli             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 
-== Liga Portugal 2026/27 (3 partite) ==
-01/11       Braga vs Famalicao             Ang  58.3% | Tiri  49.1% | Cart  43.3% | O2.5  23.9% | GG  28.0% => PROVVISORIO | IDEA: Ang O7.5 (71%) | gol: Georgios Koutsias 39%
+== Europa League 2026/27 (18 partite) ==
+05/11 18:45 Rennes vs Olympiacos           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 Anderlecht vs FC Red Bull Salzburg Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 Real Sociedad vs Lyon          Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 Levski Sofia vs Jagiellonia Bialystok Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 NEC vs AC Omonia Nicosia       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 Lillestrøm SK vs FC Viktoria Plzen Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 Crystal Palace vs Hoffenheim   Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 AC Sparta Praha vs Bournemouth Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 18:45 Milan vs Ferencvárosi TC       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 Sunderland vs Dinamo Zagreb    Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 Benfica vs Lech Poznan         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 SK Puntigamer Sturm Graz vs NK Celje Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 SC União Torreense vs FC Ararat-Armenia Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 Celta Vigo vs Union Saint Gilloise Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 Hapoel Be'er Sheva vs OFI Crete Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 AZ Alkmaar vs Juventus         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 Celtic vs Besiktas JK          Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+05/11 21:00 Leverkusen vs Marseille        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
+
+== Liga Portugal 2026/27 (2 partite) ==
 02/11       Gil Vicente vs Guimaraes       Ang  57.7% | Tiri  49.1% | Cart  43.3% | O2.5  19.5% | GG  19.9% => PROVVISORIO | IDEA: Ang O7.5 (70%)
 02/11       Benfica vs Alverca             Ang  38.0% | Tiri  49.1% | Cart  43.3% | O2.5  37.5% | GG  44.1% => PROVVISORIO | gol: Vangelis Pavlidis 64%
+
+== Turchia 2026/27 (1 partite) ==
+02/11       Genclerbirligi vs Alanyaspor   Ang  51.1% | Tiri  49.1% | Cart  43.3% | O2.5  14.3% | GG  22.0% => PROVVISORIO | IDEA: Ang O7.5 (65%)
 
 == Belgio 2026/27 (1 partite) ==
 04/11       Kortrijk vs KV Mechelen        Ang  39.3% | Tiri  49.1% | Cart  43.3% | O2.5   9.9% | GG  14.8% => PROVVISORIO
