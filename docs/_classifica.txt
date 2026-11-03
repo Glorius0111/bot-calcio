@@ -1,12 +1,5 @@
 CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 
-== Premier League 2026/27 (1 partite) ==
-02/11 21:00 Newcastle vs Everton           Ang  80.0% | Tiri  23.9% | Cart  43.3% | O2.5  11.2% | GG  16.3% => PROVVISORIO | IDEA: Ang O9.5 (70%)
-
-== Serie A (2 partite) ==
-02/11 18:30 Sassuolo vs Fiorentina         Ang  27.1% | Tiri  68.1% | Cart  33.3% | O2.5  38.3% | GG  44.0% => PROVVISORIO | IDEA: Tiri O8.5 (68%)
-02/11 20:45 Atalanta vs Parma              Ang  66.7% | Tiri  16.2% | Cart  31.3% | O2.5  21.0% | GG  23.7% => PROVVISORIO | IDEA: Ang O8.5 (67%)
-
 == Champions League 2026/27 (18 partite) ==
 03/11 18:45 Shakhtar Donetsk vs Sporting CP Ang  65.0% | Tiri  49.1% | Cart  47.8% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 03/11 18:45 Galatasaray SK vs Stuttgart    Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
@@ -46,16 +39,6 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 05/11 21:00 AZ Alkmaar vs Juventus         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 05/11 21:00 Celtic vs Besiktas JK          Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 05/11 21:00 Leverkusen vs Marseille        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-
-== Liga Portugal 2026/27 (2 partite) ==
-02/11       Gil Vicente vs Guimaraes       Ang  57.7% | Tiri  49.1% | Cart  43.3% | O2.5  19.5% | GG  19.9% => PROVVISORIO | IDEA: Ang O7.5 (70%)
-02/11       Benfica vs Alverca             Ang  38.0% | Tiri  49.1% | Cart  43.3% | O2.5  37.5% | GG  44.1% => PROVVISORIO | gol: Vangelis Pavlidis 64%
-
-== Turchia 2026/27 (1 partite) ==
-02/11       Genclerbirligi vs Alanyaspor   Ang  51.1% | Tiri  49.1% | Cart  43.3% | O2.5  14.3% | GG  22.0% => PROVVISORIO | IDEA: Ang O7.5 (65%)
-
-== Belgio 2026/27 (1 partite) ==
-04/11       Kortrijk vs KV Mechelen        Ang  39.3% | Tiri  49.1% | Cart  43.3% | O2.5   9.9% | GG  14.8% => PROVVISORIO
 
 Legenda: ANG=Over 8.5 angoli, TIRI=Over 8.5 tiri in porta, CART=Over 3.5 cartellini, O2.5=Over 2.5 gol, GG=entrambe segnano.
 IDEA=linea con probabilita' 55-78%, quella che il book quota ~1.40-1.85 (le linee base oltre l'80% non vengono quotate).
