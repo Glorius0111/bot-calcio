@@ -40,6 +40,12 @@ CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 05/11 21:00 Celtic vs Besiktas JK          Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 05/11 21:00 Leverkusen vs Marseille        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
 
+== Ligue 1 2026/27 (1 partite) ==
+06/11 20:45 Toulouse vs Strasbourg         Ang  23.3% | Tiri  54.4% | Cart  50.2% | O2.5  38.4% | GG  41.3% => PROVVISORIO | IDEA: Falli O24.5 (63%) | gol: [RIG] Casper Tengstedt 84%
+
+== Serie A (1 partite) ==
+06/11 20:45 Venezia vs Udinese             Ang  48.0% | Tiri  48.4% | Cart  25.3% | O2.5  64.1% | GG  64.3% => PROVVISORIO | IDEA: Gol O2.5 (64%)
+
 Legenda: ANG=Over 8.5 angoli, TIRI=Over 8.5 tiri in porta, CART=Over 3.5 cartellini, O2.5=Over 2.5 gol, GG=entrambe segnano.
 IDEA=linea con probabilita' 55-78%, quella che il book quota ~1.40-1.85 (le linee base oltre l'80% non vengono quotate).
 PROVVISORIO = dati reali ma campione < 6: nessun pronostico. ALTA/BUONA/MEDIA = giudizi operativi.
