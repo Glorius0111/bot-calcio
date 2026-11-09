@@ -1,51 +1,5 @@
 CLASSIFICA AFFIDABILITA' — TUTTE LE PARTITE
 
-== Champions League 2026/27 (18 partite) ==
-03/11 18:45 Shakhtar Donetsk vs Sporting CP Ang  65.0% | Tiri  49.1% | Cart  47.8% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 18:45 Galatasaray SK vs Stuttgart    Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 21:00 Barcelona vs Aston Villa       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 21:00 Bodø/Glimt vs Lille            Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 21:00 Atletico Madrid vs Bayern      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 21:00 Villarreal vs PSG              Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 21:00 Man Utd vs Roma                Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 21:00 LASK Linz vs Slovan Bratislava Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-03/11 21:00 Feyenoord vs Inter             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 18:45 AEK Athens vs Real Madrid      Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 18:45 Fenerbahçe SK vs Liverpool     Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 21:00 PSV Eindhoven vs Club Brugge   Ang  65.0% | Tiri  66.7% | Cart  41.7% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 21:00 SK Slavia Praha vs Arsenal     Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 21:00 Viking FK vs Sabah FC          Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 21:00 Dortmund vs Real Betis         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 21:00 Lens vs Como                   Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 21:00 RB Leipzig vs Man City         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-04/11 21:00 FC Porto vs Napoli             Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-
-== Europa League 2026/27 (18 partite) ==
-05/11 18:45 Rennes vs Olympiacos           Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 Anderlecht vs FC Red Bull Salzburg Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 Real Sociedad vs Lyon          Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 Levski Sofia vs Jagiellonia Bialystok Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 NEC vs AC Omonia Nicosia       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 Lillestrøm SK vs FC Viktoria Plzen Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 Crystal Palace vs Hoffenheim   Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 AC Sparta Praha vs Bournemouth Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 18:45 Milan vs Ferencvárosi TC       Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 Sunderland vs Dinamo Zagreb    Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 Benfica vs Lech Poznan         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 SK Puntigamer Sturm Graz vs NK Celje Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 SC União Torreense vs FC Ararat-Armenia Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 Celta Vigo vs Union Saint Gilloise Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 Hapoel Be'er Sheva vs OFI Crete Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 AZ Alkmaar vs Juventus         Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 Celtic vs Besiktas JK          Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-05/11 21:00 Leverkusen vs Marseille        Ang  65.0% | Tiri  49.1% | Cart  43.3% | O2.5  48.2% | GG  52.6% => PROVVISORIO | IDEA: Ang O8.5 (65%)
-
-== Ligue 1 2026/27 (1 partite) ==
-06/11 20:45 Toulouse vs Strasbourg         Ang  23.3% | Tiri  54.4% | Cart  50.2% | O2.5  38.4% | GG  41.3% => PROVVISORIO | IDEA: Falli O24.5 (63%) | gol: [RIG] Casper Tengstedt 84%
-
-== Serie A (1 partite) ==
-06/11 20:45 Venezia vs Udinese             Ang  48.0% | Tiri  48.4% | Cart  25.3% | O2.5  64.1% | GG  64.3% => PROVVISORIO | IDEA: Gol O2.5 (64%)
-
 Legenda: ANG=Over 8.5 angoli, TIRI=Over 8.5 tiri in porta, CART=Over 3.5 cartellini, O2.5=Over 2.5 gol, GG=entrambe segnano.
 IDEA=linea con probabilita' 55-78%, quella che il book quota ~1.40-1.85 (le linee base oltre l'80% non vengono quotate).
 PROVVISORIO = dati reali ma campione < 6: nessun pronostico. ALTA/BUONA/MEDIA = giudizi operativi.
